@@ -1,10 +1,12 @@
 switch_model
-switch_model.timescales
+#switch_model.timescales
+electricity_gas_modules.timescales
 switch_model.financials
 switch_model.balancing.load_zones
 switch_model.balancing.unserved_load
 switch_model.energy_sources.properties
-switch_model.generators.core.build
+#switch_model.generators.core.build
+electricity_gas_modules.build
 switch_model.generators.core.dispatch
 switch_model.reporting
 switch_model.generators.core.no_commit
