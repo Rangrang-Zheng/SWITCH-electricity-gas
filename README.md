@@ -24,7 +24,7 @@ pip install -editable switch
 # Direct to the work folder
 cd extra_modules
 
-# get switch inputs from google drive and store under extra_modules/pj/test/2025/all_in and  create related output folder. If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
+# get switch inputs from the author and store under extra_modules/pj/test/2025/all_in and  create related output folder. If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
 # Run switch
 switch solve --inputs-dir pj/test/2025/all_in --outputs-dir pj/test/2025/all_out
 
