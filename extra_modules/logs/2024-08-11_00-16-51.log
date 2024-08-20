@@ -1,0 +1,93 @@
+logging output to logs/2024-08-11_00-16-51.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', module_list='modules_MIP.txt',
+    inputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/base_2025', solver='gurobi', solver_manager='serial',
+    solver_options_string='method=2 crossover=0', tee=True,
+    outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-gas/pj/test',
+    no_save_solution=True, interact_color='NoColor', verbose=True
+
+Modules:
+    switch_model, switch_model.timescales, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, switch_model.generators.core.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit, switch_model.solve
+================================================================================
+
+Model defined in 0.02 s.
+
+Loading inputs...
+Data read in 56.26 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 305 components (0%)
+Constructed 31 of 305 components (10%)
+Constructed 61 of 305 components (20%)
+Constructed 92 of 305 components (30%)
+Constructed 122 of 305 components (40%)
+Constructed 153 of 305 components (50%)
+Constructed 183 of 305 components (60%)
+Constructed 214 of 305 components (70%)
+Constructed 244 of 305 components (80%)
+Constructed 275 of 305 components (90%)
+Constructed 305 of 305 components (100%)
+Model instance constructed in 2372.27 s.
+
+Executing pre-solve functions...
+Completed pre-solve processing in 0.00 s.
+
+Solving model...
+--------------------------------- solver output --------------------------------
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-09-10
+Read LP format model from file /var/folders/py/s6zqkvnx6ql65xs4098nkhrc0000gn/T/tmpb16xmqne.pyomo.lp
+Reading time = 191.02 seconds
+x1: 100429599 rows, 100054580 columns, 404225642 nonzeros
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+
+CPU model: Apple M2 Max
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 100429599 rows, 100054580 columns and 404225642 nonzeros
+Model fingerprint: 0x6579ee08
+Coefficient statistics:
+  Matrix range     [2e-09, 3e+02]
+  Objective range  [4e-01, 2e+10]
+  Bounds range     [4e-02, 1e+05]
+  RHS range        [5e-02, 9e+08]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 0 rows and 0 columns (presolve time = 9s) ...
+Presolve removed 3959549 rows and 1728985 columns (presolve time = 11s) ...
+Presolve removed 45627678 rows and 3801434 columns (presolve time = 21s) ...
+Presolve removed 45627678 rows and 3801434 columns (presolve time = 27s) ...
+Presolve removed 45627678 rows and 3801434 columns (presolve time = 31s) ...
+Presolve removed 45627678 rows and 3801434 columns (presolve time = 35s) ...
+Presolve removed 45627678 rows and 3801434 columns (presolve time = 40s) ...
+Presolve removed 45627678 rows and 4053334 columns (presolve time = 45s) ...
+Presolve removed 45627678 rows and 4053334 columns (presolve time = 52s) ...
+Presolve removed 45634344 rows and 4060000 columns (presolve time = 60s) ...
+Presolve removed 76434344 rows and 34860000 columns (presolve time = 65s) ...
+Presolve removed 87475339 rows and 45900995 columns (presolve time = 91s) ...
+Presolve removed 87648327 rows and 46073983 columns (presolve time = 100s) ...
+Presolve removed 87648327 rows and 46073983 columns (presolve time = 106s) ...
+Presolve removed 87648327 rows and 46073983 columns (presolve time = 112s) ...
+Presolve removed 87648327 rows and 46073983 columns (presolve time = 116s) ...
+Presolve removed 87648327 rows and 46073983 columns (presolve time = 120s) ...

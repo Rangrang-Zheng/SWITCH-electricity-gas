@@ -4,3 +4,7 @@
 [submodule "PowerGenome"]
 	path = PowerGenome
 	url = https://github.com/PowerGenome/PowerGenome.git
+	shallow = true
+[submodule "Switch-USA-gasnetwork2.0"]
+	path = Switch-USA-gasnetwork2.0
+	url = https://github.com/thuydoanvn/Switch-USA-gasnetwork2.0.git

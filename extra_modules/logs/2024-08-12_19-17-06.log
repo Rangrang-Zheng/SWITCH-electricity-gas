@@ -1,0 +1,59 @@
+logging output to logs/2024-08-12_19-17-06.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', debug=True,
+    module_list='modules_MIP.txt', inputs_dir='/Users/rangrang/Desktop/SWITCH-
+    electricity-gas/pj/test/2025/all_in', solver='gurobi',
+    solver_manager='serial', solver_options_string='method=2 crossover=0',
+    tee=True, outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/all_out', no_save_solution=True, interact_color='NoColor',
+    verbose=True
+
+Modules:
+    switch_model, switch_model.timescales, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, electricity_gas_modules.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit,
+    electricity_gas_modules.gas_network_build,
+    electricity_gas_modules.gas_wells_build,
+    electricity_gas_modules.LNG_build_balance,
+    electricity_gas_modules.gas_network_balance,
+    electricity_gas_modules.gas_balance_constraint,
+    electricity_gas_modules.gas_consumption_constraint, switch_model.solve
+================================================================================
+
+Model defined in 0.03 s.
+
+Loading inputs...
+Data read in 57.47 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 500 components (0%)
+Constructed 50 of 500 components (10%)
+Constructed 100 of 500 components (20%)
+Constructed 151 of 500 components (30%)
+Constructed 200 of 500 components (40%)
+Constructed 250 of 500 components (50%)
+Constructed 300 of 500 components (60%)
+Constructed 350 of 500 components (70%)
+Constructed 400 of 500 components (80%)
+Constructed 450 of 500 components (90%)
+ERROR: Rule failed for Expression 'ConsumeGasKgPerHour' with index ('AL', 1):
+TypeError: define_components.<locals>.<lambda>() missing 1 required positional
+argument: 'f'
+ERROR: Constructing component 'ConsumeGasKgPerHour' from data=None failed:
+        TypeError: define_components.<locals>.<lambda>() missing 1 required
+        positional argument: 'f'

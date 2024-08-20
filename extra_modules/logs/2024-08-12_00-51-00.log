@@ -1,0 +1,56 @@
+logging output to logs/2024-08-12_00-51-00.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', debug=True,
+    module_list='modules_MIP.txt', inputs_dir='/Users/rangrang/Desktop/SWITCH-
+    electricity-gas/pj/test/2025/all_in', solver='gurobi',
+    solver_manager='serial', solver_options_string='method=2 crossover=0',
+    tee=True, outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/all_out', no_save_solution=True, interact_color='NoColor',
+    verbose=True
+
+Modules:
+    switch_model, switch_model.timescales, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, switch_model.generators.core.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit,
+    electricity_gas_modules.gas_network_build,
+    electricity_gas_modules.gas_wells_build,
+    electricity_gas_modules.LNG_build_balance,
+    electricity_gas_modules.gas_network_balance,
+    electricity_gas_modules.gas_balance_constraint, switch_model.solve
+================================================================================
+
+Model defined in 0.02 s.
+
+Loading inputs...
+Data read in 58.95 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 489 components (0%)
+Constructed 49 of 489 components (10%)
+Constructed 98 of 489 components (20%)
+Constructed 147 of 489 components (30%)
+Constructed 196 of 489 components (40%)
+Constructed 245 of 489 components (50%)
+Constructed 294 of 489 components (60%)
+Constructed 343 of 489 components (70%)
+ERROR: Rule failed for Expression 'GasSupplyQuantityByType' with index ('AL',
+'D', 20250101): AttributeError: 'SwitchAbstractModel' object has no attribute
+'dates_period'
+ERROR: Constructing component 'GasSupplyQuantityByType' from data=None failed:
+        AttributeError: 'SwitchAbstractModel' object has no attribute
+        'dates_period'

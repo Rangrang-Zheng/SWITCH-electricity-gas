@@ -1,0 +1,41 @@
+logging output to logs/2024-08-10_19-06-31.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', module_list='modules_MIP.txt',
+    inputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/base_2025', solver='gurobi', solver_manager='serial',
+    solver_options_string='method=2 crossover=0', tee=True,
+    outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-gas/pj/test',
+    no_save_solution=True, interact_color='NoColor', verbose=True
+
+Modules:
+    switch_model, switch_model.timescales, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, switch_model.generators.core.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit, switch_model.solve
+================================================================================
+
+Model defined in 0.02 s.
+
+Loading inputs...
+Data read in 545.01 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 305 components (0%)
+Constructed 31 of 305 components (10%)
+Constructed 61 of 305 components (20%)
+Constructed 92 of 305 components (30%)
+Constructed 122 of 305 components (40%)

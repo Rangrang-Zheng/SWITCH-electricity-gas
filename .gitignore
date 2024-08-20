@@ -1,0 +1,36 @@
+# Ignore all subdirectories (generally pipeline outputs) except a few
+# (must be at the top to avoid unignoring previously ignored files in these
+# directories)
+*/
+# !switch/
+# !switch/*
+# !PowerGenome/
+# !PowerGenome/**
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# editor settings
+.ipynb_checkpoints
+.vscode
+*.code-workspace
+.spyderproject
+.spyproject
+
+# VS Code settings
+.vscode
+
+# log files
+*.log
+
+# macOS metadata (can make repository impossible to clone on Windows
+Icon?
+.DS_Store
+
+# ignore specific files/folders
+case_settings/*
+RR_debug.py
+pj/*
+test.txt

@@ -1,0 +1,173 @@
+logging output to logs/2024-08-11_20-22-52.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', module_list='modules_MIP.txt',
+    inputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/base_2025', solver='gurobi', solver_manager='serial',
+    solver_options_string='method=2 crossover=0', tee=True,
+    outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-gas/pj/test',
+    no_save_solution=True, interact_color='NoColor', verbose=True
+
+Modules:
+    switch_model, switch_model.timescales, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, switch_model.generators.core.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit, switch_model.solve
+================================================================================
+
+Model defined in 0.02 s.
+
+Loading inputs...
+Data read in 55.94 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 305 components (0%)
+Constructed 31 of 305 components (10%)
+Constructed 61 of 305 components (20%)
+Constructed 92 of 305 components (30%)
+Constructed 122 of 305 components (40%)
+Constructed 153 of 305 components (50%)
+Constructed 183 of 305 components (60%)
+Constructed 214 of 305 components (70%)
+Constructed 244 of 305 components (80%)
+Constructed 275 of 305 components (90%)
+Constructed 305 of 305 components (100%)
+Model instance constructed in 570.84 s.
+
+Executing pre-solve functions...
+Completed pre-solve processing in 0.00 s.
+
+Solving model...
+--------------------------------- solver output --------------------------------
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-09-10
+Read LP format model from file /var/folders/py/s6zqkvnx6ql65xs4098nkhrc0000gn/T/tmp7gvedlky.pyomo.lp
+Reading time = 65.92 seconds
+x1: 29323373 rows, 28947322 columns, 177808915 nonzeros
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+
+CPU model: Apple M2 Max
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 29323373 rows, 28947322 columns and 177808915 nonzeros
+Model fingerprint: 0x7b3d4223
+Coefficient statistics:
+  Matrix range     [2e-09, 3e+02]
+  Objective range  [4e-01, 2e+10]
+  Bounds range     [4e-02, 1e+05]
+  RHS range        [5e-02, 9e+08]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 10060121 rows and 3807346 columns (presolve time = 7s) ...
+Presolve removed 10060121 rows and 3807346 columns (presolve time = 10s) ...
+Presolve removed 11410305 rows and 5410000 columns (presolve time = 15s) ...
+Presolve removed 16320677 rows and 10320372 columns (presolve time = 26s) ...
+Presolve removed 16507970 rows and 10507665 columns (presolve time = 31s) ...
+Presolve removed 16507970 rows and 10507665 columns (presolve time = 37s) ...
+Presolve removed 16507970 rows and 10507665 columns (presolve time = 40s) ...
+Presolve removed 16507970 rows and 10586994 columns (presolve time = 45s) ...
+Presolve removed 16507970 rows and 10586994 columns (presolve time = 51s) ...
+Presolve removed 16507970 rows and 10586994 columns
+Presolve time: 52.47s
+Presolved: 12815403 rows, 18360328 columns, 61419831 nonzeros
+Elapsed ordering time = 84s
+Elapsed ordering time = 85s
+Elapsed ordering time = 90s
+Elapsed ordering time = 95s
+Elapsed ordering time = 100s
+Elapsed ordering time = 105s
+Elapsed ordering time = 110s
+Elapsed ordering time = 230s
+Elapsed ordering time = 242s
+Elapsed ordering time = 251s
+Elapsed ordering time = 255s
+Elapsed ordering time = 260s
+Elapsed ordering time = 265s
+Elapsed ordering time = 270s
+Elapsed ordering time = 275s
+Elapsed ordering time = 280s
+Elapsed ordering time = 285s
+Elapsed ordering time = 290s
+Elapsed ordering time = 497s
+Elapsed ordering time = 502s
+Elapsed ordering time = 508s
+Elapsed ordering time = 510s
+Elapsed ordering time = 516s
+Elapsed ordering time = 520s
+Elapsed ordering time = 525s
+Elapsed ordering time = 530s
+Elapsed ordering time = 535s
+Elapsed ordering time = 540s
+Ordering time: 555.86s
+
+Barrier statistics:
+ Dense cols : 2836
+ AA' NZ     : 4.008e+07
+ Factor NZ  : 1.459e+09 (roughly 24.0 GB of memory)
+ Factor Ops : 2.816e+13 (roughly 30 seconds per iteration)
+ Threads    : 12
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   2.33793282e+19 -2.80782948e+18  1.70e+14 1.14e+06  2.29e+15   644s
+   1   2.32656975e+19 -2.81506971e+18  1.69e+14 3.24e+07  2.11e+15   671s
+   2   1.92076682e+19 -3.35382686e+18  1.35e+14 1.46e+07  1.45e+15   710s
+   3   1.34008876e+19 -3.65890228e+18  9.13e+13 1.54e+10  9.46e+14   750s
+   4   9.76871331e+18 -3.79889916e+18  6.63e+13 1.53e+10  6.91e+14   780s
+   5   5.99947545e+18 -3.82157493e+18  4.03e+13 2.00e+10  4.29e+14   813s
+   6   4.62636670e+18 -3.83420826e+18  3.10e+13 2.08e+10  3.33e+14   843s
+   7   3.72828062e+18 -3.83470860e+18  2.49e+13 1.87e+10  2.65e+14   881s
+   8   2.77423470e+18 -3.84988573e+18  1.85e+13 1.88e+10  1.90e+14   925s
+   9   1.70084399e+18 -3.89892708e+18  1.12e+13 2.53e+10  1.13e+14   964s
+  10   8.09479925e+17 -3.92832038e+18  5.07e+12 1.28e+10  5.39e+13  1036s
+  11   3.04593537e+17 -3.92485329e+18  1.56e+12 6.32e+09  1.89e+13  1109s
+  12   1.57870303e+17 -3.73967106e+18  4.73e+11 1.56e+09  5.74e+12  1193s
+  13   1.16592240e+17 -3.14532657e+18  1.27e+11 1.04e+08  1.47e+12  1284s
+  14   7.49558903e+16 -1.78986943e+18  4.02e+09 1.99e+04  9.31e+10  1356s
+  15   2.29160467e+16 -2.64299059e+17  2.63e+08 1.17e+03  1.02e+10  1434s
+  16   8.65425898e+15 -6.68347837e+16  1.26e+03 1.99e+02  2.27e+09  1516s
+  17   3.65815579e+15 -4.63447103e+16  3.95e+02 1.34e+02  1.41e+09  1585s
+  18   5.90374891e+14 -1.51055654e+15  1.86e+01 1.83e+01  5.31e+07  1663s
+  19   4.18169692e+13 -1.63285346e+14  9.71e-01 1.05e+01  5.46e+06  1752s
+  20   9.65641061e+12 -2.77693574e+13  6.63e-02 1.16e+00  1.02e+06  1847s
+  21   3.54356561e+12 -5.71442425e+12  3.98e-03 1.65e-01  2.54e+05  1944s
+  22   1.95114095e+12 -2.83180227e+12  8.59e-04 7.66e-02  1.31e+05  2026s
+  23   1.31682854e+12 -1.64244340e+12  3.37e-04 4.95e-02  8.11e+04  2102s
+  24   9.64591126e+11 -9.10959992e+11  1.71e-04 3.26e-02  5.14e+04  2175s
+  25   8.22562130e+11 -4.96308015e+11  1.24e-04 2.22e-02  3.61e+04  2250s
+  26   7.08965432e+11 -2.68953719e+11  8.79e-05 1.65e-02  2.68e+04  2320s
+  27   6.60878807e+11 -2.06064935e+11  7.33e-05 1.50e-02  2.38e+04  2391s
+  28   6.18315720e+11 -5.48184883e+10  6.15e-05 1.12e-02  1.84e+04  2460s
+  29   5.92497474e+11  6.91914470e+10  5.48e-05 7.87e-03  1.43e+04  2536s
+  30   5.62942040e+11  1.24173854e+11  4.75e-05 6.40e-03  1.20e+04  2612s
+  31   5.39223841e+11  1.47365418e+11  4.18e-05 5.78e-03  1.07e+04  2682s
+  32   5.22313460e+11  1.69082047e+11  3.78e-05 5.18e-03  9.68e+03  2752s
+  33   5.13752407e+11  1.82734821e+11  3.58e-05 4.81e-03  9.07e+03  2820s
+  34   4.95888552e+11  2.03805322e+11  3.17e-05 4.23e-03  8.00e+03  2891s
+  35   4.87188662e+11  2.23829615e+11  2.97e-05 3.67e-03  7.22e+03  2959s
+  36   4.71312411e+11  2.25159177e+11  2.61e-05 3.63e-03  6.75e+03  3028s
+  37   4.61851845e+11  2.28375010e+11  2.39e-05 3.54e-03  6.40e+03  3094s
+  38   4.54322422e+11  2.45996734e+11  2.23e-05 3.05e-03  5.71e+03  3163s
+  39   4.46717597e+11  2.56014675e+11  2.05e-05 2.77e-03  5.23e+03  3235s
+  40   4.30459399e+11  2.67667333e+11  1.69e-05 2.43e-03  4.46e+03  3312s
+  41   4.16058964e+11  2.76167608e+11  1.38e-05 2.19e-03  3.83e+03  3383s
+  42   4.10378176e+11  2.89923028e+11  1.26e-05 1.79e-03  3.30e+03  3455s
+  43   3.97920093e+11  3.10527700e+11  9.90e-06 1.17e-03  2.39e+03  3535s
+  44   3.91898307e+11  3.14319541e+11  8.61e-06 1.05e-03  2.13e+03  3607s
+  45   3.89264270e+11  3.17245783e+11  8.07e-06 9.64e-04  1.97e+03  3677s

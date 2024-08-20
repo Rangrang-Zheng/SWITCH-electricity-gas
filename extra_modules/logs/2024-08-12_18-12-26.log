@@ -1,0 +1,144 @@
+logging output to logs/2024-08-12_18-12-26.log
+
+================================================================================
+Switch 2.0.9, https://switch-model.org
+================================================================================
+Arguments:
+    retire_time='early', save_expressions=['GenCapacity'], log_run_to_file=True,
+    logs_dir='logs', log_level='info', debug=True,
+    module_list='modules_MIP.txt', inputs_dir='/Users/rangrang/Desktop/SWITCH-
+    electricity-gas/pj/test/2025/all_in', solver='gurobi',
+    solver_manager='serial', solver_options_string='method=2 crossover=0',
+    tee=True, outputs_dir='/Users/rangrang/Desktop/SWITCH-electricity-
+    gas/pj/test/2025/all_out', no_save_solution=True, interact_color='NoColor',
+    verbose=True
+
+Modules:
+    switch_model, switch_model.timescales_new, switch_model.financials,
+    switch_model.balancing.load_zones, switch_model.balancing.unserved_load,
+    switch_model.energy_sources.properties, switch_model.generators.core.build,
+    switch_model.generators.core.dispatch, switch_model.reporting,
+    switch_model.generators.core.no_commit,
+    switch_model.generators.extensions.storage,
+    switch_model.generators.extensions.hydro_system,
+    switch_model.energy_sources.fuel_costs.simple,
+    switch_model.transmission.transport.build,
+    switch_model.transmission.transport.dispatch,
+    mip_modules.gen_amortization_period, mip_modules.carbon_policies_regional,
+    mip_modules.min_capacity_constraint, mip_modules.rps_regional,
+    mip_modules.trans_path_expansion_limit,
+    electricity_gas_modules.gas_network_build,
+    electricity_gas_modules.gas_wells_build,
+    electricity_gas_modules.LNG_build_balance,
+    electricity_gas_modules.gas_network_balance,
+    electricity_gas_modules.gas_balance_constraint, switch_model.solve
+================================================================================
+
+Model defined in 0.02 s.
+
+Loading inputs...
+Data read in 54.82 s.
+
+Constructing model instance from data and rules...
+Constructed 1 of 494 components (0%)
+Constructed 50 of 494 components (10%)
+Constructed 99 of 494 components (20%)
+Constructed 149 of 494 components (30%)
+Constructed 198 of 494 components (40%)
+Constructed 247 of 494 components (50%)
+Constructed 297 of 494 components (60%)
+Constructed 346 of 494 components (70%)
+Constructed 396 of 494 components (80%)
+Constructed 445 of 494 components (90%)
+Constructed 494 of 494 components (100%)
+Model instance constructed in 586.46 s.
+
+Executing pre-solve functions...
+Completed pre-solve processing in 0.00 s.
+
+Solving model...
+--------------------------------- solver output --------------------------------
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-09-10
+Read LP format model from file /var/folders/py/s6zqkvnx6ql65xs4098nkhrc0000gn/T/tmp_0_y5pdt.pyomo.lp
+Reading time = 67.64 seconds
+x1: 29635846 rows, 30147671 columns, 187083628 nonzeros
+Set parameter QCPDual to value 1
+Set parameter Method to value 2
+Set parameter Crossover to value 0
+Gurobi Optimizer version 10.0.2 build v10.0.2rc0 (mac64[arm])
+
+CPU model: Apple M2 Max
+Thread count: 12 physical cores, 12 logical processors, using up to 12 threads
+
+Optimize a model with 29635846 rows, 30147671 columns and 187083628 nonzeros
+Model fingerprint: 0xc18089c3
+Variable types: 30146047 continuous, 1624 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [2e-09, 1e+04]
+  Objective range  [2e-01, 2e+10]
+  Bounds range     [4e-02, 6e+09]
+  RHS range        [5e-02, 6e+09]
+Warning: Model contains large matrix coefficient range
+Warning: Model contains large objective coefficients
+Warning: Model contains large rhs
+Warning: Model contains large bounds
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Presolve removed 1515482 rows and 1952410 columns (presolve time = 7s) ...
+Presolve removed 1516501 rows and 1952410 columns (presolve time = 11s) ...
+Presolve removed 10077695 rows and 1957398 columns (presolve time = 17s) ...
+Presolve removed 16525055 rows and 10528034 columns (presolve time = 20s) ...
+Presolve removed 16541115 rows and 10570026 columns (presolve time = 27s) ...
+Presolve removed 16541115 rows and 10860709 columns (presolve time = 30s) ...
+Presolve removed 16541604 rows and 10861198 columns (presolve time = 35s) ...
+Presolve removed 16541604 rows and 10861198 columns (presolve time = 40s) ...
+Presolve removed 16541604 rows and 10861198 columns (presolve time = 45s) ...
+Presolve removed 16542969 rows and 10861198 columns (presolve time = 50s) ...
+Presolve removed 16542969 rows and 10861198 columns (presolve time = 55s) ...
+Presolve removed 16543213 rows and 10861442 columns (presolve time = 61s) ...
+Presolve removed 16543213 rows and 10861442 columns (presolve time = 65s) ...
+Presolve removed 16543213 rows and 10861442 columns (presolve time = 71s) ...
+Presolve removed 18076213 rows and 12394617 columns (presolve time = 75s) ...
+Presolve removed 18076213 rows and 12394617 columns (presolve time = 81s) ...
+Presolve removed 18076213 rows and 12394617 columns (presolve time = 85s) ...
+Presolve removed 18076335 rows and 12394739 columns (presolve time = 90s) ...
+Presolve removed 18076335 rows and 12394739 columns (presolve time = 95s) ...
+Presolve removed 18355174 rows and 13532000 columns (presolve time = 135s) ...
+Presolve removed 18355174 rows and 13532000 columns (presolve time = 136s) ...
+Presolve removed 18355174 rows and 13532000 columns
+Presolve time: 138.12s
+Presolved: 11280672 rows, 16615671 columns, 44730412 nonzeros
+Variable types: 16615671 continuous, 0 integer (0 binary)
+Root barrier log...
+
+Elapsed ordering time = 73s
+Elapsed ordering time = 75s
+Elapsed ordering time = 80s
+Elapsed ordering time = 85s
+Elapsed ordering time = 90s
+Elapsed ordering time = 95s
+Elapsed ordering time = 100s
+Elapsed ordering time = 105s
+Ordering time: 114.86s
+
+Barrier statistics:
+ Dense cols : 1296
+ AA' NZ     : 2.514e+07
+ Factor NZ  : 4.423e+08 (roughly 15.0 GB of memory)
+ Factor Ops : 1.689e+12 (roughly 2 seconds per iteration)
+ Threads    : 12
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0  -2.37274555e+18 -8.76347068e+16  1.86e+12 2.39e+06  1.53e+13   302s
+   1  -1.94686088e+18 -8.81509810e+16  1.47e+12 6.82e+06  1.09e+13   307s
+   2  -1.80963613e+18 -8.99329921e+16  1.36e+12 4.09e+06  9.61e+12   312s
+   3  -1.47384127e+18 -9.03956715e+16  1.11e+12 3.16e+06  7.72e+12   318s
+   4  -1.13138941e+18 -9.71507594e+16  8.46e+11 3.27e+06  6.03e+12   325s
+   5  -9.38268464e+17 -9.90570762e+16  7.00e+11 5.82e+06  4.99e+12   334s
+   6  -5.07237252e+17 -1.02037630e+17  3.76e+11 9.40e+06  2.78e+12   342s
+   7  -9.40656176e+16 -1.04319530e+17  6.66e+10 1.89e+07  5.46e+11   351s
+   8  -2.68811147e+16 -1.02770068e+17  1.87e+10 6.92e+07  1.66e+11   357s
+   9  -1.98127665e+16 -9.71690566e+16  1.42e+10 6.97e+07  1.29e+11   364s
+  10  -1.17929097e+16 -9.03815452e+16  9.30e+09 7.83e+07  8.22e+10   369s
