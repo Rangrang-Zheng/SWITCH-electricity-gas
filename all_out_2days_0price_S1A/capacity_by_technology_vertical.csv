@@ -1,0 +1,568 @@
+load_zone,technology,period,capacity
+BASN,Batteries,2023,935.8
+BASN,Batteries_MWh,2023,2195.6
+BASN,Biomass,2023,44.6
+BASN,Conventional Hydroelectric,2023,2489.5999999999995
+BASN,Conventional Steam Coal,2023,5322.2
+BASN,Geothermal,2023,893.5
+BASN,Hydroelectric Pumped Storage,2023,0.0
+BASN,Hydroelectric Pumped Storage_MWh,2023,0.0
+BASN,Natural Gas Fired Combined Cycle,2023,7962.299999999999
+BASN,Natural Gas Fired Combustion Turbine,2023,2183.0
+BASN,Natural Gas Internal Combustion Engine,2023,221.40000000000003
+BASN,Natural Gas Steam Turbine,2023,576.5
+BASN,Nuclear,2023,0.0
+BASN,Offshore Wind Turbine,2023,0.0
+BASN,Onshore Wind Turbine,2023,1510.1
+BASN,Petroleum Liquids,2023,39.8
+BASN,Small Hydroelectric,2023,435.60000000000014
+BASN,Solar Photovoltaic,2023,6777.200000000001
+BASN,distributed_generation,2023,859.0
+BASN,hydro,2023,0.0
+BASN,fuel cells,2023,0.0
+CANO,Batteries,2023,2273.6
+CANO,Batteries_MWh,2023,9058.7
+CANO,Biomass,2023,677.8
+CANO,Conventional Hydroelectric,2023,7325.999999999999
+CANO,Conventional Steam Coal,2023,0.0
+CANO,Geothermal,2023,0
+CANO,Hydroelectric Pumped Storage,2023,2276.9
+CANO,Hydroelectric Pumped Storage_MWh,2023,35291.95
+CANO,Natural Gas Fired Combined Cycle,2023,11409.7
+CANO,Natural Gas Fired Combustion Turbine,2023,4675.5
+CANO,Natural Gas Internal Combustion Engine,2023,444.40000000000003
+CANO,Natural Gas Steam Turbine,2023,2.9
+CANO,Nuclear,2023,2240.0
+CANO,Offshore Wind Turbine,2023,0.0
+CANO,Onshore Wind Turbine,2023,1442.0
+CANO,Petroleum Liquids,2023,177.29999999999998
+CANO,Small Hydroelectric,2023,664.8
+CANO,Solar Photovoltaic,2023,5278.0
+CANO,distributed_generation,2023,3582.0
+CANO,hydro,2023,0.0
+CANO,fuel cells,2023,0.0
+CASO,Batteries,2023,6682.4
+CASO,Batteries_MWh,2023,24587.6
+CASO,Biomass,2023,364.1
+CASO,Conventional Hydroelectric,2023,1021.9999999999999
+CASO,Conventional Steam Coal,2023,50.0
+CASO,Geothermal,2023,44.4
+CASO,Hydroelectric Pumped Storage,2023,1665.0
+CASO,Hydroelectric Pumped Storage_MWh,2023,25807.5
+CASO,Natural Gas Fired Combined Cycle,2023,9732.5
+CASO,Natural Gas Fired Combustion Turbine,2023,6803.5
+CASO,Natural Gas Internal Combustion Engine,2023,50.2
+CASO,Natural Gas Steam Turbine,2023,1753.8
+CASO,Nuclear,2023,0.0
+CASO,Offshore Wind Turbine,2023,0.0
+CASO,Onshore Wind Turbine,2023,4089.0
+CASO,Petroleum Liquids,2023,17.2
+CASO,Small Hydroelectric,2023,250.3
+CASO,Solar Photovoltaic,2023,12607.4
+CASO,distributed_generation,2023,5574.0
+CASO,hydro,2023,0.0
+CASO,fuel cells,2023,0.0
+FRCC,Batteries,2023,555.1999999999999
+FRCC,Batteries_MWh,2023,1129.3999999999999
+FRCC,Biomass,2023,823.7
+FRCC,Conventional Hydroelectric,2023,43.5
+FRCC,Conventional Steam Coal,2023,4671.0
+FRCC,Geothermal,2023,0.0
+FRCC,Hydroelectric Pumped Storage,2023,0.0
+FRCC,Hydroelectric Pumped Storage_MWh,2023,0.0
+FRCC,Natural Gas Fired Combined Cycle,2023,36817.899999999994
+FRCC,Natural Gas Fired Combustion Turbine,2023,8973.3
+FRCC,Natural Gas Internal Combustion Engine,2023,130.9
+FRCC,Natural Gas Steam Turbine,2023,3824.0
+FRCC,Nuclear,2023,3737.0
+FRCC,Offshore Wind Turbine,2023,0.0
+FRCC,Onshore Wind Turbine,2023,0.0
+FRCC,Petroleum Liquids,2023,455.59999999999997
+FRCC,Small Hydroelectric,2023,0.0
+FRCC,Solar Photovoltaic,2023,6776.1
+FRCC,distributed_generation,2023,1322.0
+FRCC,hydro,2023,0.0
+FRCC,fuel cells,2023,0.0
+ISNE,Batteries,2023,344.0
+ISNE,Batteries_MWh,2023,712.5
+ISNE,Biomass,2023,1196.2000000000003
+ISNE,Conventional Hydroelectric,2023,928.2000000000002
+ISNE,Conventional Steam Coal,2023,438.0
+ISNE,Geothermal,2023,0.0
+ISNE,Hydroelectric Pumped Storage,2023,1830.0
+ISNE,Hydroelectric Pumped Storage_MWh,2023,28365.0
+ISNE,Natural Gas Fired Combined Cycle,2023,16027.8
+ISNE,Natural Gas Fired Combustion Turbine,2023,1791.7999999999997
+ISNE,Natural Gas Internal Combustion Engine,2023,63.6
+ISNE,Natural Gas Steam Turbine,2023,901.8000000000001
+ISNE,Nuclear,2023,3355.5
+ISNE,Offshore Wind Turbine,2023,29.3
+ISNE,Onshore Wind Turbine,2023,1547.1
+ISNE,Petroleum Liquids,2023,1103.2000000000005
+ISNE,Small Hydroelectric,2023,693.4000000000001
+ISNE,Solar Photovoltaic,2023,2359.6000000000004
+ISNE,distributed_generation,2023,3528.0
+ISNE,hydro,2023,0.0
+ISNE,fuel cells,2023,0.0
+MISC,Batteries,2023,36.3
+MISC,Batteries_MWh,2023,60.1
+MISC,Biomass,2023,143.8
+MISC,Conventional Hydroelectric,2023,451.5
+MISC,Conventional Steam Coal,2023,18735.1
+MISC,Geothermal,2023,0.0
+MISC,Hydroelectric Pumped Storage,2023,471.0
+MISC,Hydroelectric Pumped Storage_MWh,2023,7300.5
+MISC,Natural Gas Fired Combined Cycle,2023,4999.1
+MISC,Natural Gas Fired Combustion Turbine,2023,9201.400000000001
+MISC,Natural Gas Internal Combustion Engine,2023,89.6
+MISC,Natural Gas Steam Turbine,2023,216.29999999999998
+MISC,Nuclear,2023,2373.0
+MISC,Offshore Wind Turbine,2023,0.0
+MISC,Onshore Wind Turbine,2023,6382.599999999999
+MISC,Petroleum Liquids,2023,450.50000000000006
+MISC,Small Hydroelectric,2023,39.6
+MISC,Solar Photovoltaic,2023,1498.9
+MISC,distributed_generation,2023,355.0
+MISC,hydro,2023,0.0
+MISC,fuel cells,2023,0.0
+MISE,Batteries,2023,1.3
+MISE,Batteries_MWh,2023,1.5
+MISE,Biomass,2023,310.5
+MISE,Conventional Hydroelectric,2023,32.300000000000004
+MISE,Conventional Steam Coal,2023,5821.299999999999
+MISE,Geothermal,2023,0.0
+MISE,Hydroelectric Pumped Storage,2023,2115.0
+MISE,Hydroelectric Pumped Storage_MWh,2023,32782.5
+MISE,Natural Gas Fired Combined Cycle,2023,6261.099999999999
+MISE,Natural Gas Fired Combustion Turbine,2023,4399.2
+MISE,Natural Gas Internal Combustion Engine,2023,137.10000000000002
+MISE,Natural Gas Steam Turbine,2023,1853.5
+MISE,Nuclear,2023,1161.0
+MISE,Offshore Wind Turbine,2023,0.0
+MISE,Onshore Wind Turbine,2023,3676.9
+MISE,Petroleum Liquids,2023,59.900000000000006
+MISE,Small Hydroelectric,2023,24.599999999999998
+MISE,Solar Photovoltaic,2023,891.0
+MISE,distributed_generation,2023,223.0
+MISE,hydro,2023,0.0
+MISE,fuel cells,2023,0.0
+MISS,Batteries,2023,10.5
+MISS,Batteries_MWh,2023,30.5
+MISS,Biomass,2023,372.20000000000005
+MISS,Conventional Hydroelectric,2023,583.0999999999999
+MISS,Conventional Steam Coal,2023,6095.5
+MISS,Geothermal,2023,0.0
+MISS,Hydroelectric Pumped Storage,2023,0.0
+MISS,Hydroelectric Pumped Storage_MWh,2023,0.0
+MISS,Natural Gas Fired Combined Cycle,2023,19861.4
+MISS,Natural Gas Fired Combustion Turbine,2023,5539.3
+MISS,Natural Gas Internal Combustion Engine,2023,107.79999999999998
+MISS,Natural Gas Steam Turbine,2023,7825.799999999999
+MISS,Nuclear,2023,5426.0
+MISS,Offshore Wind Turbine,2023,0.0
+MISS,Onshore Wind Turbine,2023,0
+MISS,Petroleum Liquids,2023,40.9
+MISS,Small Hydroelectric,2023,74.1
+MISS,Solar Photovoltaic,2023,1526.9
+MISS,distributed_generation,2023,948.0
+MISS,hydro,2023,0.0
+MISS,fuel cells,2023,0.0
+MISW,Batteries,2023,31.200000000000003
+MISW,Batteries_MWh,2023,62.9
+MISW,Biomass,2023,613.3000000000002
+MISW,Conventional Hydroelectric,2023,95.2
+MISW,Conventional Steam Coal,2023,15750.5
+MISW,Geothermal,2023,0.0
+MISW,Hydroelectric Pumped Storage,2023,0.0
+MISW,Hydroelectric Pumped Storage_MWh,2023,0.0
+MISW,Natural Gas Fired Combined Cycle,2023,8432.7
+MISW,Natural Gas Fired Combustion Turbine,2023,8117.499999999999
+MISW,Natural Gas Internal Combustion Engine,2023,774.5000000000001
+MISW,Natural Gas Steam Turbine,2023,169.7
+MISW,Nuclear,2023,2928.1
+MISW,Offshore Wind Turbine,2023,0.0
+MISW,Onshore Wind Turbine,2023,23540.999999999996
+MISW,Petroleum Liquids,2023,1668.0999999999997
+MISW,Small Hydroelectric,2023,531.0999999999999
+MISW,Solar Photovoltaic,2023,2948.1
+MISW,distributed_generation,2023,1019.0
+MISW,hydro,2023,0.0
+MISW,fuel cells,2023,0.0
+NWPP,Batteries,2023,41.0
+NWPP,Batteries_MWh,2023,143.4
+NWPP,Biomass,2023,530.4000000000001
+NWPP,Conventional Hydroelectric,2023,31942.499999999993
+NWPP,Conventional Steam Coal,2023,2299.0
+NWPP,Geothermal,2023,30.8
+NWPP,Hydroelectric Pumped Storage,2023,314.0
+NWPP,Hydroelectric Pumped Storage_MWh,2023,4867.0
+NWPP,Natural Gas Fired Combined Cycle,2023,6915.200000000001
+NWPP,Natural Gas Fired Combustion Turbine,2023,1342.9
+NWPP,Natural Gas Internal Combustion Engine,2023,309.8
+NWPP,Natural Gas Steam Turbine,2023,3.0
+NWPP,Nuclear,2023,1172.0
+NWPP,Offshore Wind Turbine,2023,0.0
+NWPP,Onshore Wind Turbine,2023,8432.699999999999
+NWPP,Petroleum Liquids,2023,21.3
+NWPP,Small Hydroelectric,2023,770.6000000000001
+NWPP,Solar Photovoltaic,2023,1525.7
+NWPP,distributed_generation,2023,697.0
+NWPP,hydro,2023,0.0
+NWPP,fuel cells,2023,0.0
+NYCW,Batteries,2023,19.3
+NYCW,Batteries_MWh,2023,107.0
+NYCW,Biomass,2023,124.69999999999999
+NYCW,Conventional Hydroelectric,2023,0.0
+NYCW,Conventional Steam Coal,2023,0.0
+NYCW,Geothermal,2023,0.0
+NYCW,Hydroelectric Pumped Storage,2023,0.0
+NYCW,Hydroelectric Pumped Storage_MWh,2023,0.0
+NYCW,Natural Gas Fired Combined Cycle,2023,4333.0
+NYCW,Natural Gas Fired Combustion Turbine,2023,2114.0
+NYCW,Natural Gas Internal Combustion Engine,2023,37.4
+NYCW,Natural Gas Steam Turbine,2023,396.5
+NYCW,Nuclear,2023,0.0
+NYCW,Offshore Wind Turbine,2023,0.0
+NYCW,Onshore Wind Turbine,2023,0.0
+NYCW,Petroleum Liquids,2023,634.6999999999998
+NYCW,Small Hydroelectric,2023,0.0
+NYCW,Solar Photovoltaic,2023,157.29999999999998
+NYCW,distributed_generation,2023,849.0
+NYCW,hydro,2023,0.0
+NYCW,fuel cells,2023,0.0
+NYUP,Batteries,2023,170.0
+NYUP,Batteries_MWh,2023,394.4
+NYUP,Biomass,2023,304.79999999999995
+NYUP,Conventional Hydroelectric,2023,3540.6
+NYUP,Conventional Steam Coal,2023,0.0
+NYUP,Geothermal,2023,0.0
+NYUP,Hydroelectric Pumped Storage,2023,1406.7
+NYUP,Hydroelectric Pumped Storage_MWh,2023,21803.85
+NYUP,Natural Gas Fired Combined Cycle,2023,8402.6
+NYUP,Natural Gas Fired Combustion Turbine,2023,57.6
+NYUP,Natural Gas Internal Combustion Engine,2023,19.5
+NYUP,Natural Gas Steam Turbine,2023,1838.4
+NYUP,Nuclear,2023,3358.3
+NYUP,Offshore Wind Turbine,2023,0.0
+NYUP,Onshore Wind Turbine,2023,2746.3
+NYUP,Petroleum Liquids,2023,75.49999999999999
+NYUP,Small Hydroelectric,2023,736.9
+NYUP,Solar Photovoltaic,2023,1467.9
+NYUP,distributed_generation,2023,630.0
+NYUP,hydro,2023,0.0
+NYUP,fuel cells,2023,0.0
+PJMC,Batteries,2023,95.8
+PJMC,Batteries_MWh,2023,171.6
+PJMC,Biomass,2023,55.2
+PJMC,Conventional Hydroelectric,2023,0.8
+PJMC,Conventional Steam Coal,2023,2646.0
+PJMC,Geothermal,2023,0.0
+PJMC,Hydroelectric Pumped Storage,2023,0.0
+PJMC,Hydroelectric Pumped Storage_MWh,2023,0.0
+PJMC,Natural Gas Fired Combined Cycle,2023,5038.4
+PJMC,Natural Gas Fired Combustion Turbine,2023,8625.699999999999
+PJMC,Natural Gas Internal Combustion Engine,2023,118.5
+PJMC,Natural Gas Steam Turbine,2023,44.199999999999996
+PJMC,Nuclear,2023,10898.1
+PJMC,Offshore Wind Turbine,2023,0.0
+PJMC,Onshore Wind Turbine,2023,4488.800000000001
+PJMC,Petroleum Liquids,2023,55.3
+PJMC,Small Hydroelectric,2023,25.3
+PJMC,Solar Photovoltaic,2023,309.1
+PJMC,distributed_generation,2023,316.0
+PJMC,hydro,2023,0.0
+PJMC,fuel cells,2023,0.0
+PJMD,Batteries,2023,40.5
+PJMD,Batteries_MWh,2023,74.6
+PJMD,Biomass,2023,808.7
+PJMD,Conventional Hydroelectric,2023,613.1
+PJMD,Conventional Steam Coal,2023,913.5
+PJMD,Geothermal,2023,0.0
+PJMD,Hydroelectric Pumped Storage,2023,3003.0
+PJMD,Hydroelectric Pumped Storage_MWh,2023,46546.5
+PJMD,Natural Gas Fired Combined Cycle,2023,7901.3
+PJMD,Natural Gas Fired Combustion Turbine,2023,4560.5
+PJMD,Natural Gas Internal Combustion Engine,2023,2.3
+PJMD,Natural Gas Steam Turbine,2023,20.299999999999997
+PJMD,Nuclear,2023,3708.0
+PJMD,Offshore Wind Turbine,2023,0.0
+PJMD,Onshore Wind Turbine,2023,208.0
+PJMD,Petroleum Liquids,2023,319.2999999999999
+PJMD,Small Hydroelectric,2023,12.9
+PJMD,Solar Photovoltaic,2023,4533.6
+PJMD,distributed_generation,2023,363.0
+PJMD,hydro,2023,0.0
+PJMD,fuel cells,2023,0.0
+PJME,Batteries,2023,107.00000000000001
+PJME,Batteries_MWh,2023,145.5
+PJME,Biomass,2023,784.0999999999999
+PJME,Conventional Hydroelectric,2023,1213.9000000000003
+PJME,Conventional Steam Coal,2023,9424.0
+PJME,Geothermal,2023,0.0
+PJME,Hydroelectric Pumped Storage,2023,1942.0
+PJME,Hydroelectric Pumped Storage_MWh,2023,30101.0
+PJME,Natural Gas Fired Combined Cycle,2023,28306.6
+PJME,Natural Gas Fired Combustion Turbine,2023,5311.5
+PJME,Natural Gas Internal Combustion Engine,2023,262.8
+PJME,Natural Gas Steam Turbine,2023,2555.2
+PJME,Nuclear,2023,12829.400000000001
+PJME,Offshore Wind Turbine,2023,0.0
+PJME,Onshore Wind Turbine,2023,1314.4
+PJME,Petroleum Liquids,2023,738.6999999999999
+PJME,Small Hydroelectric,2023,148.5
+PJME,Solar Photovoltaic,2023,2089.2
+PJME,distributed_generation,2023,4500.0
+PJME,hydro,2023,0.0
+PJME,fuel cells,2023,0.0
+PJMW,Batteries,2023,97.3
+PJMW,Batteries_MWh,2023,187.6
+PJMW,Biomass,2023,163.70000000000002
+PJMW,Conventional Hydroelectric,2023,884.8000000000002
+PJMW,Conventional Steam Coal,2023,22722.2
+PJMW,Geothermal,2023,0.0
+PJMW,Hydroelectric Pumped Storage,2023,238.0
+PJMW,Hydroelectric Pumped Storage_MWh,2023,3689.0
+PJMW,Natural Gas Fired Combined Cycle,2023,19331.4
+PJMW,Natural Gas Fired Combustion Turbine,2023,11611.1
+PJMW,Natural Gas Internal Combustion Engine,2023,90.5
+PJMW,Natural Gas Steam Turbine,2023,70.1
+PJMW,Nuclear,2023,6326.0
+PJMW,Offshore Wind Turbine,2023,0.0
+PJMW,Onshore Wind Turbine,2023,4304.000000000001
+PJMW,Petroleum Liquids,2023,217.70000000000007
+PJMW,Small Hydroelectric,2023,288.8
+PJMW,Solar Photovoltaic,2023,2361.1
+PJMW,distributed_generation,2023,798.0
+PJMW,hydro,2023,0.0
+PJMW,fuel cells,2023,0.0
+RMRG,Batteries,2023,240.2
+RMRG,Batteries_MWh,2023,363.7
+RMRG,Biomass,2023,29.9
+RMRG,Conventional Hydroelectric,2023,708.8
+RMRG,Conventional Steam Coal,2023,9915.0
+RMRG,Geothermal,2023,0.0
+RMRG,Hydroelectric Pumped Storage,2023,580.8
+RMRG,Hydroelectric Pumped Storage_MWh,2023,9002.4
+RMRG,Natural Gas Fired Combined Cycle,2023,3561.5
+RMRG,Natural Gas Fired Combustion Turbine,2023,3360.7999999999997
+RMRG,Natural Gas Internal Combustion Engine,2023,247.2
+RMRG,Natural Gas Steam Turbine,2023,597.0
+RMRG,Nuclear,2023,0.0
+RMRG,Offshore Wind Turbine,2023,0.0
+RMRG,Onshore Wind Turbine,2023,8172.8
+RMRG,Petroleum Liquids,2023,21.1
+RMRG,Small Hydroelectric,2023,243.30000000000004
+RMRG,Solar Photovoltaic,2023,2306.0
+RMRG,distributed_generation,2023,756.0
+RMRG,hydro,2023,0.0
+RMRG,fuel cells,2023,0.0
+SPPC,Batteries,2023,2.2
+SPPC,Batteries_MWh,2023,3.5
+SPPC,Biomass,2023,13.6
+SPPC,Conventional Hydroelectric,2023,52.0
+SPPC,Conventional Steam Coal,2023,7115.8
+SPPC,Geothermal,2023,0.0
+SPPC,Hydroelectric Pumped Storage,2023,0.0
+SPPC,Hydroelectric Pumped Storage_MWh,2023,0.0
+SPPC,Natural Gas Fired Combined Cycle,2023,1872.9999999999998
+SPPC,Natural Gas Fired Combustion Turbine,2023,4320.5
+SPPC,Natural Gas Internal Combustion Engine,2023,432.79999999999995
+SPPC,Natural Gas Steam Turbine,2023,105.1
+SPPC,Nuclear,2023,1255.0
+SPPC,Offshore Wind Turbine,2023,0.0
+SPPC,Onshore Wind Turbine,2023,8379.7
+SPPC,Petroleum Liquids,2023,250.60000000000005
+SPPC,Small Hydroelectric,2023,21.4
+SPPC,Solar Photovoltaic,2023,101.9
+SPPC,distributed_generation,2023,137.0
+SPPC,hydro,2023,0.0
+SPPC,fuel cells,2023,0.0
+SPPN,Batteries,2023,4.699999999999999
+SPPN,Batteries_MWh,2023,12.7
+SPPN,Biomass,2023,19.400000000000002
+SPPN,Conventional Hydroelectric,2023,2510.0
+SPPN,Conventional Steam Coal,2023,5359.900000000001
+SPPN,Geothermal,2023,0.0
+SPPN,Hydroelectric Pumped Storage,2023,0.0
+SPPN,Hydroelectric Pumped Storage_MWh,2023,0.0
+SPPN,Natural Gas Fired Combined Cycle,2023,644.6
+SPPN,Natural Gas Fired Combustion Turbine,2023,2074.3
+SPPN,Natural Gas Internal Combustion Engine,2023,267.2
+SPPN,Natural Gas Steam Turbine,2023,231.2
+SPPN,Nuclear,2023,770.0
+SPPN,Offshore Wind Turbine,2023,0.0
+SPPN,Onshore Wind Turbine,2023,7510.5
+SPPN,Petroleum Liquids,2023,59.2
+SPPN,Small Hydroelectric,2023,90.6
+SPPN,Solar Photovoltaic,2023,125.6
+SPPN,distributed_generation,2023,137.0
+SPPN,hydro,2023,0.0
+SPPN,fuel cells,2023,0.0
+SPPS,Batteries,2023,22.0
+SPPS,Batteries_MWh,2023,46.2
+SPPS,Biomass,2023,178.60000000000002
+SPPS,Conventional Hydroelectric,2023,2008.3999999999999
+SPPS,Conventional Steam Coal,2023,7716.0
+SPPS,Geothermal,2023,0.0
+SPPS,Hydroelectric Pumped Storage,2023,474.0
+SPPS,Hydroelectric Pumped Storage_MWh,2023,7347.0
+SPPS,Natural Gas Fired Combined Cycle,2023,9527.6
+SPPS,Natural Gas Fired Combustion Turbine,2023,3954.0
+SPPS,Natural Gas Internal Combustion Engine,2023,445.70000000000005
+SPPS,Natural Gas Steam Turbine,2023,4447.200000000001
+SPPS,Nuclear,2023,0.0
+SPPS,Offshore Wind Turbine,2023,0.0
+SPPS,Onshore Wind Turbine,2023,19005.000000000004
+SPPS,Petroleum Liquids,2023,52.3
+SPPS,Small Hydroelectric,2023,87.79999999999998
+SPPS,Solar Photovoltaic,2023,334.8
+SPPS,distributed_generation,2023,299.0
+SPPS,hydro,2023,0.0
+SPPS,fuel cells,2023,0.0
+SRCA,Batteries,2023,160.8
+SRCA,Batteries_MWh,2023,300.70000000000005
+SRCA,Biomass,2023,618.0999999999999
+SRCA,Conventional Hydroelectric,2023,1772.4
+SRCA,Conventional Steam Coal,2023,14118.0
+SRCA,Geothermal,2023,0.0
+SRCA,Hydroelectric Pumped Storage,2023,2876.0
+SRCA,Hydroelectric Pumped Storage_MWh,2023,44578.0
+SRCA,Natural Gas Fired Combined Cycle,2023,9673.2
+SRCA,Natural Gas Fired Combustion Turbine,2023,9997.7
+SRCA,Natural Gas Internal Combustion Engine,2023,0.0
+SRCA,Natural Gas Steam Turbine,2023,565.7
+SRCA,Nuclear,2023,12106.7
+SRCA,Offshore Wind Turbine,2023,0.0
+SRCA,Onshore Wind Turbine,2023,0.0
+SRCA,Petroleum Liquids,2023,197.8
+SRCA,Small Hydroelectric,2023,119.2
+SRCA,Solar Photovoltaic,2023,6802.200000000001
+SRCA,distributed_generation,2023,1361.0
+SRCA,hydro,2023,0.0
+SRCA,fuel cells,2023,0.0
+SRCE,Batteries,2023,122.3
+SRCE,Batteries_MWh,2023,244.6
+SRCE,Biomass,2023,234.9
+SRCE,Conventional Hydroelectric,2023,4937.3
+SRCE,Conventional Steam Coal,2023,11651.3
+SRCE,Geothermal,2023,0.0
+SRCE,Hydroelectric Pumped Storage,2023,1683.8000000000002
+SRCE,Hydroelectric Pumped Storage_MWh,2023,26098.899999999998
+SRCE,Natural Gas Fired Combined Cycle,2023,11514.6
+SRCE,Natural Gas Fired Combustion Turbine,2023,7716.5
+SRCE,Natural Gas Internal Combustion Engine,2023,3.2
+SRCE,Natural Gas Steam Turbine,2023,63.8
+SRCE,Nuclear,2023,8431.300000000001
+SRCE,Offshore Wind Turbine,2023,0.0
+SRCE,Onshore Wind Turbine,2023,29.1
+SRCE,Petroleum Liquids,2023,69.8
+SRCE,Small Hydroelectric,2023,130.3
+SRCE,Solar Photovoltaic,2023,1465.2
+SRCE,distributed_generation,2023,186.0
+SRCE,hydro,2023,0.0
+SRCE,fuel cells,2023,0.0
+SRSE,Batteries,2023,86.7
+SRSE,Batteries_MWh,2023,178.7
+SRSE,Biomass,2023,1350.9999999999998
+SRSE,Conventional Hydroelectric,2023,3799.1999999999994
+SRSE,Conventional Steam Coal,2023,11512.0
+SRSE,Geothermal,2023,0.0
+SRSE,Hydroelectric Pumped Storage,2023,1896.2
+SRSE,Hydroelectric Pumped Storage_MWh,2023,29391.1
+SRSE,Natural Gas Fired Combined Cycle,2023,21559.4
+SRSE,Natural Gas Fired Combustion Turbine,2023,12531.6
+SRSE,Natural Gas Internal Combustion Engine,2023,20.700000000000003
+SRSE,Natural Gas Steam Turbine,2023,800.6
+SRSE,Nuclear,2023,6966.0
+SRSE,Offshore Wind Turbine,2023,0.0
+SRSE,Onshore Wind Turbine,2023,0.0
+SRSE,Petroleum Liquids,2023,214.09999999999997
+SRSE,Small Hydroelectric,2023,94.19999999999999
+SRSE,Solar Photovoltaic,2023,5860.299999999999
+SRSE,distributed_generation,2023,166.0
+SRSE,hydro,2023,0.0
+SRSE,fuel cells,2023,0.0
+SRSG,Batteries,2023,1585.8
+SRSG,Batteries_MWh,2023,3215.6
+SRSG,Biomass,2023,95.8
+SRSG,Conventional Hydroelectric,2023,2765.5
+SRSG,Conventional Steam Coal,2023,4483.0
+SRSG,Geothermal,2023,407.7
+SRSG,Hydroelectric Pumped Storage,2023,216.3
+SRSG,Hydroelectric Pumped Storage_MWh,2023,3352.65
+SRSG,Natural Gas Fired Combined Cycle,2023,12413.399999999998
+SRSG,Natural Gas Fired Combustion Turbine,2023,3936.2
+SRSG,Natural Gas Internal Combustion Engine,2023,197.2
+SRSG,Natural Gas Steam Turbine,2023,524.0
+SRSG,Nuclear,2023,4003.0
+SRSG,Offshore Wind Turbine,2023,0.0
+SRSG,Onshore Wind Turbine,2023,4444.1
+SRSG,Petroleum Liquids,2023,173.5
+SRSG,Small Hydroelectric,2023,218.10000000000002
+SRSG,Solar Photovoltaic,2023,6817.000000000001
+SRSG,distributed_generation,2023,1435.0
+SRSG,hydro,2023,0.0
+SRSG,fuel cells,2023,0.0
+TRE,Batteries,2023,2405.5
+TRE,Batteries_MWh,2023,3770.8999999999996
+TRE,Biomass,2023,145.1
+TRE,Conventional Hydroelectric,2023,483.0
+TRE,Conventional Steam Coal,2023,13634.6
+TRE,Geothermal,2023,0.0
+TRE,Hydroelectric Pumped Storage,2023,0.0
+TRE,Hydroelectric Pumped Storage_MWh,2023,0.0
+TRE,Natural Gas Fired Combined Cycle,2023,38201.8
+TRE,Natural Gas Fired Combustion Turbine,2023,8732.9
+TRE,Natural Gas Internal Combustion Engine,2023,900.1999999999999
+TRE,Natural Gas Steam Turbine,2023,4869.2
+TRE,Nuclear,2023,5120.0
+TRE,Offshore Wind Turbine,2023,0.0
+TRE,Onshore Wind Turbine,2023,12327.8
+TRE,Petroleum Liquids,2023,131.9
+TRE,Small Hydroelectric,2023,56.099999999999994
+TRE,Solar Photovoltaic,2023,8532.2
+TRE,distributed_generation,2023,1196.0
+TRE,hydro,2023,0.0
+TRE,fuel cells,2023,0.0
+TREW,Batteries,2023,1712.4
+TREW,Batteries_MWh,2023,3153.3
+TREW,Biomass,2023,0.0
+TREW,Conventional Hydroelectric,2023,0.0
+TREW,Conventional Steam Coal,2023,0.0
+TREW,Geothermal,2023,0.0
+TREW,Hydroelectric Pumped Storage,2023,0.0
+TREW,Hydroelectric Pumped Storage_MWh,2023,0.0
+TREW,Natural Gas Fired Combined Cycle,2023,2127.8999999999996
+TREW,Natural Gas Fired Combustion Turbine,2023,1208.0
+TREW,Natural Gas Internal Combustion Engine,2023,9.100000000000001
+TREW,Natural Gas Steam Turbine,2023,0
+TREW,Nuclear,2023,0.0
+TREW,Offshore Wind Turbine,2023,0.0
+TREW,Onshore Wind Turbine,2023,25634.7
+TREW,Petroleum Liquids,2023,54.0
+TREW,Small Hydroelectric,2023,0.0
+TREW,Solar Photovoltaic,2023,8269.6
+TREW,distributed_generation,2023,65.0
+TREW,hydro,2023,0.0
+TREW,fuel cells,2023,0.0
+loadzone,Batteries,2023,0.0
+loadzone,Batteries_MWh,2023,0.0
+loadzone,Biomass,2023,0.0
+loadzone,Conventional Hydroelectric,2023,0.0
+loadzone,Conventional Steam Coal,2023,0.0
+loadzone,Geothermal,2023,0.0
+loadzone,Hydroelectric Pumped Storage,2023,0.0
+loadzone,Hydroelectric Pumped Storage_MWh,2023,0.0
+loadzone,Natural Gas Fired Combined Cycle,2023,0.0
+loadzone,Natural Gas Fired Combustion Turbine,2023,0.0
+loadzone,Natural Gas Internal Combustion Engine,2023,0.0
+loadzone,Natural Gas Steam Turbine,2023,0.0
+loadzone,Nuclear,2023,0.0
+loadzone,Offshore Wind Turbine,2023,0.0
+loadzone,Onshore Wind Turbine,2023,0.0
+loadzone,Petroleum Liquids,2023,0.0
+loadzone,Small Hydroelectric,2023,0.0
+loadzone,Solar Photovoltaic,2023,0.0
+loadzone,distributed_generation,2023,0.0
+loadzone,hydro,2023,0.0
+loadzone,fuel cells,2023,0.0

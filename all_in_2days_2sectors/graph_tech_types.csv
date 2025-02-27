@@ -1,0 +1,31 @@
+map_name,gen_type,gen_tech,energy_source
+default,Naturalgas,Natural Gas Fired Combined Cycle,Naturalgas
+default,Naturalgas,Natural Gas Fired Combustion Turbine,Naturalgas
+default,Naturalgas,Natural Gas Internal Combustion Engine,Naturalgas
+default,Naturalgas,Natural Gas Steam Turbine,Naturalgas
+default,Storage,Batteries,Electricity
+default,Biomass,Biomass,Waste_biomass
+default,Hydro,Conventional Hydroelectric,Water
+default,Coal,Conventional Steam Coal,Coal
+default,Geothermal,Geothermal,Heat
+default,Wind,Onshore Wind Turbine,Wind
+default,Petroleum,Petroleum Liquids,Distillate
+default,Hydro,Small Hydroelectric,Water
+default,Solar,Solar Photovoltaic,Solar
+default,Hydro,Hydroelectric Pumped Storage,Electricity
+default,Nuclear,Nuclear,Uranium
+default,Wind,Offshore Wind Turbine,Wind
+default,Solar,distributed_generation,Solar
+default,Naturalgas,NaturalGas_H-Frame CC_Moderate,Naturalgas
+default,Naturalgas,NaturalGas_F-Frame CT_Moderate,Naturalgas
+default,Naturalgas,NaturalGas_H-Frame CC 95% CCS_Moderate,Naturalgas
+default,Storage,Battery_*_Moderate,Electricity
+default,Nuclear,Nuclear_Nuclear_Moderate,Uranium
+default,Hydrogen,Hydrogen_F-Frame CT_Moderate,Hydrogen
+default,Hydrogen,Hydrogen_H-Frame CC_Moderate,Hydrogen
+default,Wind,LandbasedWind_Class3_Moderate,Wind
+default,Solar,UtilityPV_Class1_Moderate,Solar
+default,Wind,OffShoreWind_Class12_Moderate_floating_1,Wind
+default,Wind,OffShoreWind_Class3_Moderate_fixed_0,Wind
+default,Wind,OffShoreWind_Class12_Moderate_floating_0,Wind
+default,Wind,OffShoreWind_Class3_Moderate_fixed_1,Wind

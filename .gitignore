@@ -3,6 +3,8 @@
 # directories)
 */
 !extra_modules
+!all_in_2days_2sectors
+!all_out_2days_0price_S1A
 # !switch/
 # !switch/*
 # !PowerGenome/

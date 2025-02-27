@@ -1,0 +1,681 @@
+GENERATION_PROJECT,PERIOD,gen_tech,gen_load_zone,gen_energy_source,BuildGen,BuildStorageEnergy,GenCapitalOutlay
+BASN_id_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,BASN,Naturalgas,.,.,.
+BASN_nv_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,BASN,Naturalgas,.,.,.
+BASN_ut_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,BASN,Naturalgas,.,.,.
+BASN_id_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_id_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_nv_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_nv_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_ut_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_ut_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,BASN,Naturalgas,.,.,.
+BASN_nv_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,BASN,Naturalgas,.,.,.
+BASN_ut_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,BASN,Naturalgas,.,.,.
+BASN_id_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,BASN,Naturalgas,.,.,.
+BASN_nv_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,BASN,Naturalgas,.,.,.
+BASN_ut_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,BASN,Naturalgas,.,.,.
+CANO_ca_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,CANO,Naturalgas,.,.,.
+CANO_ca_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,CANO,Naturalgas,.,.,.
+CANO_ca_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,CANO,Naturalgas,.,.,.
+CANO_ca_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,CANO,Naturalgas,.,.,.
+CANO_ca_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,CANO,Naturalgas,94.8,.,0
+CANO_ca_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,CANO,Naturalgas,.,.,.
+CASO_ca_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,CASO,Naturalgas,.,.,.
+CASO_ca_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,CASO,Naturalgas,.,.,.
+CASO_ca_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,CASO,Naturalgas,.,.,.
+CASO_ca_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,CASO,Naturalgas,.,.,.
+CASO_ca_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,CASO,Naturalgas,1.5,.,0
+CASO_ca_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,CASO,Naturalgas,.,.,.
+FRCC_fl_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,FRCC,Naturalgas,1129.7,.,0
+FRCC_fl_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,FRCC,Naturalgas,.,.,.
+FRCC_fl_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,FRCC,Naturalgas,.,.,.
+FRCC_fl_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,FRCC,Naturalgas,.,.,.
+FRCC_fl_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,FRCC,Naturalgas,2.6,.,0
+FRCC_fl_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,FRCC,Naturalgas,.,.,.
+ISNE_ct_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ct_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_me_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_me_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_nh_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_nh_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ri_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ri_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,ISNE,Naturalgas,.,.,.
+ISNE_ct_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ct_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,59,.,0
+ISNE_me_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_me_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_nh_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ri_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ct_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,ISNE,Naturalgas,.,.,.
+ISNE_ri_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,ISNE,Naturalgas,.,.,.
+ISNE_ct_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ma_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,ISNE,Naturalgas,.,.,.
+ISNE_nh_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,ISNE,Naturalgas,.,.,.
+ISNE_ri_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,ISNE,Naturalgas,.,.,.
+MISC_ar_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_ia_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_il_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_in_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_mo_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_ok_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISC,Naturalgas,.,.,.
+MISC_il_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_il_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_in_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_in_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_ky_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_mo_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISC,Naturalgas,.,.,.
+MISC_ia_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISC,Naturalgas,.,.,.
+MISC_il_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISC,Naturalgas,.,.,.
+MISC_in_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISC,Naturalgas,.,.,.
+MISC_mo_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISC,Naturalgas,.,.,.
+MISC_il_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISC,Naturalgas,.,.,.
+MISC_in_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISC,Naturalgas,.,.,.
+MISC_mo_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISC,Naturalgas,8,.,0
+MISE_mi_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISE,Naturalgas,.,.,.
+MISE_mi_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISE,Naturalgas,.,.,.
+MISE_mi_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISE,Naturalgas,.,.,.
+MISE_mi_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISE,Naturalgas,.,.,.
+MISE_mi_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISE,Naturalgas,.,.,.
+MISE_mi_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISE,Naturalgas,.,.,.
+MISS_ar_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_ar_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,924,.,0
+MISS_tx_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISS,Naturalgas,.,.,.
+MISS_ar_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISS,Naturalgas,.,.,.
+MISS_ar_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_la_natural_gas_steam_turbine_2,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_ms_natural_gas_steam_turbine_2,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISS_tx_natural_gas_steam_turbine_2,2023,Natural Gas Steam Turbine,MISS,Naturalgas,.,.,.
+MISW_ia_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_ia_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,MISW,Naturalgas,.,.,.
+MISW_ia_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_ia_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_ia_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_mt_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_mt_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_nd_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_nd_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,101,.,0
+MISW_sd_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,MISW,Naturalgas,.,.,.
+MISW_ia_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,.,.,.
+MISW_il_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,.,.,.
+MISW_mi_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,.,.,.
+MISW_mt_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,MISW,Naturalgas,131.6,.,0
+MISW_ia_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISW,Naturalgas,.,.,.
+MISW_mn_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISW,Naturalgas,.,.,.
+MISW_wi_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,MISW,Naturalgas,.,.,.
+NWPP_id_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NWPP,Naturalgas,.,.,.
+NWPP_or_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NWPP,Naturalgas,.,.,.
+NWPP_wa_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NWPP,Naturalgas,.,.,.
+NWPP_id_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_id_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_mt_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_or_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_or_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_wa_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_wa_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,NWPP,Naturalgas,.,.,.
+NWPP_mt_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,NWPP,Naturalgas,.,.,.
+NWPP_or_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,NWPP,Naturalgas,.,.,.
+NWPP_wa_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,NWPP,Naturalgas,.,.,.
+NWPP_wa_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,NWPP,Naturalgas,3,.,0
+NYCW_nj_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NYCW,Naturalgas,.,.,.
+NYCW_ny_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NYCW,Naturalgas,.,.,.
+NYCW_nj_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NYCW,Naturalgas,.,.,.
+NYCW_ny_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,NYCW,Naturalgas,.,.,.
+NYCW_ny_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,NYCW,Naturalgas,.,.,.
+NYCW_ny_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,NYCW,Naturalgas,2.6,.,0
+NYCW_ny_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,NYCW,Naturalgas,.,.,.
+NYUP_ny_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,NYUP,Naturalgas,.,.,.
+NYUP_ny_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,NYUP,Naturalgas,.,.,.
+NYUP_ny_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,NYUP,Naturalgas,.,.,.
+NYUP_ny_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,NYUP,Naturalgas,.,.,.
+NYUP_ny_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,NYUP,Naturalgas,.,.,.
+PJMC_il_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMC,Naturalgas,1250,.,0
+PJMC_il_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJMC,Naturalgas,.,.,.
+PJMC_il_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMC,Naturalgas,.,.,.
+PJMC_il_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMC,Naturalgas,314,.,0
+PJMC_il_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJMC,Naturalgas,.,.,.
+PJMC_il_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMC,Naturalgas,.,.,.
+PJMD_va_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMD,Naturalgas,.,.,.
+PJMD_va_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJMD,Naturalgas,.,.,.
+PJMD_va_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMD,Naturalgas,.,.,.
+PJMD_va_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMD,Naturalgas,.,.,.
+PJMD_va_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMD,Naturalgas,.,.,.
+PJMD_va_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJMD,Naturalgas,2,.,0
+PJMD_va_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMD,Naturalgas,.,.,.
+PJME_de_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_de_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJME,Naturalgas,.,.,.
+PJME_dc_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_dc_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_de_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_de_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_de_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJME,Naturalgas,.,.,.
+PJME_md_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJME,Naturalgas,1.8,.,0
+PJME_nj_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJME,Naturalgas,3.5,.,0
+PJME_md_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJME,Naturalgas,.,.,.
+PJME_nj_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJME,Naturalgas,.,.,.
+PJME_pa_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJME,Naturalgas,.,.,.
+PJMW_in_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_in_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_mi_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_oh_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,1875,.,0
+PJMW_oh_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_va_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,PJMW,Naturalgas,.,.,.
+PJMW_in_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_in_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_in_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_ky_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_ky_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_ky_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_oh_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_oh_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_va_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_va_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_wv_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_wv_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_wv_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,PJMW,Naturalgas,.,.,.
+PJMW_mi_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJMW,Naturalgas,.,.,.
+PJMW_oh_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,PJMW,Naturalgas,.,.,.
+PJMW_in_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMW,Naturalgas,.,.,.
+PJMW_oh_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMW,Naturalgas,.,.,.
+PJMW_pa_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMW,Naturalgas,.,.,.
+PJMW_va_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,PJMW,Naturalgas,.,.,.
+RMRG_co_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,RMRG,Naturalgas,.,.,.
+RMRG_co_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,RMRG,Naturalgas,.,.,.
+RMRG_wy_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,RMRG,Naturalgas,.,.,.
+RMRG_co_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,163.8,.,0
+RMRG_co_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,.,.,.
+RMRG_sd_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,.,.,.
+RMRG_sd_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,.,.,.
+RMRG_wy_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,.,.,.
+RMRG_wy_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,RMRG,Naturalgas,.,.,.
+RMRG_co_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,RMRG,Naturalgas,.,.,.
+RMRG_wy_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,RMRG,Naturalgas,2.2,.,0
+RMRG_co_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,RMRG,Naturalgas,.,.,.
+RMRG_wy_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,RMRG,Naturalgas,.,.,.
+SPPC_ks_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPC,Naturalgas,.,.,.
+SPPC_mo_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPC,Naturalgas,.,.,.
+SPPC_ks_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_ks_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_ks_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_mo_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_mo_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_mo_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_ok_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPC,Naturalgas,.,.,.
+SPPC_ks_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPC,Naturalgas,4,.,0
+SPPC_mo_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPC,Naturalgas,.,.,.
+SPPC_ne_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPC,Naturalgas,.,.,.
+SPPC_ks_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPC,Naturalgas,.,.,.
+SPPC_mo_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPC,Naturalgas,.,.,.
+SPPN_ne_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPN,Naturalgas,.,.,.
+SPPN_ne_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SPPN,Naturalgas,.,.,.
+SPPN_sd_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPN,Naturalgas,.,.,.
+SPPN_ia_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPN,Naturalgas,.,.,.
+SPPN_mt_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPN,Naturalgas,.,.,.
+SPPN_nd_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPN,Naturalgas,.,.,.
+SPPN_ne_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPN,Naturalgas,.,.,.
+SPPN_sd_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPN,Naturalgas,.,.,.
+SPPN_ks_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPN,Naturalgas,.,.,.
+SPPN_nd_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPN,Naturalgas,.,.,.
+SPPN_ne_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPN,Naturalgas,.,.,.
+SPPN_sd_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPN,Naturalgas,.,.,.
+SPPN_ne_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPN,Naturalgas,.,.,.
+SPPN_sd_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPN,Naturalgas,.,.,.
+SPPS_ar_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPS,Naturalgas,.,.,.
+SPPS_la_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPS,Naturalgas,.,.,.
+SPPS_nm_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPS,Naturalgas,.,.,.
+SPPS_ok_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPS,Naturalgas,.,.,.
+SPPS_tx_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SPPS,Naturalgas,.,.,.
+SPPS_ar_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_ar_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_ar_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_nm_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_ok_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_tx_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SPPS,Naturalgas,.,.,.
+SPPS_ar_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_ks_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_mo_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_nm_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_ok_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_tx_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SPPS,Naturalgas,.,.,.
+SPPS_la_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPS,Naturalgas,.,.,.
+SPPS_nm_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPS,Naturalgas,.,.,.
+SPPS_ok_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPS,Naturalgas,.,.,.
+SPPS_tx_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SPPS,Naturalgas,.,.,.
+SRCA_nc_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCA,Naturalgas,.,.,.
+SRCA_nc_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCA,Naturalgas,.,.,.
+SRCA_sc_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCA,Naturalgas,.,.,.
+SRCA_sc_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCA,Naturalgas,.,.,.
+SRCA_nc_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRCA,Naturalgas,.,.,.
+SRCA_nc_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRCA,Naturalgas,.,.,.
+SRCA_sc_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRCA,Naturalgas,.,.,.
+SRCA_sc_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRCA,Naturalgas,.,.,.
+SRCA_nc_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRCA,Naturalgas,.,.,.
+SRCA_sc_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRCA,Naturalgas,.,.,.
+SRCE_al_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_al_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_ky_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_ky_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_ms_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_ms_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRCE,Naturalgas,.,.,.
+SRCE_ky_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_ky_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_ky_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_ms_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_fired_combustion_turbine_3,2023,Natural Gas Fired Combustion Turbine,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRCE,Naturalgas,.,.,.
+SRCE_tn_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRCE,Naturalgas,.,.,.
+SRSE_al_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_al_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,1455.7,.,0
+SRSE_fl_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_fl_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_ms_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_ms_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSE,Naturalgas,.,.,.
+SRSE_al_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_al_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_fl_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_fl_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_ms_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSE,Naturalgas,.,.,.
+SRSE_fl_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRSE,Naturalgas,.,.,.
+SRSE_al_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRSE,Naturalgas,.,.,.
+SRSE_ga_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRSE,Naturalgas,.,.,.
+SRSG_az_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_az_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_ca_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_ca_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,SRSG,Naturalgas,.,.,.
+SRSG_az_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_az_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_ca_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_ca_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,SRSG,Naturalgas,227.8,.,0
+SRSG_az_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,SRSG,Naturalgas,.,.,.
+SRSG_az_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRSG,Naturalgas,.,.,.
+SRSG_nm_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRSG,Naturalgas,.,.,.
+SRSG_tx_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,SRSG,Naturalgas,.,.,.
+TRE_tx_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,TRE,Naturalgas,244,.,0
+TRE_tx_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,TRE,Naturalgas,.,.,.
+TRE_tx_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,TRE,Naturalgas,298.8,.,0
+TRE_tx_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,TRE,Naturalgas,112,.,0
+TRE_tx_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,TRE,Naturalgas,.,.,.
+TRE_tx_natural_gas_steam_turbine_1,2023,Natural Gas Steam Turbine,TRE,Naturalgas,.,.,.
+TREW_tx_natural_gas_fired_combined_cycle_1,2023,Natural Gas Fired Combined Cycle,TREW,Naturalgas,.,.,.
+TREW_tx_natural_gas_fired_combined_cycle_2,2023,Natural Gas Fired Combined Cycle,TREW,Naturalgas,.,.,.
+TREW_tx_natural_gas_fired_combustion_turbine_1,2023,Natural Gas Fired Combustion Turbine,TREW,Naturalgas,.,.,.
+TREW_tx_natural_gas_fired_combustion_turbine_2,2023,Natural Gas Fired Combustion Turbine,TREW,Naturalgas,.,.,.
+TREW_tx_natural_gas_internal_combustion_engine_1,2023,Natural Gas Internal Combustion Engine,TREW,Naturalgas,.,.,.
+BASN_batteries_1,2023,Batteries,BASN,Electricity,734.8,1469.6,0
+BASN_biomass_1,2023,Biomass,BASN,Waste_biomass,.,.,.
+BASN_biomass_2,2023,Biomass,BASN,Waste_biomass,.,.,.
+BASN_conventional_hydroelectric_1,2023,Conventional Hydroelectric,BASN,Water,.,.,.
+BASN_conventional_steam_coal_1,2023,Conventional Steam Coal,BASN,Coal,.,.,.
+BASN_conventional_steam_coal_2,2023,Conventional Steam Coal,BASN,Coal,.,.,.
+BASN_geothermal_1,2023,Geothermal,BASN,Heat,37,.,0
+BASN_onshore_wind_turbine_1,2023,Onshore Wind Turbine,BASN,Wind,.,.,.
+BASN_petroleum_liquids_1,2023,Petroleum Liquids,BASN,Distillate,.,.,.
+BASN_small_hydroelectric_1,2023,Small Hydroelectric,BASN,Water,.,.,.
+BASN_solar_photovoltaic_1,2023,Solar Photovoltaic,BASN,Solar,1688.9,.,0
+CANO_batteries_1,2023,Batteries,CANO,Electricity,1071,4284,0
+CANO_biomass_1,2023,Biomass,CANO,Waste_biomass,.,.,.
+CANO_biomass_2,2023,Biomass,CANO,Waste_biomass,2,.,0
+CANO_conventional_hydroelectric_1,2023,Conventional Hydroelectric,CANO,Water,.,.,.
+CANO_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,CANO,Electricity,.,.,.
+CANO_nuclear_1,2023,Nuclear,CANO,Uranium,.,.,.
+CANO_onshore_wind_turbine_1,2023,Onshore Wind Turbine,CANO,Wind,.,.,.
+CANO_petroleum_liquids_1,2023,Petroleum Liquids,CANO,Distillate,.,.,.
+CANO_small_hydroelectric_1,2023,Small Hydroelectric,CANO,Water,.,.,.
+CANO_solar_photovoltaic_1,2023,Solar Photovoltaic,CANO,Solar,610.1,.,0
+CASO_batteries_1,2023,Batteries,CASO,Electricity,3121.7,12486.8,0
+CASO_biomass_1,2023,Biomass,CASO,Waste_biomass,4.8,.,0
+CASO_biomass_2,2023,Biomass,CASO,Waste_biomass,.,.,.
+CASO_conventional_hydroelectric_1,2023,Conventional Hydroelectric,CASO,Water,3.3,.,0
+CASO_conventional_steam_coal_1,2023,Conventional Steam Coal,CASO,Coal,.,.,.
+CASO_geothermal_1,2023,Geothermal,CASO,Heat,.,.,.
+CASO_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,CASO,Electricity,.,.,.
+CASO_onshore_wind_turbine_1,2023,Onshore Wind Turbine,CASO,Wind,95.5,.,0
+CASO_petroleum_liquids_1,2023,Petroleum Liquids,CASO,Distillate,.,.,.
+CASO_small_hydroelectric_1,2023,Small Hydroelectric,CASO,Water,.,.,.
+CASO_solar_photovoltaic_1,2023,Solar Photovoltaic,CASO,Solar,2851.4,.,0
+FRCC_batteries_1,2023,Batteries,FRCC,Electricity,19.8,39.6,0
+FRCC_biomass_1,2023,Biomass,FRCC,Waste_biomass,.,.,.
+FRCC_biomass_2,2023,Biomass,FRCC,Waste_biomass,.,.,.
+FRCC_conventional_hydroelectric_1,2023,Conventional Hydroelectric,FRCC,Water,.,.,.
+FRCC_conventional_steam_coal_1,2023,Conventional Steam Coal,FRCC,Coal,.,.,.
+FRCC_conventional_steam_coal_2,2023,Conventional Steam Coal,FRCC,Coal,.,.,.
+FRCC_nuclear_1,2023,Nuclear,FRCC,Uranium,.,.,.
+FRCC_petroleum_liquids_1,2023,Petroleum Liquids,FRCC,Distillate,.,.,.
+FRCC_solar_photovoltaic_1,2023,Solar Photovoltaic,FRCC,Solar,1201,.,0
+ISNE_batteries_1,2023,Batteries,ISNE,Electricity,43.1,86.7,0
+ISNE_biomass_1,2023,Biomass,ISNE,Waste_biomass,.,.,.
+ISNE_biomass_2,2023,Biomass,ISNE,Waste_biomass,.,.,.
+ISNE_conventional_hydroelectric_1,2023,Conventional Hydroelectric,ISNE,Water,4.6,.,0
+ISNE_conventional_steam_coal_2,2023,Conventional Steam Coal,ISNE,Coal,.,.,.
+ISNE_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,ISNE,Electricity,.,.,.
+ISNE_nuclear_1,2023,Nuclear,ISNE,Uranium,.,.,.
+ISNE_offshore_wind_turbine_1,2023,Offshore Wind Turbine,ISNE,Wind,.,.,.
+ISNE_onshore_wind_turbine_1,2023,Onshore Wind Turbine,ISNE,Wind,.,.,.
+ISNE_petroleum_liquids_1,2023,Petroleum Liquids,ISNE,Distillate,.,.,.
+ISNE_small_hydroelectric_1,2023,Small Hydroelectric,ISNE,Water,.,.,.
+ISNE_solar_photovoltaic_1,2023,Solar Photovoltaic,ISNE,Solar,167.3,.,0
+MISC_batteries_1,2023,Batteries,MISC,Electricity,.,.,.
+MISC_biomass_1,2023,Biomass,MISC,Waste_biomass,.,.,.
+MISC_biomass_2,2023,Biomass,MISC,Waste_biomass,.,.,.
+MISC_conventional_hydroelectric_1,2023,Conventional Hydroelectric,MISC,Water,.,.,.
+MISC_conventional_steam_coal_1,2023,Conventional Steam Coal,MISC,Coal,.,.,.
+MISC_conventional_steam_coal_2,2023,Conventional Steam Coal,MISC,Coal,.,.,.
+MISC_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,MISC,Electricity,.,.,.
+MISC_nuclear_1,2023,Nuclear,MISC,Uranium,.,.,.
+MISC_onshore_wind_turbine_1,2023,Onshore Wind Turbine,MISC,Wind,471,.,0
+MISC_petroleum_liquids_1,2023,Petroleum Liquids,MISC,Distillate,.,.,.
+MISC_small_hydroelectric_1,2023,Small Hydroelectric,MISC,Water,.,.,.
+MISC_solar_photovoltaic_1,2023,Solar Photovoltaic,MISC,Solar,448.1,.,0
+MISE_batteries_1,2023,Batteries,MISE,Electricity,.,.,.
+MISE_biomass_1,2023,Biomass,MISE,Waste_biomass,.,.,.
+MISE_biomass_2,2023,Biomass,MISE,Waste_biomass,.,.,.
+MISE_conventional_hydroelectric_1,2023,Conventional Hydroelectric,MISE,Water,.,.,.
+MISE_conventional_steam_coal_1,2023,Conventional Steam Coal,MISE,Coal,.,.,.
+MISE_conventional_steam_coal_2,2023,Conventional Steam Coal,MISE,Coal,.,.,.
+MISE_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,MISE,Electricity,.,.,.
+MISE_nuclear_1,2023,Nuclear,MISE,Uranium,.,.,.
+MISE_onshore_wind_turbine_1,2023,Onshore Wind Turbine,MISE,Wind,537.1,.,0
+MISE_petroleum_liquids_1,2023,Petroleum Liquids,MISE,Distillate,.,.,.
+MISE_small_hydroelectric_1,2023,Small Hydroelectric,MISE,Water,.,.,.
+MISE_solar_photovoltaic_1,2023,Solar Photovoltaic,MISE,Solar,212.5,.,0
+MISS_batteries_1,2023,Batteries,MISS,Electricity,.,.,.
+MISS_biomass_1,2023,Biomass,MISS,Waste_biomass,.,.,.
+MISS_biomass_2,2023,Biomass,MISS,Waste_biomass,.,.,.
+MISS_conventional_hydroelectric_1,2023,Conventional Hydroelectric,MISS,Water,.,.,.
+MISS_conventional_steam_coal_1,2023,Conventional Steam Coal,MISS,Coal,.,.,.
+MISS_conventional_steam_coal_2,2023,Conventional Steam Coal,MISS,Coal,.,.,.
+MISS_nuclear_1,2023,Nuclear,MISS,Uranium,.,.,.
+MISS_petroleum_liquids_1,2023,Petroleum Liquids,MISS,Distillate,.,.,.
+MISS_small_hydroelectric_1,2023,Small Hydroelectric,MISS,Water,.,.,.
+MISS_solar_photovoltaic_1,2023,Solar Photovoltaic,MISS,Solar,899,.,0
+MISW_batteries_1,2023,Batteries,MISW,Electricity,6,12,0
+MISW_biomass_1,2023,Biomass,MISW,Waste_biomass,.,.,.
+MISW_biomass_2,2023,Biomass,MISW,Waste_biomass,.,.,.
+MISW_conventional_hydroelectric_1,2023,Conventional Hydroelectric,MISW,Water,.,.,.
+MISW_conventional_steam_coal_1,2023,Conventional Steam Coal,MISW,Coal,.,.,.
+MISW_conventional_steam_coal_2,2023,Conventional Steam Coal,MISW,Coal,.,.,.
+MISW_nuclear_1,2023,Nuclear,MISW,Uranium,.,.,.
+MISW_onshore_wind_turbine_1,2023,Onshore Wind Turbine,MISW,Wind,927,.,0
+MISW_petroleum_liquids_1,2023,Petroleum Liquids,MISW,Distillate,1.8,.,0
+MISW_small_hydroelectric_1,2023,Small Hydroelectric,MISW,Water,.,.,.
+MISW_solar_photovoltaic_1,2023,Solar Photovoltaic,MISW,Solar,842.4,.,0
+NWPP_batteries_1,2023,Batteries,NWPP,Electricity,.,.,.
+NWPP_biomass_1,2023,Biomass,NWPP,Waste_biomass,.,.,.
+NWPP_biomass_2,2023,Biomass,NWPP,Waste_biomass,.,.,.
+NWPP_conventional_hydroelectric_1,2023,Conventional Hydroelectric,NWPP,Water,18,.,0
+NWPP_conventional_steam_coal_1,2023,Conventional Steam Coal,NWPP,Coal,.,.,.
+NWPP_conventional_steam_coal_2,2023,Conventional Steam Coal,NWPP,Coal,.,.,.
+NWPP_geothermal_1,2023,Geothermal,NWPP,Heat,.,.,.
+NWPP_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,NWPP,Electricity,.,.,.
+NWPP_nuclear_1,2023,Nuclear,NWPP,Uranium,.,.,.
+NWPP_onshore_wind_turbine_1,2023,Onshore Wind Turbine,NWPP,Wind,.,.,.
+NWPP_petroleum_liquids_1,2023,Petroleum Liquids,NWPP,Distillate,.,.,.
+NWPP_small_hydroelectric_1,2023,Small Hydroelectric,NWPP,Water,.,.,.
+NWPP_solar_photovoltaic_1,2023,Solar Photovoltaic,NWPP,Solar,527.8,.,0
+NYCW_batteries_1,2023,Batteries,NYCW,Electricity,7.5,15,0
+NYCW_biomass_1,2023,Biomass,NYCW,Waste_biomass,.,.,.
+NYCW_biomass_2,2023,Biomass,NYCW,Waste_biomass,.,.,.
+NYCW_petroleum_liquids_1,2023,Petroleum Liquids,NYCW,Distillate,2.5,.,0
+NYCW_solar_photovoltaic_1,2023,Solar Photovoltaic,NYCW,Solar,.,.,.
+NYUP_batteries_1,2023,Batteries,NYUP,Electricity,45,90,0
+NYUP_biomass_1,2023,Biomass,NYUP,Waste_biomass,.,.,.
+NYUP_biomass_2,2023,Biomass,NYUP,Waste_biomass,.,.,.
+NYUP_conventional_hydroelectric_1,2023,Conventional Hydroelectric,NYUP,Water,.,.,.
+NYUP_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,NYUP,Electricity,.,.,.
+NYUP_nuclear_1,2023,Nuclear,NYUP,Uranium,.,.,.
+NYUP_onshore_wind_turbine_1,2023,Onshore Wind Turbine,NYUP,Wind,556.5,.,0
+NYUP_petroleum_liquids_1,2023,Petroleum Liquids,NYUP,Distillate,.,.,.
+NYUP_small_hydroelectric_1,2023,Small Hydroelectric,NYUP,Water,.,.,.
+NYUP_solar_photovoltaic_1,2023,Solar Photovoltaic,NYUP,Solar,331.6,.,0
+PJMC_batteries_1,2023,Batteries,PJMC,Electricity,.,.,.
+PJMC_biomass_1,2023,Biomass,PJMC,Waste_biomass,.,.,.
+PJMC_biomass_2,2023,Biomass,PJMC,Waste_biomass,.,.,.
+PJMC_conventional_hydroelectric_1,2023,Conventional Hydroelectric,PJMC,Water,.,.,.
+PJMC_conventional_steam_coal_1,2023,Conventional Steam Coal,PJMC,Coal,.,.,.
+PJMC_conventional_steam_coal_2,2023,Conventional Steam Coal,PJMC,Coal,.,.,.
+PJMC_nuclear_1,2023,Nuclear,PJMC,Uranium,.,.,.
+PJMC_onshore_wind_turbine_1,2023,Onshore Wind Turbine,PJMC,Wind,368.1,.,0
+PJMC_petroleum_liquids_1,2023,Petroleum Liquids,PJMC,Distillate,.,.,.
+PJMC_small_hydroelectric_1,2023,Small Hydroelectric,PJMC,Water,.,.,.
+PJMC_solar_photovoltaic_1,2023,Solar Photovoltaic,PJMC,Solar,130.7,.,0
+PJMD_batteries_1,2023,Batteries,PJMD,Electricity,20,40,0
+PJMD_biomass_1,2023,Biomass,PJMD,Waste_biomass,.,.,.
+PJMD_biomass_2,2023,Biomass,PJMD,Waste_biomass,.,.,.
+PJMD_conventional_hydroelectric_1,2023,Conventional Hydroelectric,PJMD,Water,.,.,.
+PJMD_conventional_steam_coal_1,2023,Conventional Steam Coal,PJMD,Coal,.,.,.
+PJMD_conventional_steam_coal_2,2023,Conventional Steam Coal,PJMD,Coal,.,.,.
+PJMD_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,PJMD,Electricity,.,.,.
+PJMD_nuclear_1,2023,Nuclear,PJMD,Uranium,.,.,.
+PJMD_onshore_wind_turbine_1,2023,Onshore Wind Turbine,PJMD,Wind,.,.,.
+PJMD_petroleum_liquids_1,2023,Petroleum Liquids,PJMD,Distillate,.,.,.
+PJMD_small_hydroelectric_1,2023,Small Hydroelectric,PJMD,Water,.,.,.
+PJMD_solar_photovoltaic_1,2023,Solar Photovoltaic,PJMD,Solar,824.7,.,0
+PJME_batteries_1,2023,Batteries,PJME,Electricity,27,54,0
+PJME_biomass_1,2023,Biomass,PJME,Waste_biomass,.,.,.
+PJME_biomass_2,2023,Biomass,PJME,Waste_biomass,.,.,.
+PJME_conventional_hydroelectric_1,2023,Conventional Hydroelectric,PJME,Water,.,.,.
+PJME_conventional_steam_coal_1,2023,Conventional Steam Coal,PJME,Coal,.,.,.
+PJME_conventional_steam_coal_2,2023,Conventional Steam Coal,PJME,Coal,.,.,.
+PJME_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,PJME,Electricity,.,.,.
+PJME_nuclear_1,2023,Nuclear,PJME,Uranium,.,.,.
+PJME_onshore_wind_turbine_1,2023,Onshore Wind Turbine,PJME,Wind,.,.,.
+PJME_petroleum_liquids_1,2023,Petroleum Liquids,PJME,Distillate,24.3,.,0
+PJME_small_hydroelectric_1,2023,Small Hydroelectric,PJME,Water,.,.,.
+PJME_solar_photovoltaic_1,2023,Solar Photovoltaic,PJME,Solar,358,.,0
+PJMW_batteries_1,2023,Batteries,PJMW,Electricity,18,36,0
+PJMW_biomass_1,2023,Biomass,PJMW,Waste_biomass,.,.,.
+PJMW_biomass_2,2023,Biomass,PJMW,Waste_biomass,.,.,.
+PJMW_conventional_hydroelectric_1,2023,Conventional Hydroelectric,PJMW,Water,.,.,.
+PJMW_conventional_steam_coal_1,2023,Conventional Steam Coal,PJMW,Coal,.,.,.
+PJMW_conventional_steam_coal_2,2023,Conventional Steam Coal,PJMW,Coal,.,.,.
+PJMW_conventional_steam_coal_3,2023,Conventional Steam Coal,PJMW,Coal,.,.,.
+PJMW_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,PJMW,Electricity,.,.,.
+PJMW_nuclear_1,2023,Nuclear,PJMW,Uranium,.,.,.
+PJMW_onshore_wind_turbine_1,2023,Onshore Wind Turbine,PJMW,Wind,92.1,.,0
+PJMW_petroleum_liquids_1,2023,Petroleum Liquids,PJMW,Distillate,10.8,.,0
+PJMW_small_hydroelectric_1,2023,Small Hydroelectric,PJMW,Water,6.3,.,0
+PJMW_solar_photovoltaic_1,2023,Solar Photovoltaic,PJMW,Solar,1199.9,.,0
+RMRG_batteries_1,2023,Batteries,RMRG,Electricity,230,335,0
+RMRG_biomass_1,2023,Biomass,RMRG,Waste_biomass,.,.,.
+RMRG_biomass_2,2023,Biomass,RMRG,Waste_biomass,.,.,.
+RMRG_conventional_hydroelectric_1,2023,Conventional Hydroelectric,RMRG,Water,.,.,.
+RMRG_conventional_steam_coal_1,2023,Conventional Steam Coal,RMRG,Coal,.,.,.
+RMRG_conventional_steam_coal_2,2023,Conventional Steam Coal,RMRG,Coal,.,.,.
+RMRG_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,RMRG,Electricity,.,.,.
+RMRG_onshore_wind_turbine_1,2023,Onshore Wind Turbine,RMRG,Wind,.,.,.
+RMRG_petroleum_liquids_1,2023,Petroleum Liquids,RMRG,Distillate,.,.,.
+RMRG_small_hydroelectric_1,2023,Small Hydroelectric,RMRG,Water,.,.,.
+RMRG_solar_photovoltaic_1,2023,Solar Photovoltaic,RMRG,Solar,921,.,0
+SPPC_batteries_1,2023,Batteries,SPPC,Electricity,.,.,.
+SPPC_biomass_1,2023,Biomass,SPPC,Waste_biomass,.,.,.
+SPPC_biomass_2,2023,Biomass,SPPC,Waste_biomass,.,.,.
+SPPC_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SPPC,Water,.,.,.
+SPPC_conventional_steam_coal_1,2023,Conventional Steam Coal,SPPC,Coal,.,.,.
+SPPC_conventional_steam_coal_2,2023,Conventional Steam Coal,SPPC,Coal,.,.,.
+SPPC_nuclear_1,2023,Nuclear,SPPC,Uranium,.,.,.
+SPPC_onshore_wind_turbine_1,2023,Onshore Wind Turbine,SPPC,Wind,200,.,0
+SPPC_petroleum_liquids_1,2023,Petroleum Liquids,SPPC,Distillate,3,.,0
+SPPC_small_hydroelectric_1,2023,Small Hydroelectric,SPPC,Water,.,.,.
+SPPC_solar_photovoltaic_1,2023,Solar Photovoltaic,SPPC,Solar,12,.,0
+SPPN_batteries_1,2023,Batteries,SPPN,Electricity,.,.,.
+SPPN_biomass_1,2023,Biomass,SPPN,Waste_biomass,.,.,.
+SPPN_biomass_2,2023,Biomass,SPPN,Waste_biomass,.,.,.
+SPPN_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SPPN,Water,.,.,.
+SPPN_conventional_steam_coal_1,2023,Conventional Steam Coal,SPPN,Coal,.,.,.
+SPPN_conventional_steam_coal_2,2023,Conventional Steam Coal,SPPN,Coal,.,.,.
+SPPN_nuclear_1,2023,Nuclear,SPPN,Uranium,.,.,.
+SPPN_onshore_wind_turbine_1,2023,Onshore Wind Turbine,SPPN,Wind,804,.,0
+SPPN_petroleum_liquids_1,2023,Petroleum Liquids,SPPN,Distillate,.,.,.
+SPPN_small_hydroelectric_1,2023,Small Hydroelectric,SPPN,Water,.,.,.
+SPPN_solar_photovoltaic_1,2023,Solar Photovoltaic,SPPN,Solar,81,.,0
+SPPS_batteries_1,2023,Batteries,SPPS,Electricity,.,.,.
+SPPS_biomass_1,2023,Biomass,SPPS,Waste_biomass,.,.,.
+SPPS_biomass_2,2023,Biomass,SPPS,Waste_biomass,.,.,.
+SPPS_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SPPS,Water,.,.,.
+SPPS_conventional_steam_coal_1,2023,Conventional Steam Coal,SPPS,Coal,.,.,.
+SPPS_conventional_steam_coal_2,2023,Conventional Steam Coal,SPPS,Coal,.,.,.
+SPPS_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,SPPS,Electricity,.,.,.
+SPPS_onshore_wind_turbine_1,2023,Onshore Wind Turbine,SPPS,Wind,1319.7,.,0
+SPPS_petroleum_liquids_1,2023,Petroleum Liquids,SPPS,Distillate,3,.,0
+SPPS_small_hydroelectric_1,2023,Small Hydroelectric,SPPS,Water,.,.,.
+SPPS_solar_photovoltaic_1,2023,Solar Photovoltaic,SPPS,Solar,50,.,0
+SRCA_batteries_1,2023,Batteries,SRCA,Electricity,130.8,261.6,0
+SRCA_biomass_1,2023,Biomass,SRCA,Waste_biomass,.,.,.
+SRCA_biomass_2,2023,Biomass,SRCA,Waste_biomass,.,.,.
+SRCA_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SRCA,Water,.,.,.
+SRCA_conventional_steam_coal_1,2023,Conventional Steam Coal,SRCA,Coal,.,.,.
+SRCA_conventional_steam_coal_2,2023,Conventional Steam Coal,SRCA,Coal,.,.,.
+SRCA_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,SRCA,Electricity,.,.,.
+SRCA_nuclear_1,2023,Nuclear,SRCA,Uranium,.,.,.
+SRCA_petroleum_liquids_1,2023,Petroleum Liquids,SRCA,Distillate,.,.,.
+SRCA_small_hydroelectric_1,2023,Small Hydroelectric,SRCA,Water,.,.,.
+SRCA_solar_photovoltaic_1,2023,Solar Photovoltaic,SRCA,Solar,650.8,.,0
+SRCE_batteries_1,2023,Batteries,SRCE,Electricity,121.3,242.6,0
+SRCE_biomass_1,2023,Biomass,SRCE,Waste_biomass,.,.,.
+SRCE_biomass_2,2023,Biomass,SRCE,Waste_biomass,.,.,.
+SRCE_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SRCE,Water,.,.,.
+SRCE_conventional_steam_coal_1,2023,Conventional Steam Coal,SRCE,Coal,.,.,.
+SRCE_conventional_steam_coal_2,2023,Conventional Steam Coal,SRCE,Coal,.,.,.
+SRCE_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,SRCE,Electricity,.,.,.
+SRCE_nuclear_1,2023,Nuclear,SRCE,Uranium,.,.,.
+SRCE_onshore_wind_turbine_1,2023,Onshore Wind Turbine,SRCE,Wind,.,.,.
+SRCE_petroleum_liquids_1,2023,Petroleum Liquids,SRCE,Distillate,.,.,.
+SRCE_small_hydroelectric_1,2023,Small Hydroelectric,SRCE,Water,.,.,.
+SRCE_solar_photovoltaic_1,2023,Solar Photovoltaic,SRCE,Solar,711.3,.,0
+SRSE_batteries_1,2023,Batteries,SRSE,Electricity,.,.,.
+SRSE_biomass_1,2023,Biomass,SRSE,Waste_biomass,28.8,.,0
+SRSE_biomass_2,2023,Biomass,SRSE,Waste_biomass,.,.,.
+SRSE_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SRSE,Water,.,.,.
+SRSE_conventional_steam_coal_1,2023,Conventional Steam Coal,SRSE,Coal,.,.,.
+SRSE_conventional_steam_coal_2,2023,Conventional Steam Coal,SRSE,Coal,.,.,.
+SRSE_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,SRSE,Electricity,.,.,.
+SRSE_nuclear_1,2023,Nuclear,SRSE,Uranium,1114,.,0
+SRSE_petroleum_liquids_1,2023,Petroleum Liquids,SRSE,Distillate,.,.,.
+SRSE_small_hydroelectric_1,2023,Small Hydroelectric,SRSE,Water,.,.,.
+SRSE_solar_photovoltaic_1,2023,Solar Photovoltaic,SRSE,Solar,1605.2,.,0
+SRSG_batteries_1,2023,Batteries,SRSG,Electricity,1320,2640,0
+SRSG_biomass_1,2023,Biomass,SRSG,Waste_biomass,.,.,.
+SRSG_biomass_2,2023,Biomass,SRSG,Waste_biomass,.,.,.
+SRSG_conventional_hydroelectric_1,2023,Conventional Hydroelectric,SRSG,Water,.,.,.
+SRSG_conventional_steam_coal_1,2023,Conventional Steam Coal,SRSG,Coal,.,.,.
+SRSG_conventional_steam_coal_2,2023,Conventional Steam Coal,SRSG,Coal,.,.,.
+SRSG_geothermal_1,2023,Geothermal,SRSG,Heat,.,.,.
+SRSG_hydroelectric_pumped_storage_1,2023,Hydroelectric Pumped Storage,SRSG,Electricity,.,.,.
+SRSG_nuclear_1,2023,Nuclear,SRSG,Uranium,.,.,.
+SRSG_onshore_wind_turbine_1,2023,Onshore Wind Turbine,SRSG,Wind,238.2,.,0
+SRSG_petroleum_liquids_1,2023,Petroleum Liquids,SRSG,Distillate,.,.,.
+SRSG_small_hydroelectric_1,2023,Small Hydroelectric,SRSG,Water,.,.,.
+SRSG_solar_photovoltaic_1,2023,Solar Photovoltaic,SRSG,Solar,1540.3,.,0
+TRE_batteries_1,2023,Batteries,TRE,Electricity,1130.8,2051.7,0
+TRE_biomass_1,2023,Biomass,TRE,Waste_biomass,.,.,.
+TRE_biomass_2,2023,Biomass,TRE,Waste_biomass,.,.,.
+TRE_conventional_hydroelectric_1,2023,Conventional Hydroelectric,TRE,Water,.,.,.
+TRE_conventional_steam_coal_1,2023,Conventional Steam Coal,TRE,Coal,.,.,.
+TRE_conventional_steam_coal_2,2023,Conventional Steam Coal,TRE,Coal,.,.,.
+TRE_nuclear_1,2023,Nuclear,TRE,Uranium,.,.,.
+TRE_onshore_wind_turbine_1,2023,Onshore Wind Turbine,TRE,Wind,900.6,.,0
+TRE_petroleum_liquids_1,2023,Petroleum Liquids,TRE,Distillate,.,.,.
+TRE_small_hydroelectric_1,2023,Small Hydroelectric,TRE,Water,.,.,.
+TRE_solar_photovoltaic_1,2023,Solar Photovoltaic,TRE,Solar,3987.8,.,0
+TREW_batteries_1,2023,Batteries,TREW,Electricity,913.8,1797.9,0
+TREW_onshore_wind_turbine_1,2023,Onshore Wind Turbine,TREW,Wind,1300.1,.,0
+TREW_petroleum_liquids_1,2023,Petroleum Liquids,TREW,Distillate,.,.,.
+TREW_solar_photovoltaic_1,2023,Solar Photovoltaic,TREW,Solar,1474.6,.,0
+BASN_distributed_generation_1,2023,distributed_generation,BASN,Solar,859,.,0
+CANO_distributed_generation_1,2023,distributed_generation,CANO,Solar,3582,.,0
+CASO_distributed_generation_1,2023,distributed_generation,CASO,Solar,5574,.,0
+FRCC_distributed_generation_1,2023,distributed_generation,FRCC,Solar,1322,.,0
+ISNE_distributed_generation_1,2023,distributed_generation,ISNE,Solar,3528,.,0
+MISC_distributed_generation_1,2023,distributed_generation,MISC,Solar,355,.,0
+MISE_distributed_generation_1,2023,distributed_generation,MISE,Solar,223,.,0
+MISS_distributed_generation_1,2023,distributed_generation,MISS,Solar,948,.,0
+MISW_distributed_generation_1,2023,distributed_generation,MISW,Solar,1019,.,0
+NWPP_distributed_generation_1,2023,distributed_generation,NWPP,Solar,697,.,0
+NYCW_distributed_generation_1,2023,distributed_generation,NYCW,Solar,849,.,0
+NYUP_distributed_generation_1,2023,distributed_generation,NYUP,Solar,630,.,0
+PJMC_distributed_generation_1,2023,distributed_generation,PJMC,Solar,316,.,0
+PJMD_distributed_generation_1,2023,distributed_generation,PJMD,Solar,363,.,0
+PJME_distributed_generation_1,2023,distributed_generation,PJME,Solar,4500,.,0
+PJMW_distributed_generation_1,2023,distributed_generation,PJMW,Solar,798,.,0
+RMRG_distributed_generation_1,2023,distributed_generation,RMRG,Solar,756,.,0
+SPPC_distributed_generation_1,2023,distributed_generation,SPPC,Solar,137,.,0
+SPPN_distributed_generation_1,2023,distributed_generation,SPPN,Solar,137,.,0
+SPPS_distributed_generation_1,2023,distributed_generation,SPPS,Solar,299,.,0
+SRCA_distributed_generation_1,2023,distributed_generation,SRCA,Solar,1361,.,0
+SRCE_distributed_generation_1,2023,distributed_generation,SRCE,Solar,186,.,0
+SRSE_distributed_generation_1,2023,distributed_generation,SRSE,Solar,166,.,0
+SRSG_distributed_generation_1,2023,distributed_generation,SRSG,Solar,1435,.,0
+TRE_distributed_generation_1,2023,distributed_generation,TRE,Solar,1196,.,0
+TREW_distributed_generation_1,2023,distributed_generation,TREW,Solar,65,.,0

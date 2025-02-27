@@ -1,0 +1,3529 @@
+gas_zone,storage_type,timeseries,StorageInjections,StorageWithdrawals,StorageNetWithdrawals,StorageQuantity
+AL,aquifer,20230103,0,0,0,0
+AL,aquifer,20230130,0,0,0,0
+AL,aquifer,20230213,0,0,0,0
+AL,aquifer,20230216,0,0,0,0
+AL,aquifer,20230306,0,0,0,0
+AL,aquifer,20230315,0,0,0,0
+AL,aquifer,20230403,0,0,0,0
+AL,aquifer,20230410,0,0,0,0
+AL,aquifer,20230530,0,0,0,0
+AL,aquifer,20230517,0,0,0,0
+AL,aquifer,20230630,0,0,0,0
+AL,aquifer,20230615,0,0,0,0
+AL,aquifer,20230727,0,0,0,0
+AL,aquifer,20230710,0,0,0,0
+AL,aquifer,20230803,0,0,0,0
+AL,aquifer,20230831,0,0,0,0
+AL,aquifer,20230906,0,0,0,0
+AL,aquifer,20230912,0,0,0,0
+AL,aquifer,20231005,0,0,0,0
+AL,aquifer,20231020,0,0,0,0
+AL,aquifer,20231129,0,0,0,0
+AL,aquifer,20231121,0,0,0,0
+AL,aquifer,20231228,0,0,0,0
+AL,aquifer,20231218,0,0,0,0
+AL,depleted field,20230103,0,0,0,0
+AL,depleted field,20230130,0,0,0,0
+AL,depleted field,20230213,0,0,0,0
+AL,depleted field,20230216,0,0,0,0
+AL,depleted field,20230306,0,0,0,0
+AL,depleted field,20230315,0,0,0,0
+AL,depleted field,20230403,0,0,0,0
+AL,depleted field,20230410,0,0,0,0
+AL,depleted field,20230530,579713,0,-579713,579713
+AL,depleted field,20230517,375116,0,-375116,1.16144e+07
+AL,depleted field,20230630,0,0,0,1.16144e+07
+AL,depleted field,20230615,0,0,0,1.16144e+07
+AL,depleted field,20230727,0,0,0,1.16144e+07
+AL,depleted field,20230710,0,0,0,1.16144e+07
+AL,depleted field,20230803,0,0,0,1.16144e+07
+AL,depleted field,20230831,0,0,0,1.16144e+07
+AL,depleted field,20230906,0,0,0,1.16144e+07
+AL,depleted field,20230912,0,0,0,1.16144e+07
+AL,depleted field,20231005,0,0,0,1.16144e+07
+AL,depleted field,20231020,0,0,0,1.16144e+07
+AL,depleted field,20231129,0,0,0,1.16144e+07
+AL,depleted field,20231121,0,394823,394823,0
+AL,depleted field,20231228,0,0,0,0
+AL,depleted field,20231218,0,0,0,0
+AL,salt cavern,20230103,0,0,0,0
+AL,salt cavern,20230130,0,0,0,0
+AL,salt cavern,20230213,0,0,0,0
+AL,salt cavern,20230216,0,0,0,0
+AL,salt cavern,20230306,0,0,0,0
+AL,salt cavern,20230315,0,0,0,0
+AL,salt cavern,20230403,0,0,0,0
+AL,salt cavern,20230410,0,0,0,0
+AL,salt cavern,20230530,0,0,0,0
+AL,salt cavern,20230517,211319,0,-211319,6.2163e+06
+AL,salt cavern,20230630,0,0,0,6.2163e+06
+AL,salt cavern,20230615,562465,0,-562465,2.27622e+07
+AL,salt cavern,20230727,0,0,0,2.27622e+07
+AL,salt cavern,20230710,0,0,0,2.27622e+07
+AL,salt cavern,20230803,0,0,0,2.27622e+07
+AL,salt cavern,20230831,0,0,0,2.27622e+07
+AL,salt cavern,20230906,0,0,0,2.27622e+07
+AL,salt cavern,20230912,0,0,0,2.27622e+07
+AL,salt cavern,20231005,0,1.37708e+06,1.37708e+06,2.13851e+07
+AL,salt cavern,20231020,0,401668,401668,9.5693e+06
+AL,salt cavern,20231129,0,4.74425e+06,4.74425e+06,4.82506e+06
+AL,salt cavern,20231121,0,164024,164024,0
+AL,salt cavern,20231228,0,0,0,0
+AL,salt cavern,20231218,0,0,0,0
+AR,aquifer,20230103,0,0,0,0
+AR,aquifer,20230130,0,0,0,0
+AR,aquifer,20230213,0,0,0,0
+AR,aquifer,20230216,0,0,0,0
+AR,aquifer,20230306,0,0,0,0
+AR,aquifer,20230315,0,0,0,0
+AR,aquifer,20230403,0,0,0,0
+AR,aquifer,20230410,0,0,0,0
+AR,aquifer,20230530,0,0,0,0
+AR,aquifer,20230517,0,0,0,0
+AR,aquifer,20230630,0,0,0,0
+AR,aquifer,20230615,0,0,0,0
+AR,aquifer,20230727,0,0,0,0
+AR,aquifer,20230710,0,0,0,0
+AR,aquifer,20230803,0,0,0,0
+AR,aquifer,20230831,0,0,0,0
+AR,aquifer,20230906,0,0,0,0
+AR,aquifer,20230912,0,0,0,0
+AR,aquifer,20231005,0,0,0,0
+AR,aquifer,20231020,0,0,0,0
+AR,aquifer,20231129,0,0,0,0
+AR,aquifer,20231121,0,0,0,0
+AR,aquifer,20231228,0,0,0,0
+AR,aquifer,20231218,0,0,0,0
+AR,depleted field,20230103,0,0,0,0
+AR,depleted field,20230130,0,0,0,0
+AR,depleted field,20230213,0,0,0,0
+AR,depleted field,20230216,0,0,0,0
+AR,depleted field,20230306,0,0,0,0
+AR,depleted field,20230315,0,0,0,0
+AR,depleted field,20230403,0,0,0,0
+AR,depleted field,20230410,0,0,0,0
+AR,depleted field,20230530,0,0,0,0
+AR,depleted field,20230517,0,0,0,0
+AR,depleted field,20230630,0,0,0,0
+AR,depleted field,20230615,0,0,0,0
+AR,depleted field,20230727,1.2154e+06,0,-1.2154e+06,1.2154e+06
+AR,depleted field,20230710,83205.1,0,-83205.1,3.66302e+06
+AR,depleted field,20230803,1.00619e+06,0,-1.00619e+06,4.66921e+06
+AR,depleted field,20230831,154806,0,-154806,9.22308e+06
+AR,depleted field,20230906,0,0,0,9.22308e+06
+AR,depleted field,20230912,0,0,0,9.22308e+06
+AR,depleted field,20231005,0,0,0,9.22308e+06
+AR,depleted field,20231020,0,313532,313532,0
+AR,depleted field,20231129,0,0,0,0
+AR,depleted field,20231121,0,0,0,0
+AR,depleted field,20231228,0,0,0,0
+AR,depleted field,20231218,0,0,0,0
+AR,salt cavern,20230103,0,0,0,0
+AR,salt cavern,20230130,0,0,0,0
+AR,salt cavern,20230213,0,0,0,0
+AR,salt cavern,20230216,0,0,0,0
+AR,salt cavern,20230306,0,0,0,0
+AR,salt cavern,20230315,0,0,0,0
+AR,salt cavern,20230403,0,0,0,0
+AR,salt cavern,20230410,0,0,0,0
+AR,salt cavern,20230530,0,0,0,0
+AR,salt cavern,20230517,0,0,0,0
+AR,salt cavern,20230630,0,0,0,0
+AR,salt cavern,20230615,0,0,0,0
+AR,salt cavern,20230727,0,0,0,0
+AR,salt cavern,20230710,0,0,0,0
+AR,salt cavern,20230803,0,0,0,0
+AR,salt cavern,20230831,0,0,0,0
+AR,salt cavern,20230906,0,0,0,0
+AR,salt cavern,20230912,0,0,0,0
+AR,salt cavern,20231005,0,0,0,0
+AR,salt cavern,20231020,0,0,0,0
+AR,salt cavern,20231129,0,0,0,0
+AR,salt cavern,20231121,0,0,0,0
+AR,salt cavern,20231228,0,0,0,0
+AR,salt cavern,20231218,0,0,0,0
+AZ,aquifer,20230103,0,0,0,0
+AZ,aquifer,20230130,0,0,0,0
+AZ,aquifer,20230213,0,0,0,0
+AZ,aquifer,20230216,0,0,0,0
+AZ,aquifer,20230306,0,0,0,0
+AZ,aquifer,20230315,0,0,0,0
+AZ,aquifer,20230403,0,0,0,0
+AZ,aquifer,20230410,0,0,0,0
+AZ,aquifer,20230530,0,0,0,0
+AZ,aquifer,20230517,0,0,0,0
+AZ,aquifer,20230630,0,0,0,0
+AZ,aquifer,20230615,0,0,0,0
+AZ,aquifer,20230727,0,0,0,0
+AZ,aquifer,20230710,0,0,0,0
+AZ,aquifer,20230803,0,0,0,0
+AZ,aquifer,20230831,0,0,0,0
+AZ,aquifer,20230906,0,0,0,0
+AZ,aquifer,20230912,0,0,0,0
+AZ,aquifer,20231005,0,0,0,0
+AZ,aquifer,20231020,0,0,0,0
+AZ,aquifer,20231129,0,0,0,0
+AZ,aquifer,20231121,0,0,0,0
+AZ,aquifer,20231228,0,0,0,0
+AZ,aquifer,20231218,0,0,0,0
+AZ,depleted field,20230103,0,0,0,0
+AZ,depleted field,20230130,0,0,0,0
+AZ,depleted field,20230213,0,0,0,0
+AZ,depleted field,20230216,0,0,0,0
+AZ,depleted field,20230306,0,0,0,0
+AZ,depleted field,20230315,0,0,0,0
+AZ,depleted field,20230403,0,0,0,0
+AZ,depleted field,20230410,0,0,0,0
+AZ,depleted field,20230530,0,0,0,0
+AZ,depleted field,20230517,0,0,0,0
+AZ,depleted field,20230630,0,0,0,0
+AZ,depleted field,20230615,0,0,0,0
+AZ,depleted field,20230727,0,0,0,0
+AZ,depleted field,20230710,0,0,0,0
+AZ,depleted field,20230803,0,0,0,0
+AZ,depleted field,20230831,0,0,0,0
+AZ,depleted field,20230906,0,0,0,0
+AZ,depleted field,20230912,0,0,0,0
+AZ,depleted field,20231005,0,0,0,0
+AZ,depleted field,20231020,0,0,0,0
+AZ,depleted field,20231129,0,0,0,0
+AZ,depleted field,20231121,0,0,0,0
+AZ,depleted field,20231228,0,0,0,0
+AZ,depleted field,20231218,0,0,0,0
+AZ,salt cavern,20230103,0,0,0,0
+AZ,salt cavern,20230130,0,0,0,0
+AZ,salt cavern,20230213,0,0,0,0
+AZ,salt cavern,20230216,0,0,0,0
+AZ,salt cavern,20230306,0,0,0,0
+AZ,salt cavern,20230315,0,0,0,0
+AZ,salt cavern,20230403,0,0,0,0
+AZ,salt cavern,20230410,0,0,0,0
+AZ,salt cavern,20230530,0,0,0,0
+AZ,salt cavern,20230517,0,0,0,0
+AZ,salt cavern,20230630,0,0,0,0
+AZ,salt cavern,20230615,0,0,0,0
+AZ,salt cavern,20230727,0,0,0,0
+AZ,salt cavern,20230710,0,0,0,0
+AZ,salt cavern,20230803,0,0,0,0
+AZ,salt cavern,20230831,0,0,0,0
+AZ,salt cavern,20230906,0,0,0,0
+AZ,salt cavern,20230912,0,0,0,0
+AZ,salt cavern,20231005,0,0,0,0
+AZ,salt cavern,20231020,0,0,0,0
+AZ,salt cavern,20231129,0,0,0,0
+AZ,salt cavern,20231121,0,0,0,0
+AZ,salt cavern,20231228,0,0,0,0
+AZ,salt cavern,20231218,0,0,0,0
+CA,aquifer,20230103,0,0,0,0
+CA,aquifer,20230130,0,0,0,0
+CA,aquifer,20230213,0,0,0,0
+CA,aquifer,20230216,0,0,0,0
+CA,aquifer,20230306,0,0,0,0
+CA,aquifer,20230315,0,0,0,0
+CA,aquifer,20230403,0,0,0,0
+CA,aquifer,20230410,0,0,0,0
+CA,aquifer,20230530,0,0,0,0
+CA,aquifer,20230517,0,0,0,0
+CA,aquifer,20230630,0,0,0,0
+CA,aquifer,20230615,0,0,0,0
+CA,aquifer,20230727,0,0,0,0
+CA,aquifer,20230710,0,0,0,0
+CA,aquifer,20230803,0,0,0,0
+CA,aquifer,20230831,0,0,0,0
+CA,aquifer,20230906,0,0,0,0
+CA,aquifer,20230912,0,0,0,0
+CA,aquifer,20231005,0,0,0,0
+CA,aquifer,20231020,0,0,0,0
+CA,aquifer,20231129,0,0,0,0
+CA,aquifer,20231121,0,0,0,0
+CA,aquifer,20231228,0,0,0,0
+CA,aquifer,20231218,0,0,0,0
+CA,depleted field,20230103,0,1.87924e+06,1.87924e+06,2.54172e+08
+CA,depleted field,20230130,0,3.69487e+06,3.69487e+06,1.45481e+08
+CA,depleted field,20230213,0,697170,697170,1.44784e+08
+CA,depleted field,20230216,0,2.57944e+06,2.57944e+06,6.8905e+07
+CA,depleted field,20230306,0,0,0,6.8905e+07
+CA,depleted field,20230315,0,0,0,6.8905e+07
+CA,depleted field,20230403,0,0,0,6.8905e+07
+CA,depleted field,20230410,0,0,0,6.8905e+07
+CA,depleted field,20230530,2.52314e+06,0,-2.52314e+06,7.14281e+07
+CA,depleted field,20230517,1.37113e+06,0,-1.37113e+06,1.11762e+08
+CA,depleted field,20230630,90456.8,0,-90456.8,1.11853e+08
+CA,depleted field,20230615,388015,0,-388015,1.23267e+08
+CA,depleted field,20230727,4.95993e+06,0,-4.95993e+06,1.28227e+08
+CA,depleted field,20230710,1.63408e+06,0,-1.63408e+06,1.76296e+08
+CA,depleted field,20230803,4.91429e+06,0,-4.91429e+06,1.8121e+08
+CA,depleted field,20230831,5.07305e+06,0,-5.07305e+06,3.30443e+08
+CA,depleted field,20230906,4.37132e+06,0,-4.37132e+06,3.34814e+08
+CA,depleted field,20230912,0,0,0,3.34814e+08
+CA,depleted field,20231005,0,0,0,3.34814e+08
+CA,depleted field,20231020,0,0,0,3.34814e+08
+CA,depleted field,20231129,0,2.42751e+06,2.42751e+06,3.32387e+08
+CA,depleted field,20231121,0,1.85986e+06,1.85986e+06,2.77676e+08
+CA,depleted field,20231228,0,751938,751938,2.76924e+08
+CA,depleted field,20231218,0,709561,709561,2.56051e+08
+CA,salt cavern,20230103,0,0,0,0
+CA,salt cavern,20230130,0,0,0,0
+CA,salt cavern,20230213,0,0,0,0
+CA,salt cavern,20230216,0,0,0,0
+CA,salt cavern,20230306,0,0,0,0
+CA,salt cavern,20230315,0,0,0,0
+CA,salt cavern,20230403,0,0,0,0
+CA,salt cavern,20230410,0,0,0,0
+CA,salt cavern,20230530,0,0,0,0
+CA,salt cavern,20230517,0,0,0,0
+CA,salt cavern,20230630,0,0,0,0
+CA,salt cavern,20230615,0,0,0,0
+CA,salt cavern,20230727,0,0,0,0
+CA,salt cavern,20230710,0,0,0,0
+CA,salt cavern,20230803,0,0,0,0
+CA,salt cavern,20230831,0,0,0,0
+CA,salt cavern,20230906,0,0,0,0
+CA,salt cavern,20230912,0,0,0,0
+CA,salt cavern,20231005,0,0,0,0
+CA,salt cavern,20231020,0,0,0,0
+CA,salt cavern,20231129,0,0,0,0
+CA,salt cavern,20231121,0,0,0,0
+CA,salt cavern,20231228,0,0,0,0
+CA,salt cavern,20231218,0,0,0,0
+CO,aquifer,20230103,0,0,0,0
+CO,aquifer,20230130,0,0,0,0
+CO,aquifer,20230213,0,0,0,0
+CO,aquifer,20230216,0,0,0,0
+CO,aquifer,20230306,0,0,0,0
+CO,aquifer,20230315,0,0,0,0
+CO,aquifer,20230403,0,0,0,0
+CO,aquifer,20230410,0,0,0,0
+CO,aquifer,20230530,0,0,0,0
+CO,aquifer,20230517,0,0,0,0
+CO,aquifer,20230630,0,0,0,0
+CO,aquifer,20230615,0,0,0,0
+CO,aquifer,20230727,0,0,0,0
+CO,aquifer,20230710,0,0,0,0
+CO,aquifer,20230803,0,0,0,0
+CO,aquifer,20230831,0,0,0,0
+CO,aquifer,20230906,0,0,0,0
+CO,aquifer,20230912,0,0,0,0
+CO,aquifer,20231005,0,0,0,0
+CO,aquifer,20231020,0,0,0,0
+CO,aquifer,20231129,0,0,0,0
+CO,aquifer,20231121,0,0,0,0
+CO,aquifer,20231228,0,0,0,0
+CO,aquifer,20231218,0,0,0,0
+CO,depleted field,20230103,0,0,0,2.92952e+06
+CO,depleted field,20230130,0,99587,99587,0
+CO,depleted field,20230213,0,0,0,0
+CO,depleted field,20230216,0,0,0,0
+CO,depleted field,20230306,0,0,0,0
+CO,depleted field,20230315,0,0,0,0
+CO,depleted field,20230403,0,0,0,0
+CO,depleted field,20230410,0,0,0,0
+CO,depleted field,20230530,0,0,0,0
+CO,depleted field,20230517,0,0,0,0
+CO,depleted field,20230630,2.20509e+06,0,-2.20509e+06,2.20509e+06
+CO,depleted field,20230615,2.16999e+06,0,-2.16999e+06,6.6039e+07
+CO,depleted field,20230727,0,0,0,6.6039e+07
+CO,depleted field,20230710,327008,0,-327008,7.56585e+07
+CO,depleted field,20230803,0,0,0,7.56585e+07
+CO,depleted field,20230831,-2.53277e-10,0,2.53277e-10,7.56585e+07
+CO,depleted field,20230906,0,0,0,7.56585e+07
+CO,depleted field,20230912,0,0,0,7.56585e+07
+CO,depleted field,20231005,0,0,0,7.56585e+07
+CO,depleted field,20231020,0,489815,489815,6.12497e+07
+CO,depleted field,20231129,0,1.17191e+06,1.17191e+06,6.00778e+07
+CO,depleted field,20231121,0,1.83625e+06,1.83625e+06,6.0614e+06
+CO,depleted field,20231228,0,2.73534e+06,2.73534e+06,3.32606e+06
+CO,depleted field,20231218,0,13479.9,13479.9,2.92952e+06
+CO,salt cavern,20230103,0,0,0,0
+CO,salt cavern,20230130,0,0,0,0
+CO,salt cavern,20230213,0,0,0,0
+CO,salt cavern,20230216,0,0,0,0
+CO,salt cavern,20230306,0,0,0,0
+CO,salt cavern,20230315,0,0,0,0
+CO,salt cavern,20230403,0,0,0,0
+CO,salt cavern,20230410,0,0,0,0
+CO,salt cavern,20230530,0,0,0,0
+CO,salt cavern,20230517,0,0,0,0
+CO,salt cavern,20230630,0,0,0,0
+CO,salt cavern,20230615,0,0,0,0
+CO,salt cavern,20230727,0,0,0,0
+CO,salt cavern,20230710,0,0,0,0
+CO,salt cavern,20230803,0,0,0,0
+CO,salt cavern,20230831,0,0,0,0
+CO,salt cavern,20230906,0,0,0,0
+CO,salt cavern,20230912,0,0,0,0
+CO,salt cavern,20231005,0,0,0,0
+CO,salt cavern,20231020,0,0,0,0
+CO,salt cavern,20231129,0,0,0,0
+CO,salt cavern,20231121,0,0,0,0
+CO,salt cavern,20231228,0,0,0,0
+CO,salt cavern,20231218,0,0,0,0
+CT,aquifer,20230103,0,0,0,0
+CT,aquifer,20230130,0,0,0,0
+CT,aquifer,20230213,0,0,0,0
+CT,aquifer,20230216,0,0,0,0
+CT,aquifer,20230306,0,0,0,0
+CT,aquifer,20230315,0,0,0,0
+CT,aquifer,20230403,0,0,0,0
+CT,aquifer,20230410,0,0,0,0
+CT,aquifer,20230530,0,0,0,0
+CT,aquifer,20230517,0,0,0,0
+CT,aquifer,20230630,0,0,0,0
+CT,aquifer,20230615,0,0,0,0
+CT,aquifer,20230727,0,0,0,0
+CT,aquifer,20230710,0,0,0,0
+CT,aquifer,20230803,0,0,0,0
+CT,aquifer,20230831,0,0,0,0
+CT,aquifer,20230906,0,0,0,0
+CT,aquifer,20230912,0,0,0,0
+CT,aquifer,20231005,0,0,0,0
+CT,aquifer,20231020,0,0,0,0
+CT,aquifer,20231129,0,0,0,0
+CT,aquifer,20231121,0,0,0,0
+CT,aquifer,20231228,0,0,0,0
+CT,aquifer,20231218,0,0,0,0
+CT,depleted field,20230103,0,0,0,0
+CT,depleted field,20230130,0,0,0,0
+CT,depleted field,20230213,0,0,0,0
+CT,depleted field,20230216,0,0,0,0
+CT,depleted field,20230306,0,0,0,0
+CT,depleted field,20230315,0,0,0,0
+CT,depleted field,20230403,0,0,0,0
+CT,depleted field,20230410,0,0,0,0
+CT,depleted field,20230530,0,0,0,0
+CT,depleted field,20230517,0,0,0,0
+CT,depleted field,20230630,0,0,0,0
+CT,depleted field,20230615,0,0,0,0
+CT,depleted field,20230727,0,0,0,0
+CT,depleted field,20230710,0,0,0,0
+CT,depleted field,20230803,0,0,0,0
+CT,depleted field,20230831,0,0,0,0
+CT,depleted field,20230906,0,0,0,0
+CT,depleted field,20230912,0,0,0,0
+CT,depleted field,20231005,0,0,0,0
+CT,depleted field,20231020,0,0,0,0
+CT,depleted field,20231129,0,0,0,0
+CT,depleted field,20231121,0,0,0,0
+CT,depleted field,20231228,0,0,0,0
+CT,depleted field,20231218,0,0,0,0
+CT,salt cavern,20230103,0,0,0,0
+CT,salt cavern,20230130,0,0,0,0
+CT,salt cavern,20230213,0,0,0,0
+CT,salt cavern,20230216,0,0,0,0
+CT,salt cavern,20230306,0,0,0,0
+CT,salt cavern,20230315,0,0,0,0
+CT,salt cavern,20230403,0,0,0,0
+CT,salt cavern,20230410,0,0,0,0
+CT,salt cavern,20230530,0,0,0,0
+CT,salt cavern,20230517,0,0,0,0
+CT,salt cavern,20230630,0,0,0,0
+CT,salt cavern,20230615,0,0,0,0
+CT,salt cavern,20230727,0,0,0,0
+CT,salt cavern,20230710,0,0,0,0
+CT,salt cavern,20230803,0,0,0,0
+CT,salt cavern,20230831,0,0,0,0
+CT,salt cavern,20230906,0,0,0,0
+CT,salt cavern,20230912,0,0,0,0
+CT,salt cavern,20231005,0,0,0,0
+CT,salt cavern,20231020,0,0,0,0
+CT,salt cavern,20231129,0,0,0,0
+CT,salt cavern,20231121,0,0,0,0
+CT,salt cavern,20231228,0,0,0,0
+CT,salt cavern,20231218,0,0,0,0
+DC,aquifer,20230103,0,0,0,0
+DC,aquifer,20230130,0,0,0,0
+DC,aquifer,20230213,0,0,0,0
+DC,aquifer,20230216,0,0,0,0
+DC,aquifer,20230306,0,0,0,0
+DC,aquifer,20230315,0,0,0,0
+DC,aquifer,20230403,0,0,0,0
+DC,aquifer,20230410,0,0,0,0
+DC,aquifer,20230530,0,0,0,0
+DC,aquifer,20230517,0,0,0,0
+DC,aquifer,20230630,0,0,0,0
+DC,aquifer,20230615,0,0,0,0
+DC,aquifer,20230727,0,0,0,0
+DC,aquifer,20230710,0,0,0,0
+DC,aquifer,20230803,0,0,0,0
+DC,aquifer,20230831,0,0,0,0
+DC,aquifer,20230906,0,0,0,0
+DC,aquifer,20230912,0,0,0,0
+DC,aquifer,20231005,0,0,0,0
+DC,aquifer,20231020,0,0,0,0
+DC,aquifer,20231129,0,0,0,0
+DC,aquifer,20231121,0,0,0,0
+DC,aquifer,20231228,0,0,0,0
+DC,aquifer,20231218,0,0,0,0
+DC,depleted field,20230103,0,0,0,0
+DC,depleted field,20230130,0,0,0,0
+DC,depleted field,20230213,0,0,0,0
+DC,depleted field,20230216,0,0,0,0
+DC,depleted field,20230306,0,0,0,0
+DC,depleted field,20230315,0,0,0,0
+DC,depleted field,20230403,0,0,0,0
+DC,depleted field,20230410,0,0,0,0
+DC,depleted field,20230530,0,0,0,0
+DC,depleted field,20230517,0,0,0,0
+DC,depleted field,20230630,0,0,0,0
+DC,depleted field,20230615,0,0,0,0
+DC,depleted field,20230727,0,0,0,0
+DC,depleted field,20230710,0,0,0,0
+DC,depleted field,20230803,0,0,0,0
+DC,depleted field,20230831,0,0,0,0
+DC,depleted field,20230906,0,0,0,0
+DC,depleted field,20230912,0,0,0,0
+DC,depleted field,20231005,0,0,0,0
+DC,depleted field,20231020,0,0,0,0
+DC,depleted field,20231129,0,0,0,0
+DC,depleted field,20231121,0,0,0,0
+DC,depleted field,20231228,0,0,0,0
+DC,depleted field,20231218,0,0,0,0
+DC,salt cavern,20230103,0,0,0,0
+DC,salt cavern,20230130,0,0,0,0
+DC,salt cavern,20230213,0,0,0,0
+DC,salt cavern,20230216,0,0,0,0
+DC,salt cavern,20230306,0,0,0,0
+DC,salt cavern,20230315,0,0,0,0
+DC,salt cavern,20230403,0,0,0,0
+DC,salt cavern,20230410,0,0,0,0
+DC,salt cavern,20230530,0,0,0,0
+DC,salt cavern,20230517,0,0,0,0
+DC,salt cavern,20230630,0,0,0,0
+DC,salt cavern,20230615,0,0,0,0
+DC,salt cavern,20230727,0,0,0,0
+DC,salt cavern,20230710,0,0,0,0
+DC,salt cavern,20230803,0,0,0,0
+DC,salt cavern,20230831,0,0,0,0
+DC,salt cavern,20230906,0,0,0,0
+DC,salt cavern,20230912,0,0,0,0
+DC,salt cavern,20231005,0,0,0,0
+DC,salt cavern,20231020,0,0,0,0
+DC,salt cavern,20231129,0,0,0,0
+DC,salt cavern,20231121,0,0,0,0
+DC,salt cavern,20231228,0,0,0,0
+DC,salt cavern,20231218,0,0,0,0
+DE,aquifer,20230103,0,0,0,0
+DE,aquifer,20230130,0,0,0,0
+DE,aquifer,20230213,0,0,0,0
+DE,aquifer,20230216,0,0,0,0
+DE,aquifer,20230306,0,0,0,0
+DE,aquifer,20230315,0,0,0,0
+DE,aquifer,20230403,0,0,0,0
+DE,aquifer,20230410,0,0,0,0
+DE,aquifer,20230530,0,0,0,0
+DE,aquifer,20230517,0,0,0,0
+DE,aquifer,20230630,0,0,0,0
+DE,aquifer,20230615,0,0,0,0
+DE,aquifer,20230727,0,0,0,0
+DE,aquifer,20230710,0,0,0,0
+DE,aquifer,20230803,0,0,0,0
+DE,aquifer,20230831,0,0,0,0
+DE,aquifer,20230906,0,0,0,0
+DE,aquifer,20230912,0,0,0,0
+DE,aquifer,20231005,0,0,0,0
+DE,aquifer,20231020,0,0,0,0
+DE,aquifer,20231129,0,0,0,0
+DE,aquifer,20231121,0,0,0,0
+DE,aquifer,20231228,0,0,0,0
+DE,aquifer,20231218,0,0,0,0
+DE,depleted field,20230103,0,0,0,0
+DE,depleted field,20230130,0,0,0,0
+DE,depleted field,20230213,0,0,0,0
+DE,depleted field,20230216,0,0,0,0
+DE,depleted field,20230306,0,0,0,0
+DE,depleted field,20230315,0,0,0,0
+DE,depleted field,20230403,0,0,0,0
+DE,depleted field,20230410,0,0,0,0
+DE,depleted field,20230530,0,0,0,0
+DE,depleted field,20230517,0,0,0,0
+DE,depleted field,20230630,0,0,0,0
+DE,depleted field,20230615,0,0,0,0
+DE,depleted field,20230727,0,0,0,0
+DE,depleted field,20230710,0,0,0,0
+DE,depleted field,20230803,0,0,0,0
+DE,depleted field,20230831,0,0,0,0
+DE,depleted field,20230906,0,0,0,0
+DE,depleted field,20230912,0,0,0,0
+DE,depleted field,20231005,0,0,0,0
+DE,depleted field,20231020,0,0,0,0
+DE,depleted field,20231129,0,0,0,0
+DE,depleted field,20231121,0,0,0,0
+DE,depleted field,20231228,0,0,0,0
+DE,depleted field,20231218,0,0,0,0
+DE,salt cavern,20230103,0,0,0,0
+DE,salt cavern,20230130,0,0,0,0
+DE,salt cavern,20230213,0,0,0,0
+DE,salt cavern,20230216,0,0,0,0
+DE,salt cavern,20230306,0,0,0,0
+DE,salt cavern,20230315,0,0,0,0
+DE,salt cavern,20230403,0,0,0,0
+DE,salt cavern,20230410,0,0,0,0
+DE,salt cavern,20230530,0,0,0,0
+DE,salt cavern,20230517,0,0,0,0
+DE,salt cavern,20230630,0,0,0,0
+DE,salt cavern,20230615,0,0,0,0
+DE,salt cavern,20230727,0,0,0,0
+DE,salt cavern,20230710,0,0,0,0
+DE,salt cavern,20230803,0,0,0,0
+DE,salt cavern,20230831,0,0,0,0
+DE,salt cavern,20230906,0,0,0,0
+DE,salt cavern,20230912,0,0,0,0
+DE,salt cavern,20231005,0,0,0,0
+DE,salt cavern,20231020,0,0,0,0
+DE,salt cavern,20231129,0,0,0,0
+DE,salt cavern,20231121,0,0,0,0
+DE,salt cavern,20231228,0,0,0,0
+DE,salt cavern,20231218,0,0,0,0
+FL,aquifer,20230103,0,0,0,0
+FL,aquifer,20230130,0,0,0,0
+FL,aquifer,20230213,0,0,0,0
+FL,aquifer,20230216,0,0,0,0
+FL,aquifer,20230306,0,0,0,0
+FL,aquifer,20230315,0,0,0,0
+FL,aquifer,20230403,0,0,0,0
+FL,aquifer,20230410,0,0,0,0
+FL,aquifer,20230530,0,0,0,0
+FL,aquifer,20230517,0,0,0,0
+FL,aquifer,20230630,0,0,0,0
+FL,aquifer,20230615,0,0,0,0
+FL,aquifer,20230727,0,0,0,0
+FL,aquifer,20230710,0,0,0,0
+FL,aquifer,20230803,0,0,0,0
+FL,aquifer,20230831,0,0,0,0
+FL,aquifer,20230906,0,0,0,0
+FL,aquifer,20230912,0,0,0,0
+FL,aquifer,20231005,0,0,0,0
+FL,aquifer,20231020,0,0,0,0
+FL,aquifer,20231129,0,0,0,0
+FL,aquifer,20231121,0,0,0,0
+FL,aquifer,20231228,0,0,0,0
+FL,aquifer,20231218,0,0,0,0
+FL,depleted field,20230103,0,0,0,0
+FL,depleted field,20230130,0,0,0,0
+FL,depleted field,20230213,0,0,0,0
+FL,depleted field,20230216,0,0,0,0
+FL,depleted field,20230306,0,0,0,0
+FL,depleted field,20230315,0,0,0,0
+FL,depleted field,20230403,0,0,0,0
+FL,depleted field,20230410,0,0,0,0
+FL,depleted field,20230530,0,0,0,0
+FL,depleted field,20230517,0,0,0,0
+FL,depleted field,20230630,0,0,0,0
+FL,depleted field,20230615,0,0,0,0
+FL,depleted field,20230727,0,0,0,0
+FL,depleted field,20230710,0,0,0,0
+FL,depleted field,20230803,0,0,0,0
+FL,depleted field,20230831,0,0,0,0
+FL,depleted field,20230906,0,0,0,0
+FL,depleted field,20230912,0,0,0,0
+FL,depleted field,20231005,0,0,0,0
+FL,depleted field,20231020,0,0,0,0
+FL,depleted field,20231129,0,0,0,0
+FL,depleted field,20231121,0,0,0,0
+FL,depleted field,20231228,0,0,0,0
+FL,depleted field,20231218,0,0,0,0
+FL,salt cavern,20230103,0,0,0,0
+FL,salt cavern,20230130,0,0,0,0
+FL,salt cavern,20230213,0,0,0,0
+FL,salt cavern,20230216,0,0,0,0
+FL,salt cavern,20230306,0,0,0,0
+FL,salt cavern,20230315,0,0,0,0
+FL,salt cavern,20230403,0,0,0,0
+FL,salt cavern,20230410,0,0,0,0
+FL,salt cavern,20230530,0,0,0,0
+FL,salt cavern,20230517,0,0,0,0
+FL,salt cavern,20230630,0,0,0,0
+FL,salt cavern,20230615,0,0,0,0
+FL,salt cavern,20230727,0,0,0,0
+FL,salt cavern,20230710,0,0,0,0
+FL,salt cavern,20230803,0,0,0,0
+FL,salt cavern,20230831,0,0,0,0
+FL,salt cavern,20230906,0,0,0,0
+FL,salt cavern,20230912,0,0,0,0
+FL,salt cavern,20231005,0,0,0,0
+FL,salt cavern,20231020,0,0,0,0
+FL,salt cavern,20231129,0,0,0,0
+FL,salt cavern,20231121,0,0,0,0
+FL,salt cavern,20231228,0,0,0,0
+FL,salt cavern,20231218,0,0,0,0
+GA,aquifer,20230103,0,0,0,0
+GA,aquifer,20230130,0,0,0,0
+GA,aquifer,20230213,0,0,0,0
+GA,aquifer,20230216,0,0,0,0
+GA,aquifer,20230306,0,0,0,0
+GA,aquifer,20230315,0,0,0,0
+GA,aquifer,20230403,0,0,0,0
+GA,aquifer,20230410,0,0,0,0
+GA,aquifer,20230530,0,0,0,0
+GA,aquifer,20230517,0,0,0,0
+GA,aquifer,20230630,0,0,0,0
+GA,aquifer,20230615,0,0,0,0
+GA,aquifer,20230727,0,0,0,0
+GA,aquifer,20230710,0,0,0,0
+GA,aquifer,20230803,0,0,0,0
+GA,aquifer,20230831,0,0,0,0
+GA,aquifer,20230906,0,0,0,0
+GA,aquifer,20230912,0,0,0,0
+GA,aquifer,20231005,0,0,0,0
+GA,aquifer,20231020,0,0,0,0
+GA,aquifer,20231129,0,0,0,0
+GA,aquifer,20231121,0,0,0,0
+GA,aquifer,20231228,0,0,0,0
+GA,aquifer,20231218,0,0,0,0
+GA,depleted field,20230103,0,0,0,0
+GA,depleted field,20230130,0,0,0,0
+GA,depleted field,20230213,0,0,0,0
+GA,depleted field,20230216,0,0,0,0
+GA,depleted field,20230306,0,0,0,0
+GA,depleted field,20230315,0,0,0,0
+GA,depleted field,20230403,0,0,0,0
+GA,depleted field,20230410,0,0,0,0
+GA,depleted field,20230530,0,0,0,0
+GA,depleted field,20230517,0,0,0,0
+GA,depleted field,20230630,0,0,0,0
+GA,depleted field,20230615,0,0,0,0
+GA,depleted field,20230727,0,0,0,0
+GA,depleted field,20230710,0,0,0,0
+GA,depleted field,20230803,0,0,0,0
+GA,depleted field,20230831,0,0,0,0
+GA,depleted field,20230906,0,0,0,0
+GA,depleted field,20230912,0,0,0,0
+GA,depleted field,20231005,0,0,0,0
+GA,depleted field,20231020,0,0,0,0
+GA,depleted field,20231129,0,0,0,0
+GA,depleted field,20231121,0,0,0,0
+GA,depleted field,20231228,0,0,0,0
+GA,depleted field,20231218,0,0,0,0
+GA,salt cavern,20230103,0,0,0,0
+GA,salt cavern,20230130,0,0,0,0
+GA,salt cavern,20230213,0,0,0,0
+GA,salt cavern,20230216,0,0,0,0
+GA,salt cavern,20230306,0,0,0,0
+GA,salt cavern,20230315,0,0,0,0
+GA,salt cavern,20230403,0,0,0,0
+GA,salt cavern,20230410,0,0,0,0
+GA,salt cavern,20230530,0,0,0,0
+GA,salt cavern,20230517,0,0,0,0
+GA,salt cavern,20230630,0,0,0,0
+GA,salt cavern,20230615,0,0,0,0
+GA,salt cavern,20230727,0,0,0,0
+GA,salt cavern,20230710,0,0,0,0
+GA,salt cavern,20230803,0,0,0,0
+GA,salt cavern,20230831,0,0,0,0
+GA,salt cavern,20230906,0,0,0,0
+GA,salt cavern,20230912,0,0,0,0
+GA,salt cavern,20231005,0,0,0,0
+GA,salt cavern,20231020,0,0,0,0
+GA,salt cavern,20231129,0,0,0,0
+GA,salt cavern,20231121,0,0,0,0
+GA,salt cavern,20231228,0,0,0,0
+GA,salt cavern,20231218,0,0,0,0
+IA,aquifer,20230103,0,0,0,9.36546e+07
+IA,aquifer,20230130,0,2.14511e+06,2.14511e+06,3.05526e+07
+IA,aquifer,20230213,0,0,0,3.05526e+07
+IA,aquifer,20230216,0,0,0,3.05526e+07
+IA,aquifer,20230306,0,0,0,3.05526e+07
+IA,aquifer,20230315,0,0,0,3.05526e+07
+IA,aquifer,20230403,1.55772e+06,0,-1.55772e+06,3.21103e+07
+IA,aquifer,20230410,2.09215e+06,0,-2.09215e+06,9.36546e+07
+IA,aquifer,20230530,0,0,0,9.36546e+07
+IA,aquifer,20230517,0,0,0,9.36546e+07
+IA,aquifer,20230630,0,0,0,9.36546e+07
+IA,aquifer,20230615,0,0,0,9.36546e+07
+IA,aquifer,20230727,0,0,0,9.36546e+07
+IA,aquifer,20230710,0,0,0,9.36546e+07
+IA,aquifer,20230803,0,0,0,9.36546e+07
+IA,aquifer,20230831,0,0,0,9.36546e+07
+IA,aquifer,20230906,0,0,0,9.36546e+07
+IA,aquifer,20230912,0,0,0,9.36546e+07
+IA,aquifer,20231005,0,0,0,9.36546e+07
+IA,aquifer,20231020,0,0,0,9.36546e+07
+IA,aquifer,20231129,0,0,0,9.36546e+07
+IA,aquifer,20231121,0,0,0,9.36546e+07
+IA,aquifer,20231228,0,0,0,9.36546e+07
+IA,aquifer,20231218,0,0,0,9.36546e+07
+IA,depleted field,20230103,0,0,0,0
+IA,depleted field,20230130,0,0,0,0
+IA,depleted field,20230213,0,0,0,0
+IA,depleted field,20230216,0,0,0,0
+IA,depleted field,20230306,0,0,0,0
+IA,depleted field,20230315,0,0,0,0
+IA,depleted field,20230403,0,0,0,0
+IA,depleted field,20230410,0,0,0,0
+IA,depleted field,20230530,0,0,0,0
+IA,depleted field,20230517,0,0,0,0
+IA,depleted field,20230630,0,0,0,0
+IA,depleted field,20230615,0,0,0,0
+IA,depleted field,20230727,0,0,0,0
+IA,depleted field,20230710,0,0,0,0
+IA,depleted field,20230803,0,0,0,0
+IA,depleted field,20230831,0,0,0,0
+IA,depleted field,20230906,0,0,0,0
+IA,depleted field,20230912,0,0,0,0
+IA,depleted field,20231005,0,0,0,0
+IA,depleted field,20231020,0,0,0,0
+IA,depleted field,20231129,0,0,0,0
+IA,depleted field,20231121,0,0,0,0
+IA,depleted field,20231228,0,0,0,0
+IA,depleted field,20231218,0,0,0,0
+IA,salt cavern,20230103,0,0,0,0
+IA,salt cavern,20230130,0,0,0,0
+IA,salt cavern,20230213,0,0,0,0
+IA,salt cavern,20230216,0,0,0,0
+IA,salt cavern,20230306,0,0,0,0
+IA,salt cavern,20230315,0,0,0,0
+IA,salt cavern,20230403,0,0,0,0
+IA,salt cavern,20230410,0,0,0,0
+IA,salt cavern,20230530,0,0,0,0
+IA,salt cavern,20230517,0,0,0,0
+IA,salt cavern,20230630,0,0,0,0
+IA,salt cavern,20230615,0,0,0,0
+IA,salt cavern,20230727,0,0,0,0
+IA,salt cavern,20230710,0,0,0,0
+IA,salt cavern,20230803,0,0,0,0
+IA,salt cavern,20230831,0,0,0,0
+IA,salt cavern,20230906,0,0,0,0
+IA,salt cavern,20230912,0,0,0,0
+IA,salt cavern,20231005,0,0,0,0
+IA,salt cavern,20231020,0,0,0,0
+IA,salt cavern,20231129,0,0,0,0
+IA,salt cavern,20231121,0,0,0,0
+IA,salt cavern,20231228,0,0,0,0
+IA,salt cavern,20231218,0,0,0,0
+ID,aquifer,20230103,0,0,0,0
+ID,aquifer,20230130,0,0,0,0
+ID,aquifer,20230213,0,0,0,0
+ID,aquifer,20230216,0,0,0,0
+ID,aquifer,20230306,0,0,0,0
+ID,aquifer,20230315,0,0,0,0
+ID,aquifer,20230403,0,0,0,0
+ID,aquifer,20230410,0,0,0,0
+ID,aquifer,20230530,0,0,0,0
+ID,aquifer,20230517,0,0,0,0
+ID,aquifer,20230630,0,0,0,0
+ID,aquifer,20230615,0,0,0,0
+ID,aquifer,20230727,0,0,0,0
+ID,aquifer,20230710,0,0,0,0
+ID,aquifer,20230803,0,0,0,0
+ID,aquifer,20230831,0,0,0,0
+ID,aquifer,20230906,0,0,0,0
+ID,aquifer,20230912,0,0,0,0
+ID,aquifer,20231005,0,0,0,0
+ID,aquifer,20231020,0,0,0,0
+ID,aquifer,20231129,0,0,0,0
+ID,aquifer,20231121,0,0,0,0
+ID,aquifer,20231228,0,0,0,0
+ID,aquifer,20231218,0,0,0,0
+ID,depleted field,20230103,0,0,0,0
+ID,depleted field,20230130,0,0,0,0
+ID,depleted field,20230213,0,0,0,0
+ID,depleted field,20230216,0,0,0,0
+ID,depleted field,20230306,0,0,0,0
+ID,depleted field,20230315,0,0,0,0
+ID,depleted field,20230403,0,0,0,0
+ID,depleted field,20230410,0,0,0,0
+ID,depleted field,20230530,0,0,0,0
+ID,depleted field,20230517,0,0,0,0
+ID,depleted field,20230630,0,0,0,0
+ID,depleted field,20230615,0,0,0,0
+ID,depleted field,20230727,0,0,0,0
+ID,depleted field,20230710,0,0,0,0
+ID,depleted field,20230803,0,0,0,0
+ID,depleted field,20230831,0,0,0,0
+ID,depleted field,20230906,0,0,0,0
+ID,depleted field,20230912,0,0,0,0
+ID,depleted field,20231005,0,0,0,0
+ID,depleted field,20231020,0,0,0,0
+ID,depleted field,20231129,0,0,0,0
+ID,depleted field,20231121,0,0,0,0
+ID,depleted field,20231228,0,0,0,0
+ID,depleted field,20231218,0,0,0,0
+ID,salt cavern,20230103,0,0,0,0
+ID,salt cavern,20230130,0,0,0,0
+ID,salt cavern,20230213,0,0,0,0
+ID,salt cavern,20230216,0,0,0,0
+ID,salt cavern,20230306,0,0,0,0
+ID,salt cavern,20230315,0,0,0,0
+ID,salt cavern,20230403,0,0,0,0
+ID,salt cavern,20230410,0,0,0,0
+ID,salt cavern,20230530,0,0,0,0
+ID,salt cavern,20230517,0,0,0,0
+ID,salt cavern,20230630,0,0,0,0
+ID,salt cavern,20230615,0,0,0,0
+ID,salt cavern,20230727,0,0,0,0
+ID,salt cavern,20230710,0,0,0,0
+ID,salt cavern,20230803,0,0,0,0
+ID,salt cavern,20230831,0,0,0,0
+ID,salt cavern,20230906,0,0,0,0
+ID,salt cavern,20230912,0,0,0,0
+ID,salt cavern,20231005,0,0,0,0
+ID,salt cavern,20231020,0,0,0,0
+ID,salt cavern,20231129,0,0,0,0
+ID,salt cavern,20231121,0,0,0,0
+ID,salt cavern,20231228,0,0,0,0
+ID,salt cavern,20231218,0,0,0,0
+IL,aquifer,20230103,0,0,0,1.47402e+08
+IL,aquifer,20230130,0,4.98164e+06,4.98164e+06,858488
+IL,aquifer,20230213,0,858488,858488,0
+IL,aquifer,20230216,0,0,0,0
+IL,aquifer,20230306,0,0,0,0
+IL,aquifer,20230315,0,0,0,0
+IL,aquifer,20230403,0,0,0,0
+IL,aquifer,20230410,0,0,0,0
+IL,aquifer,20230530,4.20006e+06,0,-4.20006e+06,4.20006e+06
+IL,aquifer,20230517,6.13365e+06,0,-6.13365e+06,1.84632e+08
+IL,aquifer,20230630,2.16102e+06,0,-2.16102e+06,1.86793e+08
+IL,aquifer,20230615,2.48093e+06,0,-2.48093e+06,2.59774e+08
+IL,aquifer,20230727,0,0,0,2.59774e+08
+IL,aquifer,20230710,0,0,0,2.59774e+08
+IL,aquifer,20230803,0,0,0,2.59774e+08
+IL,aquifer,20230831,0,0,0,2.59774e+08
+IL,aquifer,20230906,0,0,0,2.59774e+08
+IL,aquifer,20230912,0,0,0,2.59774e+08
+IL,aquifer,20231005,0,0,0,2.59774e+08
+IL,aquifer,20231020,0,1.16945e+06,1.16945e+06,2.25372e+08
+IL,aquifer,20231129,0,7.03702e+06,7.03702e+06,2.18335e+08
+IL,aquifer,20231121,0,1.86958e+06,1.86958e+06,1.63338e+08
+IL,aquifer,20231228,0,2.31392e+06,2.31392e+06,1.61024e+08
+IL,aquifer,20231218,0,463086,463086,1.47402e+08
+IL,depleted field,20230103,0,0,0,5.4586e+07
+IL,depleted field,20230130,0,1.12947e+06,1.12947e+06,2.13607e+07
+IL,depleted field,20230213,0,0,0,2.13607e+07
+IL,depleted field,20230216,0,0,0,2.13607e+07
+IL,depleted field,20230306,0,0,0,2.13607e+07
+IL,depleted field,20230315,0,726140,726140,0
+IL,depleted field,20230403,0,0,0,0
+IL,depleted field,20230410,0,0,0,0
+IL,depleted field,20230530,0,0,0,0
+IL,depleted field,20230517,1.87922e+06,0,-1.87922e+06,5.52804e+07
+IL,depleted field,20230630,0,0,0,5.52804e+07
+IL,depleted field,20230615,0,0,0,5.52804e+07
+IL,depleted field,20230727,0,0,0,5.52804e+07
+IL,depleted field,20230710,0,0,0,5.52804e+07
+IL,depleted field,20230803,0,0,0,5.52804e+07
+IL,depleted field,20230831,0,0,0,5.52804e+07
+IL,depleted field,20230906,0,0,0,5.52804e+07
+IL,depleted field,20230912,0,0,0,5.52804e+07
+IL,depleted field,20231005,0,694361,694361,5.4586e+07
+IL,depleted field,20231020,0,0,0,5.4586e+07
+IL,depleted field,20231129,0,0,0,5.4586e+07
+IL,depleted field,20231121,0,0,0,5.4586e+07
+IL,depleted field,20231228,0,0,0,5.4586e+07
+IL,depleted field,20231218,0,0,0,5.4586e+07
+IL,salt cavern,20230103,0,0,0,0
+IL,salt cavern,20230130,0,0,0,0
+IL,salt cavern,20230213,0,0,0,0
+IL,salt cavern,20230216,0,0,0,0
+IL,salt cavern,20230306,0,0,0,0
+IL,salt cavern,20230315,0,0,0,0
+IL,salt cavern,20230403,0,0,0,0
+IL,salt cavern,20230410,0,0,0,0
+IL,salt cavern,20230530,0,0,0,0
+IL,salt cavern,20230517,0,0,0,0
+IL,salt cavern,20230630,0,0,0,0
+IL,salt cavern,20230615,0,0,0,0
+IL,salt cavern,20230727,0,0,0,0
+IL,salt cavern,20230710,0,0,0,0
+IL,salt cavern,20230803,0,0,0,0
+IL,salt cavern,20230831,0,0,0,0
+IL,salt cavern,20230906,0,0,0,0
+IL,salt cavern,20230912,0,0,0,0
+IL,salt cavern,20231005,0,0,0,0
+IL,salt cavern,20231020,0,0,0,0
+IL,salt cavern,20231129,0,0,0,0
+IL,salt cavern,20231121,0,0,0,0
+IL,salt cavern,20231228,0,0,0,0
+IL,salt cavern,20231218,0,0,0,0
+IN,aquifer,20230103,0,0,0,1.61259e+07
+IN,aquifer,20230130,0,0,0,1.61259e+07
+IN,aquifer,20230213,0,0,0,1.61259e+07
+IN,aquifer,20230216,0,0,0,1.61259e+07
+IN,aquifer,20230306,0,0,0,1.61259e+07
+IN,aquifer,20230315,0,548188,548188,0
+IN,aquifer,20230403,0,0,0,0
+IN,aquifer,20230410,0,0,0,0
+IN,aquifer,20230530,0,0,0,0
+IN,aquifer,20230517,0,0,0,0
+IN,aquifer,20230630,3.63234e+06,0,-3.63234e+06,3.63234e+06
+IN,aquifer,20230615,523290,0,-523290,1.90258e+07
+IN,aquifer,20230727,0,0,0,1.90258e+07
+IN,aquifer,20230710,31516.8,0,-31516.8,1.99529e+07
+IN,aquifer,20230803,0,0,0,1.99529e+07
+IN,aquifer,20230831,0,0,0,1.99529e+07
+IN,aquifer,20230906,0,0,0,1.99529e+07
+IN,aquifer,20230912,0,0,0,1.99529e+07
+IN,aquifer,20231005,0,0,0,1.99529e+07
+IN,aquifer,20231020,0,0,0,1.99529e+07
+IN,aquifer,20231129,0,3.82702e+06,3.82702e+06,1.61259e+07
+IN,aquifer,20231121,0,0,0,1.61259e+07
+IN,aquifer,20231228,0,0,0,1.61259e+07
+IN,aquifer,20231218,0,0,0,1.61259e+07
+IN,depleted field,20230103,0,0,0,1.35152e+07
+IN,depleted field,20230130,0,0,0,1.35152e+07
+IN,depleted field,20230213,0,0,0,1.35152e+07
+IN,depleted field,20230216,0,0,0,1.35152e+07
+IN,depleted field,20230306,0,0,0,1.35152e+07
+IN,depleted field,20230315,0,459440,459440,0
+IN,depleted field,20230403,0,0,0,0
+IN,depleted field,20230410,0,0,0,0
+IN,depleted field,20230530,0,0,0,0
+IN,depleted field,20230517,0,0,0,0
+IN,depleted field,20230630,0,0,0,0
+IN,depleted field,20230615,459440,0,-459440,1.35152e+07
+IN,depleted field,20230727,0,0,0,1.35152e+07
+IN,depleted field,20230710,0,0,0,1.35152e+07
+IN,depleted field,20230803,0,0,0,1.35152e+07
+IN,depleted field,20230831,0,0,0,1.35152e+07
+IN,depleted field,20230906,0,0,0,1.35152e+07
+IN,depleted field,20230912,0,0,0,1.35152e+07
+IN,depleted field,20231005,0,0,0,1.35152e+07
+IN,depleted field,20231020,0,0,0,1.35152e+07
+IN,depleted field,20231129,0,0,0,1.35152e+07
+IN,depleted field,20231121,0,0,0,1.35152e+07
+IN,depleted field,20231228,0,0,0,1.35152e+07
+IN,depleted field,20231218,0,0,0,1.35152e+07
+IN,salt cavern,20230103,0,0,0,0
+IN,salt cavern,20230130,0,0,0,0
+IN,salt cavern,20230213,0,0,0,0
+IN,salt cavern,20230216,0,0,0,0
+IN,salt cavern,20230306,0,0,0,0
+IN,salt cavern,20230315,0,0,0,0
+IN,salt cavern,20230403,0,0,0,0
+IN,salt cavern,20230410,0,0,0,0
+IN,salt cavern,20230530,0,0,0,0
+IN,salt cavern,20230517,0,0,0,0
+IN,salt cavern,20230630,0,0,0,0
+IN,salt cavern,20230615,0,0,0,0
+IN,salt cavern,20230727,0,0,0,0
+IN,salt cavern,20230710,0,0,0,0
+IN,salt cavern,20230803,0,0,0,0
+IN,salt cavern,20230831,0,0,0,0
+IN,salt cavern,20230906,0,0,0,0
+IN,salt cavern,20230912,0,0,0,0
+IN,salt cavern,20231005,0,0,0,0
+IN,salt cavern,20231020,0,0,0,0
+IN,salt cavern,20231129,0,0,0,0
+IN,salt cavern,20231121,0,0,0,0
+IN,salt cavern,20231228,0,0,0,0
+IN,salt cavern,20231218,0,0,0,0
+KS,aquifer,20230103,0,0,0,0
+KS,aquifer,20230130,0,0,0,0
+KS,aquifer,20230213,0,0,0,0
+KS,aquifer,20230216,0,0,0,0
+KS,aquifer,20230306,0,0,0,0
+KS,aquifer,20230315,0,0,0,0
+KS,aquifer,20230403,0,0,0,0
+KS,aquifer,20230410,0,0,0,0
+KS,aquifer,20230530,0,0,0,0
+KS,aquifer,20230517,0,0,0,0
+KS,aquifer,20230630,0,0,0,0
+KS,aquifer,20230615,0,0,0,0
+KS,aquifer,20230727,0,0,0,0
+KS,aquifer,20230710,0,0,0,0
+KS,aquifer,20230803,0,0,0,0
+KS,aquifer,20230831,0,0,0,0
+KS,aquifer,20230906,0,0,0,0
+KS,aquifer,20230912,0,0,0,0
+KS,aquifer,20231005,0,0,0,0
+KS,aquifer,20231020,0,0,0,0
+KS,aquifer,20231129,0,0,0,0
+KS,aquifer,20231121,0,0,0,0
+KS,aquifer,20231228,0,0,0,0
+KS,aquifer,20231218,0,0,0,0
+KS,depleted field,20230103,0,0,0,1.27532e+08
+KS,depleted field,20230130,0,0,0,1.27532e+08
+KS,depleted field,20230213,0,0,0,1.27532e+08
+KS,depleted field,20230216,0,0,0,1.27532e+08
+KS,depleted field,20230306,0,0,0,1.27532e+08
+KS,depleted field,20230315,0,0,0,1.27532e+08
+KS,depleted field,20230403,0,0,0,1.27532e+08
+KS,depleted field,20230410,0,0,0,1.27532e+08
+KS,depleted field,20230530,0,0,0,1.27532e+08
+KS,depleted field,20230517,0,0,0,1.27532e+08
+KS,depleted field,20230630,0,0,0,1.27532e+08
+KS,depleted field,20230615,0,0,0,1.27532e+08
+KS,depleted field,20230727,0,0,0,1.27532e+08
+KS,depleted field,20230710,0,0,0,1.27532e+08
+KS,depleted field,20230803,0,0,0,1.27532e+08
+KS,depleted field,20230831,0,0,0,1.27532e+08
+KS,depleted field,20230906,0,0,0,1.27532e+08
+KS,depleted field,20230912,0,0,0,1.27532e+08
+KS,depleted field,20231005,0,0,0,1.27532e+08
+KS,depleted field,20231020,0,0,0,1.27532e+08
+KS,depleted field,20231129,0,0,0,1.27532e+08
+KS,depleted field,20231121,0,0,0,1.27532e+08
+KS,depleted field,20231228,0,0,0,1.27532e+08
+KS,depleted field,20231218,0,0,0,1.27532e+08
+KS,salt cavern,20230103,0,0,0,1.16529e-10
+KS,salt cavern,20230130,0,0,0,0
+KS,salt cavern,20230213,1.16529e-10,0,-1.16529e-10,1.16529e-10
+KS,salt cavern,20230216,0,0,0,1.16529e-10
+KS,salt cavern,20230306,0,0,0,1.16529e-10
+KS,salt cavern,20230315,0,0,0,0
+KS,salt cavern,20230403,0,0,0,0
+KS,salt cavern,20230410,0,0,0,0
+KS,salt cavern,20230530,0,0,0,0
+KS,salt cavern,20230517,0,0,0,0
+KS,salt cavern,20230630,1.16529e-10,0,-1.16529e-10,1.16529e-10
+KS,salt cavern,20230615,0,0,0,0
+KS,salt cavern,20230727,0,0,0,0
+KS,salt cavern,20230710,0,0,0,1.16529e-10
+KS,salt cavern,20230803,0,0,0,1.16529e-10
+KS,salt cavern,20230831,0,0,0,1.16529e-10
+KS,salt cavern,20230906,-1.16529e-10,0,1.16529e-10,0
+KS,salt cavern,20230912,0,0,0,1.16529e-10
+KS,salt cavern,20231005,-1.16529e-10,0,1.16529e-10,0
+KS,salt cavern,20231020,0,0,0,1.16529e-10
+KS,salt cavern,20231129,-1.16529e-10,0,1.16529e-10,0
+KS,salt cavern,20231121,0,0,0,0
+KS,salt cavern,20231228,1.16529e-10,0,-1.16529e-10,1.16529e-10
+KS,salt cavern,20231218,0,0,0,1.16529e-10
+KY,aquifer,20230103,0,0,0,230708
+KY,aquifer,20230130,0,0,0,230708
+KY,aquifer,20230213,0,0,0,230708
+KY,aquifer,20230216,0,0,0,230708
+KY,aquifer,20230306,0,0,0,230708
+KY,aquifer,20230315,0,7842.74,7842.74,0
+KY,aquifer,20230403,0,0,0,0
+KY,aquifer,20230410,0,0,0,0
+KY,aquifer,20230530,230708,0,-230708,230708
+KY,aquifer,20230517,0,0,0,230708
+KY,aquifer,20230630,0,0,0,230708
+KY,aquifer,20230615,0,0,0,230708
+KY,aquifer,20230727,0,0,0,230708
+KY,aquifer,20230710,0,0,0,230708
+KY,aquifer,20230803,0,0,0,230708
+KY,aquifer,20230831,0,0,0,230708
+KY,aquifer,20230906,0,0,0,230708
+KY,aquifer,20230912,0,0,0,230708
+KY,aquifer,20231005,0,0,0,230708
+KY,aquifer,20231020,0,0,0,230708
+KY,aquifer,20231129,0,0,0,230708
+KY,aquifer,20231121,0,0,0,230708
+KY,aquifer,20231228,0,0,0,230708
+KY,aquifer,20231218,0,0,0,230708
+KY,depleted field,20230103,0,0,0,9.11008e+07
+KY,depleted field,20230130,0,0,0,9.11008e+07
+KY,depleted field,20230213,0,0,0,9.11008e+07
+KY,depleted field,20230216,370734,0,-370734,1.02007e+08
+KY,depleted field,20230306,0,0,0,1.02007e+08
+KY,depleted field,20230315,0,3.00092e+06,3.00092e+06,1.37294e+07
+KY,depleted field,20230403,0,0,0,1.37294e+07
+KY,depleted field,20230410,1.13888e+06,0,-1.13888e+06,4.72315e+07
+KY,depleted field,20230530,0,0,0,4.72315e+07
+KY,depleted field,20230517,0,0,0,4.72315e+07
+KY,depleted field,20230630,0,0,0,4.72315e+07
+KY,depleted field,20230615,1.49131e+06,0,-1.49131e+06,9.11008e+07
+KY,depleted field,20230727,0,0,0,9.11008e+07
+KY,depleted field,20230710,0,0,0,9.11008e+07
+KY,depleted field,20230803,0,0,0,9.11008e+07
+KY,depleted field,20230831,0,0,0,9.11008e+07
+KY,depleted field,20230906,0,0,0,9.11008e+07
+KY,depleted field,20230912,0,0,0,9.11008e+07
+KY,depleted field,20231005,0,0,0,9.11008e+07
+KY,depleted field,20231020,0,0,0,9.11008e+07
+KY,depleted field,20231129,0,0,0,9.11008e+07
+KY,depleted field,20231121,0,0,0,9.11008e+07
+KY,depleted field,20231228,0,0,0,9.11008e+07
+KY,depleted field,20231218,0,0,0,9.11008e+07
+KY,salt cavern,20230103,0,0,0,0
+KY,salt cavern,20230130,0,0,0,0
+KY,salt cavern,20230213,0,0,0,0
+KY,salt cavern,20230216,0,0,0,0
+KY,salt cavern,20230306,0,0,0,0
+KY,salt cavern,20230315,0,0,0,0
+KY,salt cavern,20230403,0,0,0,0
+KY,salt cavern,20230410,0,0,0,0
+KY,salt cavern,20230530,0,0,0,0
+KY,salt cavern,20230517,0,0,0,0
+KY,salt cavern,20230630,0,0,0,0
+KY,salt cavern,20230615,0,0,0,0
+KY,salt cavern,20230727,0,0,0,0
+KY,salt cavern,20230710,0,0,0,0
+KY,salt cavern,20230803,0,0,0,0
+KY,salt cavern,20230831,0,0,0,0
+KY,salt cavern,20230906,0,0,0,0
+KY,salt cavern,20230912,0,0,0,0
+KY,salt cavern,20231005,0,0,0,0
+KY,salt cavern,20231020,0,0,0,0
+KY,salt cavern,20231129,0,0,0,0
+KY,salt cavern,20231121,0,0,0,0
+KY,salt cavern,20231228,0,0,0,0
+KY,salt cavern,20231218,0,0,0,0
+LA,aquifer,20230103,0,0,0,0
+LA,aquifer,20230130,0,0,0,0
+LA,aquifer,20230213,0,0,0,0
+LA,aquifer,20230216,0,0,0,0
+LA,aquifer,20230306,0,0,0,0
+LA,aquifer,20230315,0,0,0,0
+LA,aquifer,20230403,0,0,0,0
+LA,aquifer,20230410,0,0,0,0
+LA,aquifer,20230530,0,0,0,0
+LA,aquifer,20230517,0,0,0,0
+LA,aquifer,20230630,0,0,0,0
+LA,aquifer,20230615,0,0,0,0
+LA,aquifer,20230727,0,0,0,0
+LA,aquifer,20230710,0,0,0,0
+LA,aquifer,20230803,0,0,0,0
+LA,aquifer,20230831,0,0,0,0
+LA,aquifer,20230906,0,0,0,0
+LA,aquifer,20230912,0,0,0,0
+LA,aquifer,20231005,0,0,0,0
+LA,aquifer,20231020,0,0,0,0
+LA,aquifer,20231129,0,0,0,0
+LA,aquifer,20231121,0,0,0,0
+LA,aquifer,20231228,0,0,0,0
+LA,aquifer,20231218,0,0,0,0
+LA,depleted field,20230103,0,0,0,2.47637e+08
+LA,depleted field,20230130,0,0,0,2.47637e+08
+LA,depleted field,20230213,0,0,0,2.47637e+08
+LA,depleted field,20230216,2.21065e+06,0,-2.21065e+06,3.12667e+08
+LA,depleted field,20230306,0,0,0,3.12667e+08
+LA,depleted field,20230315,0,2.52419e+06,2.52419e+06,2.38414e+08
+LA,depleted field,20230403,0,0,0,2.38414e+08
+LA,depleted field,20230410,0,0,0,2.38414e+08
+LA,depleted field,20230530,0,0,0,2.38414e+08
+LA,depleted field,20230517,0,0,0,2.38414e+08
+LA,depleted field,20230630,0,0,0,2.38414e+08
+LA,depleted field,20230615,0,0,0,2.38414e+08
+LA,depleted field,20230727,669272,0,-669272,2.39083e+08
+LA,depleted field,20230710,290791,0,-290791,2.47637e+08
+LA,depleted field,20230803,0,0,0,2.47637e+08
+LA,depleted field,20230831,0,0,0,2.47637e+08
+LA,depleted field,20230906,0,0,0,2.47637e+08
+LA,depleted field,20230912,0,0,0,2.47637e+08
+LA,depleted field,20231005,0,0,0,2.47637e+08
+LA,depleted field,20231020,0,0,0,2.47637e+08
+LA,depleted field,20231129,0,0,0,2.47637e+08
+LA,depleted field,20231121,0,0,0,2.47637e+08
+LA,depleted field,20231228,0,0,0,2.47637e+08
+LA,depleted field,20231218,0,0,0,2.47637e+08
+LA,salt cavern,20230103,0,0,0,1.5826e+08
+LA,salt cavern,20230130,0,0,0,1.5826e+08
+LA,salt cavern,20230213,0,0,0,1.5826e+08
+LA,salt cavern,20230216,0,0,0,1.5826e+08
+LA,salt cavern,20230306,0,0,0,1.5826e+08
+LA,salt cavern,20230315,0,0,0,1.5826e+08
+LA,salt cavern,20230403,0,0,0,1.5826e+08
+LA,salt cavern,20230410,0,0,0,1.5826e+08
+LA,salt cavern,20230530,0,0,0,1.5826e+08
+LA,salt cavern,20230517,0,0,0,1.5826e+08
+LA,salt cavern,20230630,0,0,0,1.5826e+08
+LA,salt cavern,20230615,0,0,0,1.5826e+08
+LA,salt cavern,20230727,0,0,0,1.5826e+08
+LA,salt cavern,20230710,0,0,0,1.5826e+08
+LA,salt cavern,20230803,0,0,0,1.5826e+08
+LA,salt cavern,20230831,0,0,0,1.5826e+08
+LA,salt cavern,20230906,0,0,0,1.5826e+08
+LA,salt cavern,20230912,0,0,0,1.5826e+08
+LA,salt cavern,20231005,0,0,0,1.5826e+08
+LA,salt cavern,20231020,0,0,0,1.5826e+08
+LA,salt cavern,20231129,0,0,0,1.5826e+08
+LA,salt cavern,20231121,0,0,0,1.5826e+08
+LA,salt cavern,20231228,0,0,0,1.5826e+08
+LA,salt cavern,20231218,0,0,0,1.5826e+08
+MA,aquifer,20230103,0,0,0,0
+MA,aquifer,20230130,0,0,0,0
+MA,aquifer,20230213,0,0,0,0
+MA,aquifer,20230216,0,0,0,0
+MA,aquifer,20230306,0,0,0,0
+MA,aquifer,20230315,0,0,0,0
+MA,aquifer,20230403,0,0,0,0
+MA,aquifer,20230410,0,0,0,0
+MA,aquifer,20230530,0,0,0,0
+MA,aquifer,20230517,0,0,0,0
+MA,aquifer,20230630,0,0,0,0
+MA,aquifer,20230615,0,0,0,0
+MA,aquifer,20230727,0,0,0,0
+MA,aquifer,20230710,0,0,0,0
+MA,aquifer,20230803,0,0,0,0
+MA,aquifer,20230831,0,0,0,0
+MA,aquifer,20230906,0,0,0,0
+MA,aquifer,20230912,0,0,0,0
+MA,aquifer,20231005,0,0,0,0
+MA,aquifer,20231020,0,0,0,0
+MA,aquifer,20231129,0,0,0,0
+MA,aquifer,20231121,0,0,0,0
+MA,aquifer,20231228,0,0,0,0
+MA,aquifer,20231218,0,0,0,0
+MA,depleted field,20230103,0,0,0,0
+MA,depleted field,20230130,0,0,0,0
+MA,depleted field,20230213,0,0,0,0
+MA,depleted field,20230216,0,0,0,0
+MA,depleted field,20230306,0,0,0,0
+MA,depleted field,20230315,0,0,0,0
+MA,depleted field,20230403,0,0,0,0
+MA,depleted field,20230410,0,0,0,0
+MA,depleted field,20230530,0,0,0,0
+MA,depleted field,20230517,0,0,0,0
+MA,depleted field,20230630,0,0,0,0
+MA,depleted field,20230615,0,0,0,0
+MA,depleted field,20230727,0,0,0,0
+MA,depleted field,20230710,0,0,0,0
+MA,depleted field,20230803,0,0,0,0
+MA,depleted field,20230831,0,0,0,0
+MA,depleted field,20230906,0,0,0,0
+MA,depleted field,20230912,0,0,0,0
+MA,depleted field,20231005,0,0,0,0
+MA,depleted field,20231020,0,0,0,0
+MA,depleted field,20231129,0,0,0,0
+MA,depleted field,20231121,0,0,0,0
+MA,depleted field,20231228,0,0,0,0
+MA,depleted field,20231218,0,0,0,0
+MA,salt cavern,20230103,0,0,0,0
+MA,salt cavern,20230130,0,0,0,0
+MA,salt cavern,20230213,0,0,0,0
+MA,salt cavern,20230216,0,0,0,0
+MA,salt cavern,20230306,0,0,0,0
+MA,salt cavern,20230315,0,0,0,0
+MA,salt cavern,20230403,0,0,0,0
+MA,salt cavern,20230410,0,0,0,0
+MA,salt cavern,20230530,0,0,0,0
+MA,salt cavern,20230517,0,0,0,0
+MA,salt cavern,20230630,0,0,0,0
+MA,salt cavern,20230615,0,0,0,0
+MA,salt cavern,20230727,0,0,0,0
+MA,salt cavern,20230710,0,0,0,0
+MA,salt cavern,20230803,0,0,0,0
+MA,salt cavern,20230831,0,0,0,0
+MA,salt cavern,20230906,0,0,0,0
+MA,salt cavern,20230912,0,0,0,0
+MA,salt cavern,20231005,0,0,0,0
+MA,salt cavern,20231020,0,0,0,0
+MA,salt cavern,20231129,0,0,0,0
+MA,salt cavern,20231121,0,0,0,0
+MA,salt cavern,20231228,0,0,0,0
+MA,salt cavern,20231218,0,0,0,0
+MD,aquifer,20230103,0,0,0,0
+MD,aquifer,20230130,0,0,0,0
+MD,aquifer,20230213,0,0,0,0
+MD,aquifer,20230216,0,0,0,0
+MD,aquifer,20230306,0,0,0,0
+MD,aquifer,20230315,0,0,0,0
+MD,aquifer,20230403,0,0,0,0
+MD,aquifer,20230410,0,0,0,0
+MD,aquifer,20230530,0,0,0,0
+MD,aquifer,20230517,0,0,0,0
+MD,aquifer,20230630,0,0,0,0
+MD,aquifer,20230615,0,0,0,0
+MD,aquifer,20230727,0,0,0,0
+MD,aquifer,20230710,0,0,0,0
+MD,aquifer,20230803,0,0,0,0
+MD,aquifer,20230831,0,0,0,0
+MD,aquifer,20230906,0,0,0,0
+MD,aquifer,20230912,0,0,0,0
+MD,aquifer,20231005,0,0,0,0
+MD,aquifer,20231020,0,0,0,0
+MD,aquifer,20231129,0,0,0,0
+MD,aquifer,20231121,0,0,0,0
+MD,aquifer,20231228,0,0,0,0
+MD,aquifer,20231218,0,0,0,0
+MD,depleted field,20230103,0,0,0,1.13669e+07
+MD,depleted field,20230130,0,0,0,1.13669e+07
+MD,depleted field,20230213,0,0,0,1.13669e+07
+MD,depleted field,20230216,0,0,0,1.13669e+07
+MD,depleted field,20230306,0,0,0,1.13669e+07
+MD,depleted field,20230315,0,386411,386411,0
+MD,depleted field,20230403,0,0,0,0
+MD,depleted field,20230410,0,0,0,0
+MD,depleted field,20230530,424647,0,-424647,424647
+MD,depleted field,20230517,424535,0,-424535,1.29131e+07
+MD,depleted field,20230630,0,0,0,1.29131e+07
+MD,depleted field,20230615,0,0,0,1.29131e+07
+MD,depleted field,20230727,0,0,0,1.29131e+07
+MD,depleted field,20230710,142329,0,-142329,1.70999e+07
+MD,depleted field,20230803,0,0,0,1.70999e+07
+MD,depleted field,20230831,63813.2,0,-63813.2,1.89771e+07
+MD,depleted field,20230906,0,0,0,1.89771e+07
+MD,depleted field,20230912,0,0,0,1.89771e+07
+MD,depleted field,20231005,0,0,0,1.89771e+07
+MD,depleted field,20231020,0,0,0,1.89771e+07
+MD,depleted field,20231129,0,0,0,1.89771e+07
+MD,depleted field,20231121,0,258702,258702,1.13669e+07
+MD,depleted field,20231228,0,0,0,1.13669e+07
+MD,depleted field,20231218,0,0,0,1.13669e+07
+MD,salt cavern,20230103,0,0,0,0
+MD,salt cavern,20230130,0,0,0,0
+MD,salt cavern,20230213,0,0,0,0
+MD,salt cavern,20230216,0,0,0,0
+MD,salt cavern,20230306,0,0,0,0
+MD,salt cavern,20230315,0,0,0,0
+MD,salt cavern,20230403,0,0,0,0
+MD,salt cavern,20230410,0,0,0,0
+MD,salt cavern,20230530,0,0,0,0
+MD,salt cavern,20230517,0,0,0,0
+MD,salt cavern,20230630,0,0,0,0
+MD,salt cavern,20230615,0,0,0,0
+MD,salt cavern,20230727,0,0,0,0
+MD,salt cavern,20230710,0,0,0,0
+MD,salt cavern,20230803,0,0,0,0
+MD,salt cavern,20230831,0,0,0,0
+MD,salt cavern,20230906,0,0,0,0
+MD,salt cavern,20230912,0,0,0,0
+MD,salt cavern,20231005,0,0,0,0
+MD,salt cavern,20231020,0,0,0,0
+MD,salt cavern,20231129,0,0,0,0
+MD,salt cavern,20231121,0,0,0,0
+MD,salt cavern,20231228,0,0,0,0
+MD,salt cavern,20231218,0,0,0,0
+ME,aquifer,20230103,0,0,0,0
+ME,aquifer,20230130,0,0,0,0
+ME,aquifer,20230213,0,0,0,0
+ME,aquifer,20230216,0,0,0,0
+ME,aquifer,20230306,0,0,0,0
+ME,aquifer,20230315,0,0,0,0
+ME,aquifer,20230403,0,0,0,0
+ME,aquifer,20230410,0,0,0,0
+ME,aquifer,20230530,0,0,0,0
+ME,aquifer,20230517,0,0,0,0
+ME,aquifer,20230630,0,0,0,0
+ME,aquifer,20230615,0,0,0,0
+ME,aquifer,20230727,0,0,0,0
+ME,aquifer,20230710,0,0,0,0
+ME,aquifer,20230803,0,0,0,0
+ME,aquifer,20230831,0,0,0,0
+ME,aquifer,20230906,0,0,0,0
+ME,aquifer,20230912,0,0,0,0
+ME,aquifer,20231005,0,0,0,0
+ME,aquifer,20231020,0,0,0,0
+ME,aquifer,20231129,0,0,0,0
+ME,aquifer,20231121,0,0,0,0
+ME,aquifer,20231228,0,0,0,0
+ME,aquifer,20231218,0,0,0,0
+ME,depleted field,20230103,0,0,0,0
+ME,depleted field,20230130,0,0,0,0
+ME,depleted field,20230213,0,0,0,0
+ME,depleted field,20230216,0,0,0,0
+ME,depleted field,20230306,0,0,0,0
+ME,depleted field,20230315,0,0,0,0
+ME,depleted field,20230403,0,0,0,0
+ME,depleted field,20230410,0,0,0,0
+ME,depleted field,20230530,0,0,0,0
+ME,depleted field,20230517,0,0,0,0
+ME,depleted field,20230630,0,0,0,0
+ME,depleted field,20230615,0,0,0,0
+ME,depleted field,20230727,0,0,0,0
+ME,depleted field,20230710,0,0,0,0
+ME,depleted field,20230803,0,0,0,0
+ME,depleted field,20230831,0,0,0,0
+ME,depleted field,20230906,0,0,0,0
+ME,depleted field,20230912,0,0,0,0
+ME,depleted field,20231005,0,0,0,0
+ME,depleted field,20231020,0,0,0,0
+ME,depleted field,20231129,0,0,0,0
+ME,depleted field,20231121,0,0,0,0
+ME,depleted field,20231228,0,0,0,0
+ME,depleted field,20231218,0,0,0,0
+ME,salt cavern,20230103,0,0,0,0
+ME,salt cavern,20230130,0,0,0,0
+ME,salt cavern,20230213,0,0,0,0
+ME,salt cavern,20230216,0,0,0,0
+ME,salt cavern,20230306,0,0,0,0
+ME,salt cavern,20230315,0,0,0,0
+ME,salt cavern,20230403,0,0,0,0
+ME,salt cavern,20230410,0,0,0,0
+ME,salt cavern,20230530,0,0,0,0
+ME,salt cavern,20230517,0,0,0,0
+ME,salt cavern,20230630,0,0,0,0
+ME,salt cavern,20230615,0,0,0,0
+ME,salt cavern,20230727,0,0,0,0
+ME,salt cavern,20230710,0,0,0,0
+ME,salt cavern,20230803,0,0,0,0
+ME,salt cavern,20230831,0,0,0,0
+ME,salt cavern,20230906,0,0,0,0
+ME,salt cavern,20230912,0,0,0,0
+ME,salt cavern,20231005,0,0,0,0
+ME,salt cavern,20231020,0,0,0,0
+ME,salt cavern,20231129,0,0,0,0
+ME,salt cavern,20231121,0,0,0,0
+ME,salt cavern,20231228,0,0,0,0
+ME,salt cavern,20231218,0,0,0,0
+MI,aquifer,20230103,0,0,0,0
+MI,aquifer,20230130,0,0,0,0
+MI,aquifer,20230213,0,0,0,0
+MI,aquifer,20230216,0,0,0,0
+MI,aquifer,20230306,0,0,0,0
+MI,aquifer,20230315,0,0,0,0
+MI,aquifer,20230403,0,0,0,0
+MI,aquifer,20230410,0,0,0,0
+MI,aquifer,20230530,0,0,0,0
+MI,aquifer,20230517,0,0,0,0
+MI,aquifer,20230630,0,0,0,0
+MI,aquifer,20230615,0,0,0,0
+MI,aquifer,20230727,0,0,0,0
+MI,aquifer,20230710,0,0,0,0
+MI,aquifer,20230803,0,0,0,0
+MI,aquifer,20230831,0,0,0,0
+MI,aquifer,20230906,0,0,0,0
+MI,aquifer,20230912,0,0,0,0
+MI,aquifer,20231005,0,0,0,0
+MI,aquifer,20231020,0,0,0,0
+MI,aquifer,20231129,0,0,0,0
+MI,aquifer,20231121,0,0,0,0
+MI,aquifer,20231228,0,0,0,0
+MI,aquifer,20231218,0,0,0,0
+MI,depleted field,20230103,0,0,0,5.68575e+08
+MI,depleted field,20230130,0,1.22238e+06,1.22238e+06,5.32616e+08
+MI,depleted field,20230213,0,533872,533872,5.32082e+08
+MI,depleted field,20230216,0,0,0,5.32082e+08
+MI,depleted field,20230306,0,0,0,5.32082e+08
+MI,depleted field,20230315,0,607807,607807,5.14203e+08
+MI,depleted field,20230403,0,0,0,5.14203e+08
+MI,depleted field,20230410,167986,0,-167986,5.19144e+08
+MI,depleted field,20230530,4.76511e+06,0,-4.76511e+06,5.23909e+08
+MI,depleted field,20230517,766745,0,-766745,5.46464e+08
+MI,depleted field,20230630,1.28612e+06,0,-1.28612e+06,5.47751e+08
+MI,depleted field,20230615,1.9594e+06,0,-1.9594e+06,6.0539e+08
+MI,depleted field,20230727,1.34306e+06,0,-1.34306e+06,6.06733e+08
+MI,depleted field,20230710,1.2844e+06,0,-1.2844e+06,6.44516e+08
+MI,depleted field,20230803,1.85611e+06,0,-1.85611e+06,6.46372e+08
+MI,depleted field,20230831,1.58822e+06,0,-1.58822e+06,6.93092e+08
+MI,depleted field,20230906,759350,0,-759350,6.93851e+08
+MI,depleted field,20230912,442252,0,-442252,7.06861e+08
+MI,depleted field,20231005,0,0,0,7.06861e+08
+MI,depleted field,20231020,0,0,0,7.06861e+08
+MI,depleted field,20231129,0,6.30521e+06,6.30521e+06,7.00555e+08
+MI,depleted field,20231121,0,2.33167e+06,2.33167e+06,6.31965e+08
+MI,depleted field,20231228,0,2.60806e+06,2.60806e+06,6.29357e+08
+MI,depleted field,20231218,0,2.06626e+06,2.06626e+06,5.68575e+08
+MI,salt cavern,20230103,0,0,0,2.24096e+06
+MI,salt cavern,20230130,0,0,0,2.24096e+06
+MI,salt cavern,20230213,0,0,0,2.24096e+06
+MI,salt cavern,20230216,0,0,0,2.24096e+06
+MI,salt cavern,20230306,0,0,0,2.24096e+06
+MI,salt cavern,20230315,0,0,0,2.24096e+06
+MI,salt cavern,20230403,0,0,0,2.24096e+06
+MI,salt cavern,20230410,0,0,0,2.24096e+06
+MI,salt cavern,20230530,0,0,0,2.24096e+06
+MI,salt cavern,20230517,0,0,0,2.24096e+06
+MI,salt cavern,20230630,0,0,0,2.24096e+06
+MI,salt cavern,20230615,0,0,0,2.24096e+06
+MI,salt cavern,20230727,0,0,0,2.24096e+06
+MI,salt cavern,20230710,0,0,0,2.24096e+06
+MI,salt cavern,20230803,0,0,0,2.24096e+06
+MI,salt cavern,20230831,0,0,0,2.24096e+06
+MI,salt cavern,20230906,0,0,0,2.24096e+06
+MI,salt cavern,20230912,0,0,0,2.24096e+06
+MI,salt cavern,20231005,0,0,0,2.24096e+06
+MI,salt cavern,20231020,0,0,0,2.24096e+06
+MI,salt cavern,20231129,0,0,0,2.24096e+06
+MI,salt cavern,20231121,0,0,0,2.24096e+06
+MI,salt cavern,20231228,0,0,0,2.24096e+06
+MI,salt cavern,20231218,0,0,0,2.24096e+06
+MN,aquifer,20230103,0,0,0,2.074e+06
+MN,aquifer,20230130,0,70504.2,70504.2,0
+MN,aquifer,20230213,0,0,0,0
+MN,aquifer,20230216,0,0,0,0
+MN,aquifer,20230306,0,0,0,0
+MN,aquifer,20230315,0,0,0,0
+MN,aquifer,20230403,0,0,0,0
+MN,aquifer,20230410,0,0,0,0
+MN,aquifer,20230530,0,0,0,0
+MN,aquifer,20230517,0,0,0,0
+MN,aquifer,20230630,0,0,0,0
+MN,aquifer,20230615,70504.2,0,-70504.2,2.074e+06
+MN,aquifer,20230727,0,0,0,2.074e+06
+MN,aquifer,20230710,0,0,0,2.074e+06
+MN,aquifer,20230803,0,0,0,2.074e+06
+MN,aquifer,20230831,0,0,0,2.074e+06
+MN,aquifer,20230906,0,0,0,2.074e+06
+MN,aquifer,20230912,0,0,0,2.074e+06
+MN,aquifer,20231005,0,0,0,2.074e+06
+MN,aquifer,20231020,0,0,0,2.074e+06
+MN,aquifer,20231129,0,0,0,2.074e+06
+MN,aquifer,20231121,0,0,0,2.074e+06
+MN,aquifer,20231228,0,0,0,2.074e+06
+MN,aquifer,20231218,0,0,0,2.074e+06
+MN,depleted field,20230103,0,0,0,0
+MN,depleted field,20230130,0,0,0,0
+MN,depleted field,20230213,0,0,0,0
+MN,depleted field,20230216,0,0,0,0
+MN,depleted field,20230306,0,0,0,0
+MN,depleted field,20230315,0,0,0,0
+MN,depleted field,20230403,0,0,0,0
+MN,depleted field,20230410,0,0,0,0
+MN,depleted field,20230530,0,0,0,0
+MN,depleted field,20230517,0,0,0,0
+MN,depleted field,20230630,0,0,0,0
+MN,depleted field,20230615,0,0,0,0
+MN,depleted field,20230727,0,0,0,0
+MN,depleted field,20230710,0,0,0,0
+MN,depleted field,20230803,0,0,0,0
+MN,depleted field,20230831,0,0,0,0
+MN,depleted field,20230906,0,0,0,0
+MN,depleted field,20230912,0,0,0,0
+MN,depleted field,20231005,0,0,0,0
+MN,depleted field,20231020,0,0,0,0
+MN,depleted field,20231129,0,0,0,0
+MN,depleted field,20231121,0,0,0,0
+MN,depleted field,20231228,0,0,0,0
+MN,depleted field,20231218,0,0,0,0
+MN,salt cavern,20230103,0,0,0,0
+MN,salt cavern,20230130,0,0,0,0
+MN,salt cavern,20230213,0,0,0,0
+MN,salt cavern,20230216,0,0,0,0
+MN,salt cavern,20230306,0,0,0,0
+MN,salt cavern,20230315,0,0,0,0
+MN,salt cavern,20230403,0,0,0,0
+MN,salt cavern,20230410,0,0,0,0
+MN,salt cavern,20230530,0,0,0,0
+MN,salt cavern,20230517,0,0,0,0
+MN,salt cavern,20230630,0,0,0,0
+MN,salt cavern,20230615,0,0,0,0
+MN,salt cavern,20230727,0,0,0,0
+MN,salt cavern,20230710,0,0,0,0
+MN,salt cavern,20230803,0,0,0,0
+MN,salt cavern,20230831,0,0,0,0
+MN,salt cavern,20230906,0,0,0,0
+MN,salt cavern,20230912,0,0,0,0
+MN,salt cavern,20231005,0,0,0,0
+MN,salt cavern,20231020,0,0,0,0
+MN,salt cavern,20231129,0,0,0,0
+MN,salt cavern,20231121,0,0,0,0
+MN,salt cavern,20231228,0,0,0,0
+MN,salt cavern,20231218,0,0,0,0
+MO,aquifer,20230103,0,0,0,3.79127e+06
+MO,aquifer,20230130,0,0,0,3.79127e+06
+MO,aquifer,20230213,0,0,0,3.79127e+06
+MO,aquifer,20230216,0,0,0,3.79127e+06
+MO,aquifer,20230306,0,0,0,3.79127e+06
+MO,aquifer,20230315,0,128882,128882,0
+MO,aquifer,20230403,0,0,0,0
+MO,aquifer,20230410,0,0,0,0
+MO,aquifer,20230530,0,0,0,0
+MO,aquifer,20230517,128882,0,-128882,3.79127e+06
+MO,aquifer,20230630,0,0,0,3.79127e+06
+MO,aquifer,20230615,0,0,0,3.79127e+06
+MO,aquifer,20230727,0,0,0,3.79127e+06
+MO,aquifer,20230710,0,0,0,3.79127e+06
+MO,aquifer,20230803,0,0,0,3.79127e+06
+MO,aquifer,20230831,0,0,0,3.79127e+06
+MO,aquifer,20230906,0,0,0,3.79127e+06
+MO,aquifer,20230912,0,0,0,3.79127e+06
+MO,aquifer,20231005,0,0,0,3.79127e+06
+MO,aquifer,20231020,0,0,0,3.79127e+06
+MO,aquifer,20231129,0,0,0,3.79127e+06
+MO,aquifer,20231121,0,0,0,3.79127e+06
+MO,aquifer,20231228,0,0,0,3.79127e+06
+MO,aquifer,20231218,0,0,0,3.79127e+06
+MO,depleted field,20230103,0,0,0,0
+MO,depleted field,20230130,0,0,0,0
+MO,depleted field,20230213,0,0,0,0
+MO,depleted field,20230216,0,0,0,0
+MO,depleted field,20230306,0,0,0,0
+MO,depleted field,20230315,0,0,0,0
+MO,depleted field,20230403,0,0,0,0
+MO,depleted field,20230410,0,0,0,0
+MO,depleted field,20230530,0,0,0,0
+MO,depleted field,20230517,0,0,0,0
+MO,depleted field,20230630,0,0,0,0
+MO,depleted field,20230615,0,0,0,0
+MO,depleted field,20230727,0,0,0,0
+MO,depleted field,20230710,0,0,0,0
+MO,depleted field,20230803,0,0,0,0
+MO,depleted field,20230831,0,0,0,0
+MO,depleted field,20230906,0,0,0,0
+MO,depleted field,20230912,0,0,0,0
+MO,depleted field,20231005,0,0,0,0
+MO,depleted field,20231020,0,0,0,0
+MO,depleted field,20231129,0,0,0,0
+MO,depleted field,20231121,0,0,0,0
+MO,depleted field,20231228,0,0,0,0
+MO,depleted field,20231218,0,0,0,0
+MO,salt cavern,20230103,0,0,0,0
+MO,salt cavern,20230130,0,0,0,0
+MO,salt cavern,20230213,0,0,0,0
+MO,salt cavern,20230216,0,0,0,0
+MO,salt cavern,20230306,0,0,0,0
+MO,salt cavern,20230315,0,0,0,0
+MO,salt cavern,20230403,0,0,0,0
+MO,salt cavern,20230410,0,0,0,0
+MO,salt cavern,20230530,0,0,0,0
+MO,salt cavern,20230517,0,0,0,0
+MO,salt cavern,20230630,0,0,0,0
+MO,salt cavern,20230615,0,0,0,0
+MO,salt cavern,20230727,0,0,0,0
+MO,salt cavern,20230710,0,0,0,0
+MO,salt cavern,20230803,0,0,0,0
+MO,salt cavern,20230831,0,0,0,0
+MO,salt cavern,20230906,0,0,0,0
+MO,salt cavern,20230912,0,0,0,0
+MO,salt cavern,20231005,0,0,0,0
+MO,salt cavern,20231020,0,0,0,0
+MO,salt cavern,20231129,0,0,0,0
+MO,salt cavern,20231121,0,0,0,0
+MO,salt cavern,20231228,0,0,0,0
+MO,salt cavern,20231218,0,0,0,0
+MS,aquifer,20230103,0,0,0,0
+MS,aquifer,20230130,0,0,0,0
+MS,aquifer,20230213,0,0,0,0
+MS,aquifer,20230216,0,0,0,0
+MS,aquifer,20230306,0,0,0,0
+MS,aquifer,20230315,0,0,0,0
+MS,aquifer,20230403,0,0,0,0
+MS,aquifer,20230410,0,0,0,0
+MS,aquifer,20230530,0,0,0,0
+MS,aquifer,20230517,0,0,0,0
+MS,aquifer,20230630,0,0,0,0
+MS,aquifer,20230615,0,0,0,0
+MS,aquifer,20230727,0,0,0,0
+MS,aquifer,20230710,0,0,0,0
+MS,aquifer,20230803,0,0,0,0
+MS,aquifer,20230831,0,0,0,0
+MS,aquifer,20230906,0,0,0,0
+MS,aquifer,20230912,0,0,0,0
+MS,aquifer,20231005,0,0,0,0
+MS,aquifer,20231020,0,0,0,0
+MS,aquifer,20231129,0,0,0,0
+MS,aquifer,20231121,0,0,0,0
+MS,aquifer,20231228,0,0,0,0
+MS,aquifer,20231218,0,0,0,0
+MS,depleted field,20230103,0,0,0,7.14607e+07
+MS,depleted field,20230130,0,0,0,7.14607e+07
+MS,depleted field,20230213,0,0,0,7.14607e+07
+MS,depleted field,20230216,0,0,0,7.14607e+07
+MS,depleted field,20230306,0,0,0,7.14607e+07
+MS,depleted field,20230315,0,0,0,7.14607e+07
+MS,depleted field,20230403,0,0,0,7.14607e+07
+MS,depleted field,20230410,0,0,0,7.14607e+07
+MS,depleted field,20230530,0,0,0,7.14607e+07
+MS,depleted field,20230517,0,0,0,7.14607e+07
+MS,depleted field,20230630,0,0,0,7.14607e+07
+MS,depleted field,20230615,0,0,0,7.14607e+07
+MS,depleted field,20230727,0,0,0,7.14607e+07
+MS,depleted field,20230710,0,0,0,7.14607e+07
+MS,depleted field,20230803,0,0,0,7.14607e+07
+MS,depleted field,20230831,0,0,0,7.14607e+07
+MS,depleted field,20230906,0,0,0,7.14607e+07
+MS,depleted field,20230912,0,0,0,7.14607e+07
+MS,depleted field,20231005,0,0,0,7.14607e+07
+MS,depleted field,20231020,0,0,0,7.14607e+07
+MS,depleted field,20231129,0,0,0,7.14607e+07
+MS,depleted field,20231121,0,0,0,7.14607e+07
+MS,depleted field,20231228,0,0,0,7.14607e+07
+MS,depleted field,20231218,0,0,0,7.14607e+07
+MS,salt cavern,20230103,0,0,0,1.37523e+08
+MS,salt cavern,20230130,0,0,0,1.37523e+08
+MS,salt cavern,20230213,0,0,0,1.37523e+08
+MS,salt cavern,20230216,0,0,0,1.37523e+08
+MS,salt cavern,20230306,0,0,0,1.37523e+08
+MS,salt cavern,20230315,0,0,0,1.37523e+08
+MS,salt cavern,20230403,0,0,0,1.37523e+08
+MS,salt cavern,20230410,0,0,0,1.37523e+08
+MS,salt cavern,20230530,0,0,0,1.37523e+08
+MS,salt cavern,20230517,0,0,0,1.37523e+08
+MS,salt cavern,20230630,0,0,0,1.37523e+08
+MS,salt cavern,20230615,0,0,0,1.37523e+08
+MS,salt cavern,20230727,0,0,0,1.37523e+08
+MS,salt cavern,20230710,0,0,0,1.37523e+08
+MS,salt cavern,20230803,0,0,0,1.37523e+08
+MS,salt cavern,20230831,0,0,0,1.37523e+08
+MS,salt cavern,20230906,0,0,0,1.37523e+08
+MS,salt cavern,20230912,0,0,0,1.37523e+08
+MS,salt cavern,20231005,0,0,0,1.37523e+08
+MS,salt cavern,20231020,0,0,0,1.37523e+08
+MS,salt cavern,20231129,0,0,0,1.37523e+08
+MS,salt cavern,20231121,0,0,0,1.37523e+08
+MS,salt cavern,20231228,0,0,0,1.37523e+08
+MS,salt cavern,20231218,0,0,0,1.37523e+08
+MT,aquifer,20230103,0,0,0,0
+MT,aquifer,20230130,0,0,0,0
+MT,aquifer,20230213,0,0,0,0
+MT,aquifer,20230216,0,0,0,0
+MT,aquifer,20230306,0,0,0,0
+MT,aquifer,20230315,0,0,0,0
+MT,aquifer,20230403,0,0,0,0
+MT,aquifer,20230410,0,0,0,0
+MT,aquifer,20230530,0,0,0,0
+MT,aquifer,20230517,0,0,0,0
+MT,aquifer,20230630,0,0,0,0
+MT,aquifer,20230615,0,0,0,0
+MT,aquifer,20230727,0,0,0,0
+MT,aquifer,20230710,0,0,0,0
+MT,aquifer,20230803,0,0,0,0
+MT,aquifer,20230831,0,0,0,0
+MT,aquifer,20230906,0,0,0,0
+MT,aquifer,20230912,0,0,0,0
+MT,aquifer,20231005,0,0,0,0
+MT,aquifer,20231020,0,0,0,0
+MT,aquifer,20231129,0,0,0,0
+MT,aquifer,20231121,0,0,0,0
+MT,aquifer,20231228,0,0,0,0
+MT,aquifer,20231218,0,0,0,0
+MT,depleted field,20230103,0,0,0,2.04738e+08
+MT,depleted field,20230130,0,0,0,2.04738e+08
+MT,depleted field,20230213,0,0,0,2.04738e+08
+MT,depleted field,20230216,0,0,0,2.04738e+08
+MT,depleted field,20230306,0,0,0,2.04738e+08
+MT,depleted field,20230315,0,2.01493e+06,2.01493e+06,1.45465e+08
+MT,depleted field,20230403,0,0,0,1.45465e+08
+MT,depleted field,20230410,0,0,0,1.45465e+08
+MT,depleted field,20230530,120291,0,-120291,1.45586e+08
+MT,depleted field,20230517,623022,0,-623022,1.63913e+08
+MT,depleted field,20230630,181505,0,-181505,1.64094e+08
+MT,depleted field,20230615,156375,0,-156375,1.68694e+08
+MT,depleted field,20230727,697006,0,-697006,1.69391e+08
+MT,depleted field,20230710,724586,0,-724586,1.90706e+08
+MT,depleted field,20230803,453130,0,-453130,1.9116e+08
+MT,depleted field,20230831,339016,0,-339016,2.01132e+08
+MT,depleted field,20230906,146607,0,-146607,2.01279e+08
+MT,depleted field,20230912,119143,0,-119143,2.04784e+08
+MT,depleted field,20231005,0,0,0,2.04784e+08
+MT,depleted field,20231020,0,0,0,2.04784e+08
+MT,depleted field,20231129,0,45682.7,45682.7,2.04738e+08
+MT,depleted field,20231121,0,0,0,2.04738e+08
+MT,depleted field,20231228,0,0,0,2.04738e+08
+MT,depleted field,20231218,0,0,0,2.04738e+08
+MT,salt cavern,20230103,0,0,0,0
+MT,salt cavern,20230130,0,0,0,0
+MT,salt cavern,20230213,0,0,0,0
+MT,salt cavern,20230216,0,0,0,0
+MT,salt cavern,20230306,0,0,0,0
+MT,salt cavern,20230315,0,0,0,0
+MT,salt cavern,20230403,0,0,0,0
+MT,salt cavern,20230410,0,0,0,0
+MT,salt cavern,20230530,0,0,0,0
+MT,salt cavern,20230517,0,0,0,0
+MT,salt cavern,20230630,0,0,0,0
+MT,salt cavern,20230615,0,0,0,0
+MT,salt cavern,20230727,0,0,0,0
+MT,salt cavern,20230710,0,0,0,0
+MT,salt cavern,20230803,0,0,0,0
+MT,salt cavern,20230831,0,0,0,0
+MT,salt cavern,20230906,0,0,0,0
+MT,salt cavern,20230912,0,0,0,0
+MT,salt cavern,20231005,0,0,0,0
+MT,salt cavern,20231020,0,0,0,0
+MT,salt cavern,20231129,0,0,0,0
+MT,salt cavern,20231121,0,0,0,0
+MT,salt cavern,20231228,0,0,0,0
+MT,salt cavern,20231218,0,0,0,0
+NC,aquifer,20230103,0,0,0,0
+NC,aquifer,20230130,0,0,0,0
+NC,aquifer,20230213,0,0,0,0
+NC,aquifer,20230216,0,0,0,0
+NC,aquifer,20230306,0,0,0,0
+NC,aquifer,20230315,0,0,0,0
+NC,aquifer,20230403,0,0,0,0
+NC,aquifer,20230410,0,0,0,0
+NC,aquifer,20230530,0,0,0,0
+NC,aquifer,20230517,0,0,0,0
+NC,aquifer,20230630,0,0,0,0
+NC,aquifer,20230615,0,0,0,0
+NC,aquifer,20230727,0,0,0,0
+NC,aquifer,20230710,0,0,0,0
+NC,aquifer,20230803,0,0,0,0
+NC,aquifer,20230831,0,0,0,0
+NC,aquifer,20230906,0,0,0,0
+NC,aquifer,20230912,0,0,0,0
+NC,aquifer,20231005,0,0,0,0
+NC,aquifer,20231020,0,0,0,0
+NC,aquifer,20231129,0,0,0,0
+NC,aquifer,20231121,0,0,0,0
+NC,aquifer,20231228,0,0,0,0
+NC,aquifer,20231218,0,0,0,0
+NC,depleted field,20230103,0,0,0,0
+NC,depleted field,20230130,0,0,0,0
+NC,depleted field,20230213,0,0,0,0
+NC,depleted field,20230216,0,0,0,0
+NC,depleted field,20230306,0,0,0,0
+NC,depleted field,20230315,0,0,0,0
+NC,depleted field,20230403,0,0,0,0
+NC,depleted field,20230410,0,0,0,0
+NC,depleted field,20230530,0,0,0,0
+NC,depleted field,20230517,0,0,0,0
+NC,depleted field,20230630,0,0,0,0
+NC,depleted field,20230615,0,0,0,0
+NC,depleted field,20230727,0,0,0,0
+NC,depleted field,20230710,0,0,0,0
+NC,depleted field,20230803,0,0,0,0
+NC,depleted field,20230831,0,0,0,0
+NC,depleted field,20230906,0,0,0,0
+NC,depleted field,20230912,0,0,0,0
+NC,depleted field,20231005,0,0,0,0
+NC,depleted field,20231020,0,0,0,0
+NC,depleted field,20231129,0,0,0,0
+NC,depleted field,20231121,0,0,0,0
+NC,depleted field,20231228,0,0,0,0
+NC,depleted field,20231218,0,0,0,0
+NC,salt cavern,20230103,0,0,0,0
+NC,salt cavern,20230130,0,0,0,0
+NC,salt cavern,20230213,0,0,0,0
+NC,salt cavern,20230216,0,0,0,0
+NC,salt cavern,20230306,0,0,0,0
+NC,salt cavern,20230315,0,0,0,0
+NC,salt cavern,20230403,0,0,0,0
+NC,salt cavern,20230410,0,0,0,0
+NC,salt cavern,20230530,0,0,0,0
+NC,salt cavern,20230517,0,0,0,0
+NC,salt cavern,20230630,0,0,0,0
+NC,salt cavern,20230615,0,0,0,0
+NC,salt cavern,20230727,0,0,0,0
+NC,salt cavern,20230710,0,0,0,0
+NC,salt cavern,20230803,0,0,0,0
+NC,salt cavern,20230831,0,0,0,0
+NC,salt cavern,20230906,0,0,0,0
+NC,salt cavern,20230912,0,0,0,0
+NC,salt cavern,20231005,0,0,0,0
+NC,salt cavern,20231020,0,0,0,0
+NC,salt cavern,20231129,0,0,0,0
+NC,salt cavern,20231121,0,0,0,0
+NC,salt cavern,20231228,0,0,0,0
+NC,salt cavern,20231218,0,0,0,0
+ND,aquifer,20230103,0,0,0,0
+ND,aquifer,20230130,0,0,0,0
+ND,aquifer,20230213,0,0,0,0
+ND,aquifer,20230216,0,0,0,0
+ND,aquifer,20230306,0,0,0,0
+ND,aquifer,20230315,0,0,0,0
+ND,aquifer,20230403,0,0,0,0
+ND,aquifer,20230410,0,0,0,0
+ND,aquifer,20230530,0,0,0,0
+ND,aquifer,20230517,0,0,0,0
+ND,aquifer,20230630,0,0,0,0
+ND,aquifer,20230615,0,0,0,0
+ND,aquifer,20230727,0,0,0,0
+ND,aquifer,20230710,0,0,0,0
+ND,aquifer,20230803,0,0,0,0
+ND,aquifer,20230831,0,0,0,0
+ND,aquifer,20230906,0,0,0,0
+ND,aquifer,20230912,0,0,0,0
+ND,aquifer,20231005,0,0,0,0
+ND,aquifer,20231020,0,0,0,0
+ND,aquifer,20231129,0,0,0,0
+ND,aquifer,20231121,0,0,0,0
+ND,aquifer,20231228,0,0,0,0
+ND,aquifer,20231218,0,0,0,0
+ND,depleted field,20230103,0,0,0,0
+ND,depleted field,20230130,0,0,0,0
+ND,depleted field,20230213,0,0,0,0
+ND,depleted field,20230216,0,0,0,0
+ND,depleted field,20230306,0,0,0,0
+ND,depleted field,20230315,0,0,0,0
+ND,depleted field,20230403,0,0,0,0
+ND,depleted field,20230410,0,0,0,0
+ND,depleted field,20230530,0,0,0,0
+ND,depleted field,20230517,0,0,0,0
+ND,depleted field,20230630,0,0,0,0
+ND,depleted field,20230615,0,0,0,0
+ND,depleted field,20230727,0,0,0,0
+ND,depleted field,20230710,0,0,0,0
+ND,depleted field,20230803,0,0,0,0
+ND,depleted field,20230831,0,0,0,0
+ND,depleted field,20230906,0,0,0,0
+ND,depleted field,20230912,0,0,0,0
+ND,depleted field,20231005,0,0,0,0
+ND,depleted field,20231020,0,0,0,0
+ND,depleted field,20231129,0,0,0,0
+ND,depleted field,20231121,0,0,0,0
+ND,depleted field,20231228,0,0,0,0
+ND,depleted field,20231218,0,0,0,0
+ND,salt cavern,20230103,0,0,0,0
+ND,salt cavern,20230130,0,0,0,0
+ND,salt cavern,20230213,0,0,0,0
+ND,salt cavern,20230216,0,0,0,0
+ND,salt cavern,20230306,0,0,0,0
+ND,salt cavern,20230315,0,0,0,0
+ND,salt cavern,20230403,0,0,0,0
+ND,salt cavern,20230410,0,0,0,0
+ND,salt cavern,20230530,0,0,0,0
+ND,salt cavern,20230517,0,0,0,0
+ND,salt cavern,20230630,0,0,0,0
+ND,salt cavern,20230615,0,0,0,0
+ND,salt cavern,20230727,0,0,0,0
+ND,salt cavern,20230710,0,0,0,0
+ND,salt cavern,20230803,0,0,0,0
+ND,salt cavern,20230831,0,0,0,0
+ND,salt cavern,20230906,0,0,0,0
+ND,salt cavern,20230912,0,0,0,0
+ND,salt cavern,20231005,0,0,0,0
+ND,salt cavern,20231020,0,0,0,0
+ND,salt cavern,20231129,0,0,0,0
+ND,salt cavern,20231121,0,0,0,0
+ND,salt cavern,20231228,0,0,0,0
+ND,salt cavern,20231218,0,0,0,0
+NE,aquifer,20230103,0,0,0,0
+NE,aquifer,20230130,0,0,0,0
+NE,aquifer,20230213,0,0,0,0
+NE,aquifer,20230216,0,0,0,0
+NE,aquifer,20230306,0,0,0,0
+NE,aquifer,20230315,0,0,0,0
+NE,aquifer,20230403,0,0,0,0
+NE,aquifer,20230410,0,0,0,0
+NE,aquifer,20230530,0,0,0,0
+NE,aquifer,20230517,0,0,0,0
+NE,aquifer,20230630,0,0,0,0
+NE,aquifer,20230615,0,0,0,0
+NE,aquifer,20230727,0,0,0,0
+NE,aquifer,20230710,0,0,0,0
+NE,aquifer,20230803,0,0,0,0
+NE,aquifer,20230831,0,0,0,0
+NE,aquifer,20230906,0,0,0,0
+NE,aquifer,20230912,0,0,0,0
+NE,aquifer,20231005,0,0,0,0
+NE,aquifer,20231020,0,0,0,0
+NE,aquifer,20231129,0,0,0,0
+NE,aquifer,20231121,0,0,0,0
+NE,aquifer,20231228,0,0,0,0
+NE,aquifer,20231218,0,0,0,0
+NE,depleted field,20230103,0,0,0,1.31212e+07
+NE,depleted field,20230130,0,0,0,1.31212e+07
+NE,depleted field,20230213,0,0,0,1.31212e+07
+NE,depleted field,20230216,0,0,0,1.31212e+07
+NE,depleted field,20230306,0,0,0,1.31212e+07
+NE,depleted field,20230315,0,446045,446045,0
+NE,depleted field,20230403,0,0,0,0
+NE,depleted field,20230410,0,0,0,0
+NE,depleted field,20230530,0,0,0,0
+NE,depleted field,20230517,0,0,0,0
+NE,depleted field,20230630,0,0,0,0
+NE,depleted field,20230615,0,0,0,0
+NE,depleted field,20230727,1.53688e+06,0,-1.53688e+06,1.53688e+06
+NE,depleted field,20230710,0,0,0,1.53688e+06
+NE,depleted field,20230803,1.38972e+06,0,-1.38972e+06,2.9266e+06
+NE,depleted field,20230831,346557,0,-346557,1.31212e+07
+NE,depleted field,20230906,0,0,0,1.31212e+07
+NE,depleted field,20230912,0,0,0,1.31212e+07
+NE,depleted field,20231005,0,0,0,1.31212e+07
+NE,depleted field,20231020,0,0,0,1.31212e+07
+NE,depleted field,20231129,0,0,0,1.31212e+07
+NE,depleted field,20231121,0,0,0,1.31212e+07
+NE,depleted field,20231228,0,0,0,1.31212e+07
+NE,depleted field,20231218,0,0,0,1.31212e+07
+NE,salt cavern,20230103,0,0,0,0
+NE,salt cavern,20230130,0,0,0,0
+NE,salt cavern,20230213,0,0,0,0
+NE,salt cavern,20230216,0,0,0,0
+NE,salt cavern,20230306,0,0,0,0
+NE,salt cavern,20230315,0,0,0,0
+NE,salt cavern,20230403,0,0,0,0
+NE,salt cavern,20230410,0,0,0,0
+NE,salt cavern,20230530,0,0,0,0
+NE,salt cavern,20230517,0,0,0,0
+NE,salt cavern,20230630,0,0,0,0
+NE,salt cavern,20230615,0,0,0,0
+NE,salt cavern,20230727,0,0,0,0
+NE,salt cavern,20230710,0,0,0,0
+NE,salt cavern,20230803,0,0,0,0
+NE,salt cavern,20230831,0,0,0,0
+NE,salt cavern,20230906,0,0,0,0
+NE,salt cavern,20230912,0,0,0,0
+NE,salt cavern,20231005,0,0,0,0
+NE,salt cavern,20231020,0,0,0,0
+NE,salt cavern,20231129,0,0,0,0
+NE,salt cavern,20231121,0,0,0,0
+NE,salt cavern,20231228,0,0,0,0
+NE,salt cavern,20231218,0,0,0,0
+NH,aquifer,20230103,0,0,0,0
+NH,aquifer,20230130,0,0,0,0
+NH,aquifer,20230213,0,0,0,0
+NH,aquifer,20230216,0,0,0,0
+NH,aquifer,20230306,0,0,0,0
+NH,aquifer,20230315,0,0,0,0
+NH,aquifer,20230403,0,0,0,0
+NH,aquifer,20230410,0,0,0,0
+NH,aquifer,20230530,0,0,0,0
+NH,aquifer,20230517,0,0,0,0
+NH,aquifer,20230630,0,0,0,0
+NH,aquifer,20230615,0,0,0,0
+NH,aquifer,20230727,0,0,0,0
+NH,aquifer,20230710,0,0,0,0
+NH,aquifer,20230803,0,0,0,0
+NH,aquifer,20230831,0,0,0,0
+NH,aquifer,20230906,0,0,0,0
+NH,aquifer,20230912,0,0,0,0
+NH,aquifer,20231005,0,0,0,0
+NH,aquifer,20231020,0,0,0,0
+NH,aquifer,20231129,0,0,0,0
+NH,aquifer,20231121,0,0,0,0
+NH,aquifer,20231228,0,0,0,0
+NH,aquifer,20231218,0,0,0,0
+NH,depleted field,20230103,0,0,0,0
+NH,depleted field,20230130,0,0,0,0
+NH,depleted field,20230213,0,0,0,0
+NH,depleted field,20230216,0,0,0,0
+NH,depleted field,20230306,0,0,0,0
+NH,depleted field,20230315,0,0,0,0
+NH,depleted field,20230403,0,0,0,0
+NH,depleted field,20230410,0,0,0,0
+NH,depleted field,20230530,0,0,0,0
+NH,depleted field,20230517,0,0,0,0
+NH,depleted field,20230630,0,0,0,0
+NH,depleted field,20230615,0,0,0,0
+NH,depleted field,20230727,0,0,0,0
+NH,depleted field,20230710,0,0,0,0
+NH,depleted field,20230803,0,0,0,0
+NH,depleted field,20230831,0,0,0,0
+NH,depleted field,20230906,0,0,0,0
+NH,depleted field,20230912,0,0,0,0
+NH,depleted field,20231005,0,0,0,0
+NH,depleted field,20231020,0,0,0,0
+NH,depleted field,20231129,0,0,0,0
+NH,depleted field,20231121,0,0,0,0
+NH,depleted field,20231228,0,0,0,0
+NH,depleted field,20231218,0,0,0,0
+NH,salt cavern,20230103,0,0,0,0
+NH,salt cavern,20230130,0,0,0,0
+NH,salt cavern,20230213,0,0,0,0
+NH,salt cavern,20230216,0,0,0,0
+NH,salt cavern,20230306,0,0,0,0
+NH,salt cavern,20230315,0,0,0,0
+NH,salt cavern,20230403,0,0,0,0
+NH,salt cavern,20230410,0,0,0,0
+NH,salt cavern,20230530,0,0,0,0
+NH,salt cavern,20230517,0,0,0,0
+NH,salt cavern,20230630,0,0,0,0
+NH,salt cavern,20230615,0,0,0,0
+NH,salt cavern,20230727,0,0,0,0
+NH,salt cavern,20230710,0,0,0,0
+NH,salt cavern,20230803,0,0,0,0
+NH,salt cavern,20230831,0,0,0,0
+NH,salt cavern,20230906,0,0,0,0
+NH,salt cavern,20230912,0,0,0,0
+NH,salt cavern,20231005,0,0,0,0
+NH,salt cavern,20231020,0,0,0,0
+NH,salt cavern,20231129,0,0,0,0
+NH,salt cavern,20231121,0,0,0,0
+NH,salt cavern,20231228,0,0,0,0
+NH,salt cavern,20231218,0,0,0,0
+NJ,aquifer,20230103,0,0,0,0
+NJ,aquifer,20230130,0,0,0,0
+NJ,aquifer,20230213,0,0,0,0
+NJ,aquifer,20230216,0,0,0,0
+NJ,aquifer,20230306,0,0,0,0
+NJ,aquifer,20230315,0,0,0,0
+NJ,aquifer,20230403,0,0,0,0
+NJ,aquifer,20230410,0,0,0,0
+NJ,aquifer,20230530,0,0,0,0
+NJ,aquifer,20230517,0,0,0,0
+NJ,aquifer,20230630,0,0,0,0
+NJ,aquifer,20230615,0,0,0,0
+NJ,aquifer,20230727,0,0,0,0
+NJ,aquifer,20230710,0,0,0,0
+NJ,aquifer,20230803,0,0,0,0
+NJ,aquifer,20230831,0,0,0,0
+NJ,aquifer,20230906,0,0,0,0
+NJ,aquifer,20230912,0,0,0,0
+NJ,aquifer,20231005,0,0,0,0
+NJ,aquifer,20231020,0,0,0,0
+NJ,aquifer,20231129,0,0,0,0
+NJ,aquifer,20231121,0,0,0,0
+NJ,aquifer,20231228,0,0,0,0
+NJ,aquifer,20231218,0,0,0,0
+NJ,depleted field,20230103,0,0,0,0
+NJ,depleted field,20230130,0,0,0,0
+NJ,depleted field,20230213,0,0,0,0
+NJ,depleted field,20230216,0,0,0,0
+NJ,depleted field,20230306,0,0,0,0
+NJ,depleted field,20230315,0,0,0,0
+NJ,depleted field,20230403,0,0,0,0
+NJ,depleted field,20230410,0,0,0,0
+NJ,depleted field,20230530,0,0,0,0
+NJ,depleted field,20230517,0,0,0,0
+NJ,depleted field,20230630,0,0,0,0
+NJ,depleted field,20230615,0,0,0,0
+NJ,depleted field,20230727,0,0,0,0
+NJ,depleted field,20230710,0,0,0,0
+NJ,depleted field,20230803,0,0,0,0
+NJ,depleted field,20230831,0,0,0,0
+NJ,depleted field,20230906,0,0,0,0
+NJ,depleted field,20230912,0,0,0,0
+NJ,depleted field,20231005,0,0,0,0
+NJ,depleted field,20231020,0,0,0,0
+NJ,depleted field,20231129,0,0,0,0
+NJ,depleted field,20231121,0,0,0,0
+NJ,depleted field,20231228,0,0,0,0
+NJ,depleted field,20231218,0,0,0,0
+NJ,salt cavern,20230103,0,0,0,0
+NJ,salt cavern,20230130,0,0,0,0
+NJ,salt cavern,20230213,0,0,0,0
+NJ,salt cavern,20230216,0,0,0,0
+NJ,salt cavern,20230306,0,0,0,0
+NJ,salt cavern,20230315,0,0,0,0
+NJ,salt cavern,20230403,0,0,0,0
+NJ,salt cavern,20230410,0,0,0,0
+NJ,salt cavern,20230530,0,0,0,0
+NJ,salt cavern,20230517,0,0,0,0
+NJ,salt cavern,20230630,0,0,0,0
+NJ,salt cavern,20230615,0,0,0,0
+NJ,salt cavern,20230727,0,0,0,0
+NJ,salt cavern,20230710,0,0,0,0
+NJ,salt cavern,20230803,0,0,0,0
+NJ,salt cavern,20230831,0,0,0,0
+NJ,salt cavern,20230906,0,0,0,0
+NJ,salt cavern,20230912,0,0,0,0
+NJ,salt cavern,20231005,0,0,0,0
+NJ,salt cavern,20231020,0,0,0,0
+NJ,salt cavern,20231129,0,0,0,0
+NJ,salt cavern,20231121,0,0,0,0
+NJ,salt cavern,20231228,0,0,0,0
+NJ,salt cavern,20231218,0,0,0,0
+NM,aquifer,20230103,0,0,0,0
+NM,aquifer,20230130,0,0,0,0
+NM,aquifer,20230213,0,0,0,0
+NM,aquifer,20230216,0,0,0,0
+NM,aquifer,20230306,0,0,0,0
+NM,aquifer,20230315,0,0,0,0
+NM,aquifer,20230403,0,0,0,0
+NM,aquifer,20230410,0,0,0,0
+NM,aquifer,20230530,0,0,0,0
+NM,aquifer,20230517,0,0,0,0
+NM,aquifer,20230630,0,0,0,0
+NM,aquifer,20230615,0,0,0,0
+NM,aquifer,20230727,0,0,0,0
+NM,aquifer,20230710,0,0,0,0
+NM,aquifer,20230803,0,0,0,0
+NM,aquifer,20230831,0,0,0,0
+NM,aquifer,20230906,0,0,0,0
+NM,aquifer,20230912,0,0,0,0
+NM,aquifer,20231005,0,0,0,0
+NM,aquifer,20231020,0,0,0,0
+NM,aquifer,20231129,0,0,0,0
+NM,aquifer,20231121,0,0,0,0
+NM,aquifer,20231228,0,0,0,0
+NM,aquifer,20231218,0,0,0,0
+NM,depleted field,20230103,0,0,0,6.19483e+07
+NM,depleted field,20230130,0,747600,747600,3.99564e+07
+NM,depleted field,20230213,0,0,0,3.99564e+07
+NM,depleted field,20230216,0,0,0,3.99564e+07
+NM,depleted field,20230306,237778,0,-237778,4.01942e+07
+NM,depleted field,20230315,0,0,0,4.01942e+07
+NM,depleted field,20230403,0,0,0,4.01942e+07
+NM,depleted field,20230410,739517,0,-739517,6.19483e+07
+NM,depleted field,20230530,0,0,0,6.19483e+07
+NM,depleted field,20230517,0,0,0,6.19483e+07
+NM,depleted field,20230630,0,0,0,6.19483e+07
+NM,depleted field,20230615,0,0,0,6.19483e+07
+NM,depleted field,20230727,0,0,0,6.19483e+07
+NM,depleted field,20230710,0,0,0,6.19483e+07
+NM,depleted field,20230803,0,0,0,6.19483e+07
+NM,depleted field,20230831,0,0,0,6.19483e+07
+NM,depleted field,20230906,0,0,0,6.19483e+07
+NM,depleted field,20230912,0,0,0,6.19483e+07
+NM,depleted field,20231005,0,0,0,6.19483e+07
+NM,depleted field,20231020,0,0,0,6.19483e+07
+NM,depleted field,20231129,0,0,0,6.19483e+07
+NM,depleted field,20231121,0,0,0,6.19483e+07
+NM,depleted field,20231228,0,0,0,6.19483e+07
+NM,depleted field,20231218,0,0,0,6.19483e+07
+NM,salt cavern,20230103,0,0,0,0
+NM,salt cavern,20230130,0,0,0,0
+NM,salt cavern,20230213,0,0,0,0
+NM,salt cavern,20230216,0,0,0,0
+NM,salt cavern,20230306,0,0,0,0
+NM,salt cavern,20230315,0,0,0,0
+NM,salt cavern,20230403,0,0,0,0
+NM,salt cavern,20230410,0,0,0,0
+NM,salt cavern,20230530,0,0,0,0
+NM,salt cavern,20230517,0,0,0,0
+NM,salt cavern,20230630,0,0,0,0
+NM,salt cavern,20230615,0,0,0,0
+NM,salt cavern,20230727,0,0,0,0
+NM,salt cavern,20230710,0,0,0,0
+NM,salt cavern,20230803,0,0,0,0
+NM,salt cavern,20230831,0,0,0,0
+NM,salt cavern,20230906,0,0,0,0
+NM,salt cavern,20230912,0,0,0,0
+NM,salt cavern,20231005,0,0,0,0
+NM,salt cavern,20231020,0,0,0,0
+NM,salt cavern,20231129,0,0,0,0
+NM,salt cavern,20231121,0,0,0,0
+NM,salt cavern,20231228,0,0,0,0
+NM,salt cavern,20231218,0,0,0,0
+NV,aquifer,20230103,0,0,0,0
+NV,aquifer,20230130,0,0,0,0
+NV,aquifer,20230213,0,0,0,0
+NV,aquifer,20230216,0,0,0,0
+NV,aquifer,20230306,0,0,0,0
+NV,aquifer,20230315,0,0,0,0
+NV,aquifer,20230403,0,0,0,0
+NV,aquifer,20230410,0,0,0,0
+NV,aquifer,20230530,0,0,0,0
+NV,aquifer,20230517,0,0,0,0
+NV,aquifer,20230630,0,0,0,0
+NV,aquifer,20230615,0,0,0,0
+NV,aquifer,20230727,0,0,0,0
+NV,aquifer,20230710,0,0,0,0
+NV,aquifer,20230803,0,0,0,0
+NV,aquifer,20230831,0,0,0,0
+NV,aquifer,20230906,0,0,0,0
+NV,aquifer,20230912,0,0,0,0
+NV,aquifer,20231005,0,0,0,0
+NV,aquifer,20231020,0,0,0,0
+NV,aquifer,20231129,0,0,0,0
+NV,aquifer,20231121,0,0,0,0
+NV,aquifer,20231228,0,0,0,0
+NV,aquifer,20231218,0,0,0,0
+NV,depleted field,20230103,0,0,0,0
+NV,depleted field,20230130,0,0,0,0
+NV,depleted field,20230213,0,0,0,0
+NV,depleted field,20230216,0,0,0,0
+NV,depleted field,20230306,0,0,0,0
+NV,depleted field,20230315,0,0,0,0
+NV,depleted field,20230403,0,0,0,0
+NV,depleted field,20230410,0,0,0,0
+NV,depleted field,20230530,0,0,0,0
+NV,depleted field,20230517,0,0,0,0
+NV,depleted field,20230630,0,0,0,0
+NV,depleted field,20230615,0,0,0,0
+NV,depleted field,20230727,0,0,0,0
+NV,depleted field,20230710,0,0,0,0
+NV,depleted field,20230803,0,0,0,0
+NV,depleted field,20230831,0,0,0,0
+NV,depleted field,20230906,0,0,0,0
+NV,depleted field,20230912,0,0,0,0
+NV,depleted field,20231005,0,0,0,0
+NV,depleted field,20231020,0,0,0,0
+NV,depleted field,20231129,0,0,0,0
+NV,depleted field,20231121,0,0,0,0
+NV,depleted field,20231228,0,0,0,0
+NV,depleted field,20231218,0,0,0,0
+NV,salt cavern,20230103,0,0,0,0
+NV,salt cavern,20230130,0,0,0,0
+NV,salt cavern,20230213,0,0,0,0
+NV,salt cavern,20230216,0,0,0,0
+NV,salt cavern,20230306,0,0,0,0
+NV,salt cavern,20230315,0,0,0,0
+NV,salt cavern,20230403,0,0,0,0
+NV,salt cavern,20230410,0,0,0,0
+NV,salt cavern,20230530,0,0,0,0
+NV,salt cavern,20230517,0,0,0,0
+NV,salt cavern,20230630,0,0,0,0
+NV,salt cavern,20230615,0,0,0,0
+NV,salt cavern,20230727,0,0,0,0
+NV,salt cavern,20230710,0,0,0,0
+NV,salt cavern,20230803,0,0,0,0
+NV,salt cavern,20230831,0,0,0,0
+NV,salt cavern,20230906,0,0,0,0
+NV,salt cavern,20230912,0,0,0,0
+NV,salt cavern,20231005,0,0,0,0
+NV,salt cavern,20231020,0,0,0,0
+NV,salt cavern,20231129,0,0,0,0
+NV,salt cavern,20231121,0,0,0,0
+NV,salt cavern,20231228,0,0,0,0
+NV,salt cavern,20231218,0,0,0,0
+NY,aquifer,20230103,0,0,0,0
+NY,aquifer,20230130,0,0,0,0
+NY,aquifer,20230213,0,0,0,0
+NY,aquifer,20230216,0,0,0,0
+NY,aquifer,20230306,0,0,0,0
+NY,aquifer,20230315,0,0,0,0
+NY,aquifer,20230403,0,0,0,0
+NY,aquifer,20230410,0,0,0,0
+NY,aquifer,20230530,0,0,0,0
+NY,aquifer,20230517,0,0,0,0
+NY,aquifer,20230630,0,0,0,0
+NY,aquifer,20230615,0,0,0,0
+NY,aquifer,20230727,0,0,0,0
+NY,aquifer,20230710,0,0,0,0
+NY,aquifer,20230803,0,0,0,0
+NY,aquifer,20230831,0,0,0,0
+NY,aquifer,20230906,0,0,0,0
+NY,aquifer,20230912,0,0,0,0
+NY,aquifer,20231005,0,0,0,0
+NY,aquifer,20231020,0,0,0,0
+NY,aquifer,20231129,0,0,0,0
+NY,aquifer,20231121,0,0,0,0
+NY,aquifer,20231228,0,0,0,0
+NY,aquifer,20231218,0,0,0,0
+NY,depleted field,20230103,0,0,0,1.2731e+08
+NY,depleted field,20230130,0,0,0,1.2731e+08
+NY,depleted field,20230213,0,0,0,1.2731e+08
+NY,depleted field,20230216,0,0,0,1.2731e+08
+NY,depleted field,20230306,0,0,0,1.2731e+08
+NY,depleted field,20230315,0,0,0,1.2731e+08
+NY,depleted field,20230403,0,0,0,1.2731e+08
+NY,depleted field,20230410,0,0,0,1.2731e+08
+NY,depleted field,20230530,0,0,0,1.2731e+08
+NY,depleted field,20230517,0,0,0,1.2731e+08
+NY,depleted field,20230630,26887.8,0,-26887.8,1.27337e+08
+NY,depleted field,20230615,0,0,0,1.27337e+08
+NY,depleted field,20230727,354733,0,-354733,1.27691e+08
+NY,depleted field,20230710,18105.2,0,-18105.2,1.28224e+08
+NY,depleted field,20230803,0,0,0,1.28224e+08
+NY,depleted field,20230831,0,0,0,1.28224e+08
+NY,depleted field,20230906,0,0,0,1.28224e+08
+NY,depleted field,20230912,0,0,0,1.28224e+08
+NY,depleted field,20231005,0,0,0,1.28224e+08
+NY,depleted field,20231020,0,0,0,1.28224e+08
+NY,depleted field,20231129,0,914216,914216,1.2731e+08
+NY,depleted field,20231121,0,0,0,1.2731e+08
+NY,depleted field,20231228,0,0,0,1.2731e+08
+NY,depleted field,20231218,0,0,0,1.2731e+08
+NY,salt cavern,20230103,0,0,0,1.50365e+06
+NY,salt cavern,20230130,0,0,0,1.50365e+06
+NY,salt cavern,20230213,0,0,0,1.50365e+06
+NY,salt cavern,20230216,0,0,0,1.50365e+06
+NY,salt cavern,20230306,0,0,0,1.50365e+06
+NY,salt cavern,20230315,0,0,0,1.50365e+06
+NY,salt cavern,20230403,0,0,0,1.50365e+06
+NY,salt cavern,20230410,0,0,0,1.50365e+06
+NY,salt cavern,20230530,0,0,0,1.50365e+06
+NY,salt cavern,20230517,0,0,0,1.50365e+06
+NY,salt cavern,20230630,0,0,0,1.50365e+06
+NY,salt cavern,20230615,0,0,0,1.50365e+06
+NY,salt cavern,20230727,0,0,0,1.50365e+06
+NY,salt cavern,20230710,0,0,0,1.50365e+06
+NY,salt cavern,20230803,0,0,0,1.50365e+06
+NY,salt cavern,20230831,0,0,0,1.50365e+06
+NY,salt cavern,20230906,0,0,0,1.50365e+06
+NY,salt cavern,20230912,0,0,0,1.50365e+06
+NY,salt cavern,20231005,0,0,0,1.50365e+06
+NY,salt cavern,20231020,0,0,0,1.50365e+06
+NY,salt cavern,20231129,0,0,0,1.50365e+06
+NY,salt cavern,20231121,0,0,0,1.50365e+06
+NY,salt cavern,20231228,0,0,0,1.50365e+06
+NY,salt cavern,20231218,0,0,0,1.50365e+06
+OH,aquifer,20230103,0,0,0,0
+OH,aquifer,20230130,0,0,0,0
+OH,aquifer,20230213,0,0,0,0
+OH,aquifer,20230216,0,0,0,0
+OH,aquifer,20230306,0,0,0,0
+OH,aquifer,20230315,0,0,0,0
+OH,aquifer,20230403,0,0,0,0
+OH,aquifer,20230410,0,0,0,0
+OH,aquifer,20230530,0,0,0,0
+OH,aquifer,20230517,0,0,0,0
+OH,aquifer,20230630,0,0,0,0
+OH,aquifer,20230615,0,0,0,0
+OH,aquifer,20230727,0,0,0,0
+OH,aquifer,20230710,0,0,0,0
+OH,aquifer,20230803,0,0,0,0
+OH,aquifer,20230831,0,0,0,0
+OH,aquifer,20230906,0,0,0,0
+OH,aquifer,20230912,0,0,0,0
+OH,aquifer,20231005,0,0,0,0
+OH,aquifer,20231020,0,0,0,0
+OH,aquifer,20231129,0,0,0,0
+OH,aquifer,20231121,0,0,0,0
+OH,aquifer,20231228,0,0,0,0
+OH,aquifer,20231218,0,0,0,0
+OH,depleted field,20230103,0,0,0,2.51013e+08
+OH,depleted field,20230130,0,0,0,2.51013e+08
+OH,depleted field,20230213,0,0,0,2.51013e+08
+OH,depleted field,20230216,0,0,0,2.51013e+08
+OH,depleted field,20230306,0,0,0,2.51013e+08
+OH,depleted field,20230315,0,0,0,2.51013e+08
+OH,depleted field,20230403,0,0,0,2.51013e+08
+OH,depleted field,20230410,0,0,0,2.51013e+08
+OH,depleted field,20230530,0,0,0,2.51013e+08
+OH,depleted field,20230517,0,0,0,2.51013e+08
+OH,depleted field,20230630,0,0,0,2.51013e+08
+OH,depleted field,20230615,0,0,0,2.51013e+08
+OH,depleted field,20230727,0,0,0,2.51013e+08
+OH,depleted field,20230710,0,0,0,2.51013e+08
+OH,depleted field,20230803,0,0,0,2.51013e+08
+OH,depleted field,20230831,0,0,0,2.51013e+08
+OH,depleted field,20230906,0,0,0,2.51013e+08
+OH,depleted field,20230912,0,0,0,2.51013e+08
+OH,depleted field,20231005,0,0,0,2.51013e+08
+OH,depleted field,20231020,0,0,0,2.51013e+08
+OH,depleted field,20231129,0,0,0,2.51013e+08
+OH,depleted field,20231121,0,0,0,2.51013e+08
+OH,depleted field,20231228,0,0,0,2.51013e+08
+OH,depleted field,20231218,0,0,0,2.51013e+08
+OH,salt cavern,20230103,0,0,0,0
+OH,salt cavern,20230130,0,0,0,0
+OH,salt cavern,20230213,0,0,0,0
+OH,salt cavern,20230216,0,0,0,0
+OH,salt cavern,20230306,0,0,0,0
+OH,salt cavern,20230315,0,0,0,0
+OH,salt cavern,20230403,0,0,0,0
+OH,salt cavern,20230410,0,0,0,0
+OH,salt cavern,20230530,0,0,0,0
+OH,salt cavern,20230517,0,0,0,0
+OH,salt cavern,20230630,0,0,0,0
+OH,salt cavern,20230615,0,0,0,0
+OH,salt cavern,20230727,0,0,0,0
+OH,salt cavern,20230710,0,0,0,0
+OH,salt cavern,20230803,0,0,0,0
+OH,salt cavern,20230831,0,0,0,0
+OH,salt cavern,20230906,0,0,0,0
+OH,salt cavern,20230912,0,0,0,0
+OH,salt cavern,20231005,0,0,0,0
+OH,salt cavern,20231020,0,0,0,0
+OH,salt cavern,20231129,0,0,0,0
+OH,salt cavern,20231121,0,0,0,0
+OH,salt cavern,20231228,0,0,0,0
+OH,salt cavern,20231218,0,0,0,0
+OK,aquifer,20230103,0,0,0,32147
+OK,aquifer,20230130,0,0,0,32147
+OK,aquifer,20230213,0,0,0,32147
+OK,aquifer,20230216,0,0,0,32147
+OK,aquifer,20230306,0,0,0,32147
+OK,aquifer,20230315,0,0,0,32147
+OK,aquifer,20230403,0,0,0,32147
+OK,aquifer,20230410,0,0,0,32147
+OK,aquifer,20230530,0,0,0,32147
+OK,aquifer,20230517,0,0,0,32147
+OK,aquifer,20230630,0,0,0,32147
+OK,aquifer,20230615,0,0,0,32147
+OK,aquifer,20230727,0,0,0,32147
+OK,aquifer,20230710,0,0,0,32147
+OK,aquifer,20230803,0,0,0,32147
+OK,aquifer,20230831,0,0,0,32147
+OK,aquifer,20230906,0,0,0,32147
+OK,aquifer,20230912,0,0,0,32147
+OK,aquifer,20231005,0,0,0,32147
+OK,aquifer,20231020,0,0,0,32147
+OK,aquifer,20231129,0,0,0,32147
+OK,aquifer,20231121,0,0,0,32147
+OK,aquifer,20231228,0,0,0,32147
+OK,aquifer,20231218,0,0,0,32147
+OK,depleted field,20230103,0,0,0,2.05212e+08
+OK,depleted field,20230130,0,0,0,2.05212e+08
+OK,depleted field,20230213,0,0,0,2.05212e+08
+OK,depleted field,20230216,0,0,0,2.05212e+08
+OK,depleted field,20230306,0,0,0,2.05212e+08
+OK,depleted field,20230315,0,0,0,2.05212e+08
+OK,depleted field,20230403,0,0,0,2.05212e+08
+OK,depleted field,20230410,0,0,0,2.05212e+08
+OK,depleted field,20230530,0,0,0,2.05212e+08
+OK,depleted field,20230517,0,0,0,2.05212e+08
+OK,depleted field,20230630,0,0,0,2.05212e+08
+OK,depleted field,20230615,0,0,0,2.05212e+08
+OK,depleted field,20230727,0,0,0,2.05212e+08
+OK,depleted field,20230710,0,0,0,2.05212e+08
+OK,depleted field,20230803,0,0,0,2.05212e+08
+OK,depleted field,20230831,0,0,0,2.05212e+08
+OK,depleted field,20230906,0,0,0,2.05212e+08
+OK,depleted field,20230912,0,0,0,2.05212e+08
+OK,depleted field,20231005,0,0,0,2.05212e+08
+OK,depleted field,20231020,0,0,0,2.05212e+08
+OK,depleted field,20231129,0,0,0,2.05212e+08
+OK,depleted field,20231121,0,0,0,2.05212e+08
+OK,depleted field,20231228,0,0,0,2.05212e+08
+OK,depleted field,20231218,0,0,0,2.05212e+08
+OK,salt cavern,20230103,0,0,0,0
+OK,salt cavern,20230130,0,0,0,0
+OK,salt cavern,20230213,0,0,0,0
+OK,salt cavern,20230216,0,0,0,0
+OK,salt cavern,20230306,0,0,0,0
+OK,salt cavern,20230315,0,0,0,0
+OK,salt cavern,20230403,0,0,0,0
+OK,salt cavern,20230410,0,0,0,0
+OK,salt cavern,20230530,0,0,0,0
+OK,salt cavern,20230517,0,0,0,0
+OK,salt cavern,20230630,0,0,0,0
+OK,salt cavern,20230615,0,0,0,0
+OK,salt cavern,20230727,0,0,0,0
+OK,salt cavern,20230710,0,0,0,0
+OK,salt cavern,20230803,0,0,0,0
+OK,salt cavern,20230831,0,0,0,0
+OK,salt cavern,20230906,0,0,0,0
+OK,salt cavern,20230912,0,0,0,0
+OK,salt cavern,20231005,0,0,0,0
+OK,salt cavern,20231020,0,0,0,0
+OK,salt cavern,20231129,0,0,0,0
+OK,salt cavern,20231121,0,0,0,0
+OK,salt cavern,20231228,0,0,0,0
+OK,salt cavern,20231218,0,0,0,0
+OR,aquifer,20230103,0,0,0,0
+OR,aquifer,20230130,0,0,0,0
+OR,aquifer,20230213,0,0,0,0
+OR,aquifer,20230216,0,0,0,0
+OR,aquifer,20230306,0,0,0,0
+OR,aquifer,20230315,0,0,0,0
+OR,aquifer,20230403,0,0,0,0
+OR,aquifer,20230410,0,0,0,0
+OR,aquifer,20230530,0,0,0,0
+OR,aquifer,20230517,0,0,0,0
+OR,aquifer,20230630,0,0,0,0
+OR,aquifer,20230615,0,0,0,0
+OR,aquifer,20230727,0,0,0,0
+OR,aquifer,20230710,0,0,0,0
+OR,aquifer,20230803,0,0,0,0
+OR,aquifer,20230831,0,0,0,0
+OR,aquifer,20230906,0,0,0,0
+OR,aquifer,20230912,0,0,0,0
+OR,aquifer,20231005,0,0,0,0
+OR,aquifer,20231020,0,0,0,0
+OR,aquifer,20231129,0,0,0,0
+OR,aquifer,20231121,0,0,0,0
+OR,aquifer,20231228,0,0,0,0
+OR,aquifer,20231218,0,0,0,0
+OR,depleted field,20230103,0,1.85831e+06,1.85831e+06,2.0489e+07
+OR,depleted field,20230130,0,0,0,2.0489e+07
+OR,depleted field,20230213,0,0,0,2.0489e+07
+OR,depleted field,20230216,0,0,0,2.0489e+07
+OR,depleted field,20230306,0,622705,622705,1.98663e+07
+OR,depleted field,20230315,0,0,0,1.98663e+07
+OR,depleted field,20230403,0,0,0,1.98663e+07
+OR,depleted field,20230410,0,0,0,1.98663e+07
+OR,depleted field,20230530,0,0,0,1.98663e+07
+OR,depleted field,20230517,0,0,0,1.98663e+07
+OR,depleted field,20230630,0,0,0,1.98663e+07
+OR,depleted field,20230615,84340.3,0,-84340.3,2.23474e+07
+OR,depleted field,20230727,0,0,0,2.23474e+07
+OR,depleted field,20230710,0,0,0,2.23474e+07
+OR,depleted field,20230803,0,0,0,2.23474e+07
+OR,depleted field,20230831,0,0,0,2.23474e+07
+OR,depleted field,20230906,0,0,0,2.23474e+07
+OR,depleted field,20230912,0,0,0,2.23474e+07
+OR,depleted field,20231005,0,0,0,2.23474e+07
+OR,depleted field,20231020,0,0,0,2.23474e+07
+OR,depleted field,20231129,0,0,0,2.23474e+07
+OR,depleted field,20231121,0,0,0,2.23474e+07
+OR,depleted field,20231228,0,0,0,2.23474e+07
+OR,depleted field,20231218,0,0,0,2.23474e+07
+OR,salt cavern,20230103,0,0,0,0
+OR,salt cavern,20230130,0,0,0,0
+OR,salt cavern,20230213,0,0,0,0
+OR,salt cavern,20230216,0,0,0,0
+OR,salt cavern,20230306,0,0,0,0
+OR,salt cavern,20230315,0,0,0,0
+OR,salt cavern,20230403,0,0,0,0
+OR,salt cavern,20230410,0,0,0,0
+OR,salt cavern,20230530,0,0,0,0
+OR,salt cavern,20230517,0,0,0,0
+OR,salt cavern,20230630,0,0,0,0
+OR,salt cavern,20230615,0,0,0,0
+OR,salt cavern,20230727,0,0,0,0
+OR,salt cavern,20230710,0,0,0,0
+OR,salt cavern,20230803,0,0,0,0
+OR,salt cavern,20230831,0,0,0,0
+OR,salt cavern,20230906,0,0,0,0
+OR,salt cavern,20230912,0,0,0,0
+OR,salt cavern,20231005,0,0,0,0
+OR,salt cavern,20231020,0,0,0,0
+OR,salt cavern,20231129,0,0,0,0
+OR,salt cavern,20231121,0,0,0,0
+OR,salt cavern,20231228,0,0,0,0
+OR,salt cavern,20231218,0,0,0,0
+PA,aquifer,20230103,0,0,0,972706
+PA,aquifer,20230130,0,0,0,972706
+PA,aquifer,20230213,0,0,0,972706
+PA,aquifer,20230216,0,0,0,972706
+PA,aquifer,20230306,0,0,0,972706
+PA,aquifer,20230315,0,0,0,972706
+PA,aquifer,20230403,0,0,0,972706
+PA,aquifer,20230410,0,0,0,972706
+PA,aquifer,20230530,0,0,0,972706
+PA,aquifer,20230517,0,0,0,972706
+PA,aquifer,20230630,0,0,0,972706
+PA,aquifer,20230615,0,0,0,972706
+PA,aquifer,20230727,0,0,0,972706
+PA,aquifer,20230710,0,0,0,972706
+PA,aquifer,20230803,0,0,0,972706
+PA,aquifer,20230831,0,0,0,972706
+PA,aquifer,20230906,0,0,0,972706
+PA,aquifer,20230912,0,0,0,972706
+PA,aquifer,20231005,0,0,0,972706
+PA,aquifer,20231020,0,0,0,972706
+PA,aquifer,20231129,0,0,0,972706
+PA,aquifer,20231121,0,0,0,972706
+PA,aquifer,20231228,0,0,0,972706
+PA,aquifer,20231218,0,0,0,972706
+PA,depleted field,20230103,0,0,0,4.41127e+08
+PA,depleted field,20230130,0,0,0,4.41127e+08
+PA,depleted field,20230213,0,0,0,4.41127e+08
+PA,depleted field,20230216,0,0,0,4.41127e+08
+PA,depleted field,20230306,0,0,0,4.41127e+08
+PA,depleted field,20230315,0,0,0,4.41127e+08
+PA,depleted field,20230403,0,0,0,4.41127e+08
+PA,depleted field,20230410,0,0,0,4.41127e+08
+PA,depleted field,20230530,0,0,0,4.41127e+08
+PA,depleted field,20230517,0,0,0,4.41127e+08
+PA,depleted field,20230630,0,0,0,4.41127e+08
+PA,depleted field,20230615,0,0,0,4.41127e+08
+PA,depleted field,20230727,0,0,0,4.41127e+08
+PA,depleted field,20230710,0,0,0,4.41127e+08
+PA,depleted field,20230803,0,0,0,4.41127e+08
+PA,depleted field,20230831,0,0,0,4.41127e+08
+PA,depleted field,20230906,0,0,0,4.41127e+08
+PA,depleted field,20230912,0,0,0,4.41127e+08
+PA,depleted field,20231005,0,0,0,4.41127e+08
+PA,depleted field,20231020,0,0,0,4.41127e+08
+PA,depleted field,20231129,0,0,0,4.41127e+08
+PA,depleted field,20231121,0,0,0,4.41127e+08
+PA,depleted field,20231228,0,0,0,4.41127e+08
+PA,depleted field,20231218,0,0,0,4.41127e+08
+PA,salt cavern,20230103,0,0,0,0
+PA,salt cavern,20230130,0,0,0,0
+PA,salt cavern,20230213,0,0,0,0
+PA,salt cavern,20230216,0,0,0,0
+PA,salt cavern,20230306,0,0,0,0
+PA,salt cavern,20230315,0,0,0,0
+PA,salt cavern,20230403,0,0,0,0
+PA,salt cavern,20230410,0,0,0,0
+PA,salt cavern,20230530,0,0,0,0
+PA,salt cavern,20230517,0,0,0,0
+PA,salt cavern,20230630,0,0,0,0
+PA,salt cavern,20230615,0,0,0,0
+PA,salt cavern,20230727,0,0,0,0
+PA,salt cavern,20230710,0,0,0,0
+PA,salt cavern,20230803,0,0,0,0
+PA,salt cavern,20230831,0,0,0,0
+PA,salt cavern,20230906,0,0,0,0
+PA,salt cavern,20230912,0,0,0,0
+PA,salt cavern,20231005,0,0,0,0
+PA,salt cavern,20231020,0,0,0,0
+PA,salt cavern,20231129,0,0,0,0
+PA,salt cavern,20231121,0,0,0,0
+PA,salt cavern,20231228,0,0,0,0
+PA,salt cavern,20231218,0,0,0,0
+RI,aquifer,20230103,0,0,0,0
+RI,aquifer,20230130,0,0,0,0
+RI,aquifer,20230213,0,0,0,0
+RI,aquifer,20230216,0,0,0,0
+RI,aquifer,20230306,0,0,0,0
+RI,aquifer,20230315,0,0,0,0
+RI,aquifer,20230403,0,0,0,0
+RI,aquifer,20230410,0,0,0,0
+RI,aquifer,20230530,0,0,0,0
+RI,aquifer,20230517,0,0,0,0
+RI,aquifer,20230630,0,0,0,0
+RI,aquifer,20230615,0,0,0,0
+RI,aquifer,20230727,0,0,0,0
+RI,aquifer,20230710,0,0,0,0
+RI,aquifer,20230803,0,0,0,0
+RI,aquifer,20230831,0,0,0,0
+RI,aquifer,20230906,0,0,0,0
+RI,aquifer,20230912,0,0,0,0
+RI,aquifer,20231005,0,0,0,0
+RI,aquifer,20231020,0,0,0,0
+RI,aquifer,20231129,0,0,0,0
+RI,aquifer,20231121,0,0,0,0
+RI,aquifer,20231228,0,0,0,0
+RI,aquifer,20231218,0,0,0,0
+RI,depleted field,20230103,0,0,0,0
+RI,depleted field,20230130,0,0,0,0
+RI,depleted field,20230213,0,0,0,0
+RI,depleted field,20230216,0,0,0,0
+RI,depleted field,20230306,0,0,0,0
+RI,depleted field,20230315,0,0,0,0
+RI,depleted field,20230403,0,0,0,0
+RI,depleted field,20230410,0,0,0,0
+RI,depleted field,20230530,0,0,0,0
+RI,depleted field,20230517,0,0,0,0
+RI,depleted field,20230630,0,0,0,0
+RI,depleted field,20230615,0,0,0,0
+RI,depleted field,20230727,0,0,0,0
+RI,depleted field,20230710,0,0,0,0
+RI,depleted field,20230803,0,0,0,0
+RI,depleted field,20230831,0,0,0,0
+RI,depleted field,20230906,0,0,0,0
+RI,depleted field,20230912,0,0,0,0
+RI,depleted field,20231005,0,0,0,0
+RI,depleted field,20231020,0,0,0,0
+RI,depleted field,20231129,0,0,0,0
+RI,depleted field,20231121,0,0,0,0
+RI,depleted field,20231228,0,0,0,0
+RI,depleted field,20231218,0,0,0,0
+RI,salt cavern,20230103,0,0,0,0
+RI,salt cavern,20230130,0,0,0,0
+RI,salt cavern,20230213,0,0,0,0
+RI,salt cavern,20230216,0,0,0,0
+RI,salt cavern,20230306,0,0,0,0
+RI,salt cavern,20230315,0,0,0,0
+RI,salt cavern,20230403,0,0,0,0
+RI,salt cavern,20230410,0,0,0,0
+RI,salt cavern,20230530,0,0,0,0
+RI,salt cavern,20230517,0,0,0,0
+RI,salt cavern,20230630,0,0,0,0
+RI,salt cavern,20230615,0,0,0,0
+RI,salt cavern,20230727,0,0,0,0
+RI,salt cavern,20230710,0,0,0,0
+RI,salt cavern,20230803,0,0,0,0
+RI,salt cavern,20230831,0,0,0,0
+RI,salt cavern,20230906,0,0,0,0
+RI,salt cavern,20230912,0,0,0,0
+RI,salt cavern,20231005,0,0,0,0
+RI,salt cavern,20231020,0,0,0,0
+RI,salt cavern,20231129,0,0,0,0
+RI,salt cavern,20231121,0,0,0,0
+RI,salt cavern,20231228,0,0,0,0
+RI,salt cavern,20231218,0,0,0,0
+SC,aquifer,20230103,0,0,0,0
+SC,aquifer,20230130,0,0,0,0
+SC,aquifer,20230213,0,0,0,0
+SC,aquifer,20230216,0,0,0,0
+SC,aquifer,20230306,0,0,0,0
+SC,aquifer,20230315,0,0,0,0
+SC,aquifer,20230403,0,0,0,0
+SC,aquifer,20230410,0,0,0,0
+SC,aquifer,20230530,0,0,0,0
+SC,aquifer,20230517,0,0,0,0
+SC,aquifer,20230630,0,0,0,0
+SC,aquifer,20230615,0,0,0,0
+SC,aquifer,20230727,0,0,0,0
+SC,aquifer,20230710,0,0,0,0
+SC,aquifer,20230803,0,0,0,0
+SC,aquifer,20230831,0,0,0,0
+SC,aquifer,20230906,0,0,0,0
+SC,aquifer,20230912,0,0,0,0
+SC,aquifer,20231005,0,0,0,0
+SC,aquifer,20231020,0,0,0,0
+SC,aquifer,20231129,0,0,0,0
+SC,aquifer,20231121,0,0,0,0
+SC,aquifer,20231228,0,0,0,0
+SC,aquifer,20231218,0,0,0,0
+SC,depleted field,20230103,0,0,0,0
+SC,depleted field,20230130,0,0,0,0
+SC,depleted field,20230213,0,0,0,0
+SC,depleted field,20230216,0,0,0,0
+SC,depleted field,20230306,0,0,0,0
+SC,depleted field,20230315,0,0,0,0
+SC,depleted field,20230403,0,0,0,0
+SC,depleted field,20230410,0,0,0,0
+SC,depleted field,20230530,0,0,0,0
+SC,depleted field,20230517,0,0,0,0
+SC,depleted field,20230630,0,0,0,0
+SC,depleted field,20230615,0,0,0,0
+SC,depleted field,20230727,0,0,0,0
+SC,depleted field,20230710,0,0,0,0
+SC,depleted field,20230803,0,0,0,0
+SC,depleted field,20230831,0,0,0,0
+SC,depleted field,20230906,0,0,0,0
+SC,depleted field,20230912,0,0,0,0
+SC,depleted field,20231005,0,0,0,0
+SC,depleted field,20231020,0,0,0,0
+SC,depleted field,20231129,0,0,0,0
+SC,depleted field,20231121,0,0,0,0
+SC,depleted field,20231228,0,0,0,0
+SC,depleted field,20231218,0,0,0,0
+SC,salt cavern,20230103,0,0,0,0
+SC,salt cavern,20230130,0,0,0,0
+SC,salt cavern,20230213,0,0,0,0
+SC,salt cavern,20230216,0,0,0,0
+SC,salt cavern,20230306,0,0,0,0
+SC,salt cavern,20230315,0,0,0,0
+SC,salt cavern,20230403,0,0,0,0
+SC,salt cavern,20230410,0,0,0,0
+SC,salt cavern,20230530,0,0,0,0
+SC,salt cavern,20230517,0,0,0,0
+SC,salt cavern,20230630,0,0,0,0
+SC,salt cavern,20230615,0,0,0,0
+SC,salt cavern,20230727,0,0,0,0
+SC,salt cavern,20230710,0,0,0,0
+SC,salt cavern,20230803,0,0,0,0
+SC,salt cavern,20230831,0,0,0,0
+SC,salt cavern,20230906,0,0,0,0
+SC,salt cavern,20230912,0,0,0,0
+SC,salt cavern,20231005,0,0,0,0
+SC,salt cavern,20231020,0,0,0,0
+SC,salt cavern,20231129,0,0,0,0
+SC,salt cavern,20231121,0,0,0,0
+SC,salt cavern,20231228,0,0,0,0
+SC,salt cavern,20231218,0,0,0,0
+SD,aquifer,20230103,0,0,0,0
+SD,aquifer,20230130,0,0,0,0
+SD,aquifer,20230213,0,0,0,0
+SD,aquifer,20230216,0,0,0,0
+SD,aquifer,20230306,0,0,0,0
+SD,aquifer,20230315,0,0,0,0
+SD,aquifer,20230403,0,0,0,0
+SD,aquifer,20230410,0,0,0,0
+SD,aquifer,20230530,0,0,0,0
+SD,aquifer,20230517,0,0,0,0
+SD,aquifer,20230630,0,0,0,0
+SD,aquifer,20230615,0,0,0,0
+SD,aquifer,20230727,0,0,0,0
+SD,aquifer,20230710,0,0,0,0
+SD,aquifer,20230803,0,0,0,0
+SD,aquifer,20230831,0,0,0,0
+SD,aquifer,20230906,0,0,0,0
+SD,aquifer,20230912,0,0,0,0
+SD,aquifer,20231005,0,0,0,0
+SD,aquifer,20231020,0,0,0,0
+SD,aquifer,20231129,0,0,0,0
+SD,aquifer,20231121,0,0,0,0
+SD,aquifer,20231228,0,0,0,0
+SD,aquifer,20231218,0,0,0,0
+SD,depleted field,20230103,0,0,0,0
+SD,depleted field,20230130,0,0,0,0
+SD,depleted field,20230213,0,0,0,0
+SD,depleted field,20230216,0,0,0,0
+SD,depleted field,20230306,0,0,0,0
+SD,depleted field,20230315,0,0,0,0
+SD,depleted field,20230403,0,0,0,0
+SD,depleted field,20230410,0,0,0,0
+SD,depleted field,20230530,0,0,0,0
+SD,depleted field,20230517,0,0,0,0
+SD,depleted field,20230630,0,0,0,0
+SD,depleted field,20230615,0,0,0,0
+SD,depleted field,20230727,0,0,0,0
+SD,depleted field,20230710,0,0,0,0
+SD,depleted field,20230803,0,0,0,0
+SD,depleted field,20230831,0,0,0,0
+SD,depleted field,20230906,0,0,0,0
+SD,depleted field,20230912,0,0,0,0
+SD,depleted field,20231005,0,0,0,0
+SD,depleted field,20231020,0,0,0,0
+SD,depleted field,20231129,0,0,0,0
+SD,depleted field,20231121,0,0,0,0
+SD,depleted field,20231228,0,0,0,0
+SD,depleted field,20231218,0,0,0,0
+SD,salt cavern,20230103,0,0,0,0
+SD,salt cavern,20230130,0,0,0,0
+SD,salt cavern,20230213,0,0,0,0
+SD,salt cavern,20230216,0,0,0,0
+SD,salt cavern,20230306,0,0,0,0
+SD,salt cavern,20230315,0,0,0,0
+SD,salt cavern,20230403,0,0,0,0
+SD,salt cavern,20230410,0,0,0,0
+SD,salt cavern,20230530,0,0,0,0
+SD,salt cavern,20230517,0,0,0,0
+SD,salt cavern,20230630,0,0,0,0
+SD,salt cavern,20230615,0,0,0,0
+SD,salt cavern,20230727,0,0,0,0
+SD,salt cavern,20230710,0,0,0,0
+SD,salt cavern,20230803,0,0,0,0
+SD,salt cavern,20230831,0,0,0,0
+SD,salt cavern,20230906,0,0,0,0
+SD,salt cavern,20230912,0,0,0,0
+SD,salt cavern,20231005,0,0,0,0
+SD,salt cavern,20231020,0,0,0,0
+SD,salt cavern,20231129,0,0,0,0
+SD,salt cavern,20231121,0,0,0,0
+SD,salt cavern,20231228,0,0,0,0
+SD,salt cavern,20231218,0,0,0,0
+TN,aquifer,20230103,0,0,0,0
+TN,aquifer,20230130,0,0,0,0
+TN,aquifer,20230213,0,0,0,0
+TN,aquifer,20230216,0,0,0,0
+TN,aquifer,20230306,0,0,0,0
+TN,aquifer,20230315,0,0,0,0
+TN,aquifer,20230403,0,0,0,0
+TN,aquifer,20230410,0,0,0,0
+TN,aquifer,20230530,0,0,0,0
+TN,aquifer,20230517,0,0,0,0
+TN,aquifer,20230630,0,0,0,0
+TN,aquifer,20230615,0,0,0,0
+TN,aquifer,20230727,0,0,0,0
+TN,aquifer,20230710,0,0,0,0
+TN,aquifer,20230803,0,0,0,0
+TN,aquifer,20230831,0,0,0,0
+TN,aquifer,20230906,0,0,0,0
+TN,aquifer,20230912,0,0,0,0
+TN,aquifer,20231005,0,0,0,0
+TN,aquifer,20231020,0,0,0,0
+TN,aquifer,20231129,0,0,0,0
+TN,aquifer,20231121,0,0,0,0
+TN,aquifer,20231228,0,0,0,0
+TN,aquifer,20231218,0,0,0,0
+TN,depleted field,20230103,0,0,0,0
+TN,depleted field,20230130,0,0,0,0
+TN,depleted field,20230213,0,0,0,0
+TN,depleted field,20230216,0,0,0,0
+TN,depleted field,20230306,1.12139e+06,0,-1.12139e+06,1.12139e+06
+TN,depleted field,20230315,0,0,0,1.12139e+06
+TN,depleted field,20230403,0,0,0,1.12139e+06
+TN,depleted field,20230410,0,0,0,1.12139e+06
+TN,depleted field,20230530,59783.4,0,-59783.4,1.18117e+06
+TN,depleted field,20230517,0,0,0,1.18117e+06
+TN,depleted field,20230630,426243,0,-426243,1.60742e+06
+TN,depleted field,20230615,0,0,0,1.60742e+06
+TN,depleted field,20230727,259184,0,-259184,1.8666e+06
+TN,depleted field,20230710,0,0,0,1.8666e+06
+TN,depleted field,20230803,0,0,0,1.8666e+06
+TN,depleted field,20230831,0,0,0,1.8666e+06
+TN,depleted field,20230906,0,0,0,1.8666e+06
+TN,depleted field,20230912,0,0,0,1.8666e+06
+TN,depleted field,20231005,0,2735.67,2735.67,1.86386e+06
+TN,depleted field,20231020,0,0,0,1.86386e+06
+TN,depleted field,20231129,0,1.86386e+06,1.86386e+06,0
+TN,depleted field,20231121,0,0,0,0
+TN,depleted field,20231228,0,0,0,0
+TN,depleted field,20231218,0,0,0,0
+TN,salt cavern,20230103,0,0,0,0
+TN,salt cavern,20230130,0,0,0,0
+TN,salt cavern,20230213,0,0,0,0
+TN,salt cavern,20230216,0,0,0,0
+TN,salt cavern,20230306,0,0,0,0
+TN,salt cavern,20230315,0,0,0,0
+TN,salt cavern,20230403,0,0,0,0
+TN,salt cavern,20230410,0,0,0,0
+TN,salt cavern,20230530,0,0,0,0
+TN,salt cavern,20230517,0,0,0,0
+TN,salt cavern,20230630,0,0,0,0
+TN,salt cavern,20230615,0,0,0,0
+TN,salt cavern,20230727,0,0,0,0
+TN,salt cavern,20230710,0,0,0,0
+TN,salt cavern,20230803,0,0,0,0
+TN,salt cavern,20230831,0,0,0,0
+TN,salt cavern,20230906,0,0,0,0
+TN,salt cavern,20230912,0,0,0,0
+TN,salt cavern,20231005,0,0,0,0
+TN,salt cavern,20231020,0,0,0,0
+TN,salt cavern,20231129,0,0,0,0
+TN,salt cavern,20231121,0,0,0,0
+TN,salt cavern,20231228,0,0,0,0
+TN,salt cavern,20231218,0,0,0,0
+TX,aquifer,20230103,0,0,0,0
+TX,aquifer,20230130,0,0,0,0
+TX,aquifer,20230213,0,0,0,0
+TX,aquifer,20230216,0,0,0,0
+TX,aquifer,20230306,0,0,0,0
+TX,aquifer,20230315,0,0,0,0
+TX,aquifer,20230403,0,0,0,0
+TX,aquifer,20230410,0,0,0,0
+TX,aquifer,20230530,0,0,0,0
+TX,aquifer,20230517,0,0,0,0
+TX,aquifer,20230630,0,0,0,0
+TX,aquifer,20230615,0,0,0,0
+TX,aquifer,20230727,0,0,0,0
+TX,aquifer,20230710,0,0,0,0
+TX,aquifer,20230803,0,0,0,0
+TX,aquifer,20230831,0,0,0,0
+TX,aquifer,20230906,0,0,0,0
+TX,aquifer,20230912,0,0,0,0
+TX,aquifer,20231005,0,0,0,0
+TX,aquifer,20231020,0,0,0,0
+TX,aquifer,20231129,0,0,0,0
+TX,aquifer,20231121,0,0,0,0
+TX,aquifer,20231228,0,0,0,0
+TX,aquifer,20231218,0,0,0,0
+TX,depleted field,20230103,0,0,0,1.46347e+08
+TX,depleted field,20230130,0,0,0,1.46347e+08
+TX,depleted field,20230213,0,0,0,1.46347e+08
+TX,depleted field,20230216,0,0,0,1.46347e+08
+TX,depleted field,20230306,2.26706e+06,0,-2.26706e+06,1.48614e+08
+TX,depleted field,20230315,0,0,0,1.48614e+08
+TX,depleted field,20230403,0,0,0,1.48614e+08
+TX,depleted field,20230410,0,0,0,1.48614e+08
+TX,depleted field,20230530,0,0,0,1.48614e+08
+TX,depleted field,20230517,0,0,0,1.48614e+08
+TX,depleted field,20230630,2.87614e+06,0,-2.87614e+06,1.51491e+08
+TX,depleted field,20230615,0,0,0,1.51491e+08
+TX,depleted field,20230727,1.48055e+06,0,-1.48055e+06,1.52971e+08
+TX,depleted field,20230710,6.81391e+06,0,-6.81391e+06,3.53414e+08
+TX,depleted field,20230803,683470,0,-683470,3.54097e+08
+TX,depleted field,20230831,906057,0,-906057,3.80751e+08
+TX,depleted field,20230906,0,0,0,3.80751e+08
+TX,depleted field,20230912,415710,0,-415710,3.92979e+08
+TX,depleted field,20231005,0,568498,568498,3.92411e+08
+TX,depleted field,20231020,0,3.63154e+06,3.63154e+06,2.85583e+08
+TX,depleted field,20231129,0,5.41538e+06,5.41538e+06,2.80168e+08
+TX,depleted field,20231121,0,2.8008e+06,2.8008e+06,1.97777e+08
+TX,depleted field,20231228,0,4.31639e+06,4.31639e+06,1.93461e+08
+TX,depleted field,20231218,0,1.6016e+06,1.6016e+06,1.46347e+08
+TX,salt cavern,20230103,0,0,0,1.62115e+08
+TX,salt cavern,20230130,0,0,0,1.62115e+08
+TX,salt cavern,20230213,0,0,0,1.62115e+08
+TX,salt cavern,20230216,0,0,0,1.62115e+08
+TX,salt cavern,20230306,0,0,0,1.62115e+08
+TX,salt cavern,20230315,0,0,0,1.62115e+08
+TX,salt cavern,20230403,0,0,0,1.62115e+08
+TX,salt cavern,20230410,0,0,0,1.62115e+08
+TX,salt cavern,20230530,0,0,0,1.62115e+08
+TX,salt cavern,20230517,0,0,0,1.62115e+08
+TX,salt cavern,20230630,0,0,0,1.62115e+08
+TX,salt cavern,20230615,582225,0,-582225,1.79242e+08
+TX,salt cavern,20230727,0,0,0,1.79242e+08
+TX,salt cavern,20230710,0,0,0,1.79242e+08
+TX,salt cavern,20230803,0,0,0,1.79242e+08
+TX,salt cavern,20230831,0,0,0,1.79242e+08
+TX,salt cavern,20230906,0,0,0,1.79242e+08
+TX,salt cavern,20230912,0,0,0,1.79242e+08
+TX,salt cavern,20231005,0,0,0,1.79242e+08
+TX,salt cavern,20231020,0,0,0,1.79242e+08
+TX,salt cavern,20231129,0,0,0,1.79242e+08
+TX,salt cavern,20231121,0,0,0,1.79242e+08
+TX,salt cavern,20231228,0,0,0,1.79242e+08
+TX,salt cavern,20231218,0,582225,582225,1.62115e+08
+UT,aquifer,20230103,0,0,0,0
+UT,aquifer,20230130,0,0,0,0
+UT,aquifer,20230213,0,0,0,0
+UT,aquifer,20230216,0,0,0,0
+UT,aquifer,20230306,0,0,0,0
+UT,aquifer,20230315,0,0,0,0
+UT,aquifer,20230403,0,0,0,0
+UT,aquifer,20230410,0,0,0,0
+UT,aquifer,20230530,27076,0,-27076,27076
+UT,aquifer,20230517,0,0,0,27076
+UT,aquifer,20230630,0,0,0,27076
+UT,aquifer,20230615,0,0,0,27076
+UT,aquifer,20230727,0,0,0,27076
+UT,aquifer,20230710,0,0,0,27076
+UT,aquifer,20230803,538495,0,-538495,565571
+UT,aquifer,20230831,0,0,0,565571
+UT,aquifer,20230906,416926,0,-416926,982498
+UT,aquifer,20230912,1570.75,0,-1570.75,1.0287e+06
+UT,aquifer,20231005,0,0,0,1.0287e+06
+UT,aquifer,20231020,0,0,0,1.0287e+06
+UT,aquifer,20231129,0,1.02256e+06,1.02256e+06,6146.75
+UT,aquifer,20231121,0,0,0,6146.75
+UT,aquifer,20231228,0,0,0,6146.75
+UT,aquifer,20231218,0,208.954,208.954,0
+UT,depleted field,20230103,0,0,0,0
+UT,depleted field,20230130,0,0,0,0
+UT,depleted field,20230213,0,0,0,0
+UT,depleted field,20230216,0,0,0,0
+UT,depleted field,20230306,0,0,0,0
+UT,depleted field,20230315,0,0,0,0
+UT,depleted field,20230403,0,0,0,0
+UT,depleted field,20230410,0,0,0,0
+UT,depleted field,20230530,0,0,0,0
+UT,depleted field,20230517,0,0,0,0
+UT,depleted field,20230630,657699,0,-657699,657699
+UT,depleted field,20230615,530341,0,-530341,1.62586e+07
+UT,depleted field,20230727,653579,0,-653579,1.69122e+07
+UT,depleted field,20230710,573460,0,-573460,3.37815e+07
+UT,depleted field,20230803,0,0,0,3.37815e+07
+UT,depleted field,20230831,522700,0,-522700,4.91576e+07
+UT,depleted field,20230906,0,0,0,4.91576e+07
+UT,depleted field,20230912,230772,0,-230772,5.59461e+07
+UT,depleted field,20231005,0,0,0,5.59461e+07
+UT,depleted field,20231020,0,411646,411646,4.38369e+07
+UT,depleted field,20231129,0,0,0,4.38369e+07
+UT,depleted field,20231121,0,880825,880825,1.79259e+07
+UT,depleted field,20231228,0,629851,629851,1.72961e+07
+UT,depleted field,20231218,0,587968,587968,0
+UT,salt cavern,20230103,0,0,0,0
+UT,salt cavern,20230130,0,0,0,0
+UT,salt cavern,20230213,0,0,0,0
+UT,salt cavern,20230216,0,0,0,0
+UT,salt cavern,20230306,0,0,0,0
+UT,salt cavern,20230315,0,0,0,0
+UT,salt cavern,20230403,0,0,0,0
+UT,salt cavern,20230410,0,0,0,0
+UT,salt cavern,20230530,0,0,0,0
+UT,salt cavern,20230517,0,0,0,0
+UT,salt cavern,20230630,0,0,0,0
+UT,salt cavern,20230615,0,0,0,0
+UT,salt cavern,20230727,0,0,0,0
+UT,salt cavern,20230710,0,0,0,0
+UT,salt cavern,20230803,0,0,0,0
+UT,salt cavern,20230831,0,0,0,0
+UT,salt cavern,20230906,0,0,0,0
+UT,salt cavern,20230912,0,0,0,0
+UT,salt cavern,20231005,0,0,0,0
+UT,salt cavern,20231020,0,0,0,0
+UT,salt cavern,20231129,0,0,0,0
+UT,salt cavern,20231121,0,0,0,0
+UT,salt cavern,20231228,0,0,0,0
+UT,salt cavern,20231218,0,0,0,0
+VA,aquifer,20230103,0,0,0,0
+VA,aquifer,20230130,0,0,0,0
+VA,aquifer,20230213,0,0,0,0
+VA,aquifer,20230216,0,0,0,0
+VA,aquifer,20230306,0,0,0,0
+VA,aquifer,20230315,0,0,0,0
+VA,aquifer,20230403,0,0,0,0
+VA,aquifer,20230410,0,0,0,0
+VA,aquifer,20230530,0,0,0,0
+VA,aquifer,20230517,0,0,0,0
+VA,aquifer,20230630,0,0,0,0
+VA,aquifer,20230615,0,0,0,0
+VA,aquifer,20230727,0,0,0,0
+VA,aquifer,20230710,0,0,0,0
+VA,aquifer,20230803,0,0,0,0
+VA,aquifer,20230831,0,0,0,0
+VA,aquifer,20230906,0,0,0,0
+VA,aquifer,20230912,0,0,0,0
+VA,aquifer,20231005,0,0,0,0
+VA,aquifer,20231020,0,0,0,0
+VA,aquifer,20231129,0,0,0,0
+VA,aquifer,20231121,0,0,0,0
+VA,aquifer,20231228,0,0,0,0
+VA,aquifer,20231218,0,0,0,0
+VA,depleted field,20230103,0,0,0,0
+VA,depleted field,20230130,0,0,0,0
+VA,depleted field,20230213,0,0,0,0
+VA,depleted field,20230216,0,0,0,0
+VA,depleted field,20230306,0,0,0,0
+VA,depleted field,20230315,0,0,0,0
+VA,depleted field,20230403,0,0,0,0
+VA,depleted field,20230410,0,0,0,0
+VA,depleted field,20230530,0,0,0,0
+VA,depleted field,20230517,0,0,0,0
+VA,depleted field,20230630,0,0,0,0
+VA,depleted field,20230615,0,0,0,0
+VA,depleted field,20230727,377563,0,-377563,377563
+VA,depleted field,20230710,0,0,0,377563
+VA,depleted field,20230803,273700,0,-273700,651263
+VA,depleted field,20230831,27213.7,0,-27213.7,1.4518e+06
+VA,depleted field,20230906,0,0,0,1.4518e+06
+VA,depleted field,20230912,0,0,0,1.4518e+06
+VA,depleted field,20231005,0,0,0,1.4518e+06
+VA,depleted field,20231020,0,0,0,1.4518e+06
+VA,depleted field,20231129,0,0,0,1.4518e+06
+VA,depleted field,20231121,0,49352.9,49352.9,0
+VA,depleted field,20231228,0,0,0,0
+VA,depleted field,20231218,0,0,0,0
+VA,salt cavern,20230103,0,0,0,551518
+VA,salt cavern,20230130,0,11363.1,11363.1,217253
+VA,salt cavern,20230213,0,217253,217253,0
+VA,salt cavern,20230216,115630,0,-115630,3.40146e+06
+VA,salt cavern,20230306,259147,0,-259147,3.66061e+06
+VA,salt cavern,20230315,0,124440,124440,0
+VA,salt cavern,20230403,0,0,0,0
+VA,salt cavern,20230410,0,0,0,0
+VA,salt cavern,20230530,0,0,0,0
+VA,salt cavern,20230517,0,0,0,0
+VA,salt cavern,20230630,0,0,0,0
+VA,salt cavern,20230615,0,0,0,0
+VA,salt cavern,20230727,0,0,0,0
+VA,salt cavern,20230710,0,0,0,0
+VA,salt cavern,20230803,0,0,0,0
+VA,salt cavern,20230831,124440,0,-124440,3.66061e+06
+VA,salt cavern,20230906,0,0,0,3.66061e+06
+VA,salt cavern,20230912,0,0,0,3.66061e+06
+VA,salt cavern,20231005,0,0,0,3.66061e+06
+VA,salt cavern,20231020,0,0,0,3.66061e+06
+VA,salt cavern,20231129,0,1.5138e+06,1.5138e+06,2.14681e+06
+VA,salt cavern,20231121,0,72979.2,72979.2,0
+VA,salt cavern,20231228,0,0,0,0
+VA,salt cavern,20231218,18748.5,0,-18748.5,551518
+VT,aquifer,20230103,0,0,0,0
+VT,aquifer,20230130,0,0,0,0
+VT,aquifer,20230213,0,0,0,0
+VT,aquifer,20230216,0,0,0,0
+VT,aquifer,20230306,0,0,0,0
+VT,aquifer,20230315,0,0,0,0
+VT,aquifer,20230403,0,0,0,0
+VT,aquifer,20230410,0,0,0,0
+VT,aquifer,20230530,0,0,0,0
+VT,aquifer,20230517,0,0,0,0
+VT,aquifer,20230630,0,0,0,0
+VT,aquifer,20230615,0,0,0,0
+VT,aquifer,20230727,0,0,0,0
+VT,aquifer,20230710,0,0,0,0
+VT,aquifer,20230803,0,0,0,0
+VT,aquifer,20230831,0,0,0,0
+VT,aquifer,20230906,0,0,0,0
+VT,aquifer,20230912,0,0,0,0
+VT,aquifer,20231005,0,0,0,0
+VT,aquifer,20231020,0,0,0,0
+VT,aquifer,20231129,0,0,0,0
+VT,aquifer,20231121,0,0,0,0
+VT,aquifer,20231228,0,0,0,0
+VT,aquifer,20231218,0,0,0,0
+VT,depleted field,20230103,0,0,0,0
+VT,depleted field,20230130,0,0,0,0
+VT,depleted field,20230213,0,0,0,0
+VT,depleted field,20230216,0,0,0,0
+VT,depleted field,20230306,0,0,0,0
+VT,depleted field,20230315,0,0,0,0
+VT,depleted field,20230403,0,0,0,0
+VT,depleted field,20230410,0,0,0,0
+VT,depleted field,20230530,0,0,0,0
+VT,depleted field,20230517,0,0,0,0
+VT,depleted field,20230630,0,0,0,0
+VT,depleted field,20230615,0,0,0,0
+VT,depleted field,20230727,0,0,0,0
+VT,depleted field,20230710,0,0,0,0
+VT,depleted field,20230803,0,0,0,0
+VT,depleted field,20230831,0,0,0,0
+VT,depleted field,20230906,0,0,0,0
+VT,depleted field,20230912,0,0,0,0
+VT,depleted field,20231005,0,0,0,0
+VT,depleted field,20231020,0,0,0,0
+VT,depleted field,20231129,0,0,0,0
+VT,depleted field,20231121,0,0,0,0
+VT,depleted field,20231228,0,0,0,0
+VT,depleted field,20231218,0,0,0,0
+VT,salt cavern,20230103,0,0,0,0
+VT,salt cavern,20230130,0,0,0,0
+VT,salt cavern,20230213,0,0,0,0
+VT,salt cavern,20230216,0,0,0,0
+VT,salt cavern,20230306,0,0,0,0
+VT,salt cavern,20230315,0,0,0,0
+VT,salt cavern,20230403,0,0,0,0
+VT,salt cavern,20230410,0,0,0,0
+VT,salt cavern,20230530,0,0,0,0
+VT,salt cavern,20230517,0,0,0,0
+VT,salt cavern,20230630,0,0,0,0
+VT,salt cavern,20230615,0,0,0,0
+VT,salt cavern,20230727,0,0,0,0
+VT,salt cavern,20230710,0,0,0,0
+VT,salt cavern,20230803,0,0,0,0
+VT,salt cavern,20230831,0,0,0,0
+VT,salt cavern,20230906,0,0,0,0
+VT,salt cavern,20230912,0,0,0,0
+VT,salt cavern,20231005,0,0,0,0
+VT,salt cavern,20231020,0,0,0,0
+VT,salt cavern,20231129,0,0,0,0
+VT,salt cavern,20231121,0,0,0,0
+VT,salt cavern,20231228,0,0,0,0
+VT,salt cavern,20231218,0,0,0,0
+WA,aquifer,20230103,0,0,0,0
+WA,aquifer,20230130,0,0,0,0
+WA,aquifer,20230213,0,0,0,0
+WA,aquifer,20230216,0,0,0,0
+WA,aquifer,20230306,0,0,0,0
+WA,aquifer,20230315,0,0,0,0
+WA,aquifer,20230403,0,0,0,0
+WA,aquifer,20230410,0,0,0,0
+WA,aquifer,20230530,0,0,0,0
+WA,aquifer,20230517,0,0,0,0
+WA,aquifer,20230630,0,0,0,0
+WA,aquifer,20230615,0,0,0,0
+WA,aquifer,20230727,148639,0,-148639,148639
+WA,aquifer,20230710,130389,0,-130389,3.98425e+06
+WA,aquifer,20230803,337257,0,-337257,4.32151e+06
+WA,aquifer,20230831,364713,0,-364713,1.50502e+07
+WA,aquifer,20230906,378994,0,-378994,1.54292e+07
+WA,aquifer,20230912,342698,0,-342698,2.55102e+07
+WA,aquifer,20231005,0,0,0,2.55102e+07
+WA,aquifer,20231020,0,0,0,2.55102e+07
+WA,aquifer,20231129,0,0,0,2.55102e+07
+WA,aquifer,20231121,0,0,0,2.55102e+07
+WA,aquifer,20231228,0,1.8314e+06,1.8314e+06,2.36788e+07
+WA,aquifer,20231218,0,804944,804944,0
+WA,depleted field,20230103,0,0,0,0
+WA,depleted field,20230130,0,0,0,0
+WA,depleted field,20230213,0,0,0,0
+WA,depleted field,20230216,0,0,0,0
+WA,depleted field,20230306,0,0,0,0
+WA,depleted field,20230315,0,0,0,0
+WA,depleted field,20230403,0,0,0,0
+WA,depleted field,20230410,0,0,0,0
+WA,depleted field,20230530,0,0,0,0
+WA,depleted field,20230517,0,0,0,0
+WA,depleted field,20230630,0,0,0,0
+WA,depleted field,20230615,0,0,0,0
+WA,depleted field,20230727,0,0,0,0
+WA,depleted field,20230710,0,0,0,0
+WA,depleted field,20230803,0,0,0,0
+WA,depleted field,20230831,0,0,0,0
+WA,depleted field,20230906,0,0,0,0
+WA,depleted field,20230912,0,0,0,0
+WA,depleted field,20231005,0,0,0,0
+WA,depleted field,20231020,0,0,0,0
+WA,depleted field,20231129,0,0,0,0
+WA,depleted field,20231121,0,0,0,0
+WA,depleted field,20231228,0,0,0,0
+WA,depleted field,20231218,0,0,0,0
+WA,salt cavern,20230103,0,0,0,0
+WA,salt cavern,20230130,0,0,0,0
+WA,salt cavern,20230213,0,0,0,0
+WA,salt cavern,20230216,0,0,0,0
+WA,salt cavern,20230306,0,0,0,0
+WA,salt cavern,20230315,0,0,0,0
+WA,salt cavern,20230403,0,0,0,0
+WA,salt cavern,20230410,0,0,0,0
+WA,salt cavern,20230530,0,0,0,0
+WA,salt cavern,20230517,0,0,0,0
+WA,salt cavern,20230630,0,0,0,0
+WA,salt cavern,20230615,0,0,0,0
+WA,salt cavern,20230727,0,0,0,0
+WA,salt cavern,20230710,0,0,0,0
+WA,salt cavern,20230803,0,0,0,0
+WA,salt cavern,20230831,0,0,0,0
+WA,salt cavern,20230906,0,0,0,0
+WA,salt cavern,20230912,0,0,0,0
+WA,salt cavern,20231005,0,0,0,0
+WA,salt cavern,20231020,0,0,0,0
+WA,salt cavern,20231129,0,0,0,0
+WA,salt cavern,20231121,0,0,0,0
+WA,salt cavern,20231228,0,0,0,0
+WA,salt cavern,20231218,0,0,0,0
+WI,aquifer,20230103,0,0,0,0
+WI,aquifer,20230130,0,0,0,0
+WI,aquifer,20230213,0,0,0,0
+WI,aquifer,20230216,0,0,0,0
+WI,aquifer,20230306,0,0,0,0
+WI,aquifer,20230315,0,0,0,0
+WI,aquifer,20230403,0,0,0,0
+WI,aquifer,20230410,0,0,0,0
+WI,aquifer,20230530,0,0,0,0
+WI,aquifer,20230517,0,0,0,0
+WI,aquifer,20230630,0,0,0,0
+WI,aquifer,20230615,0,0,0,0
+WI,aquifer,20230727,0,0,0,0
+WI,aquifer,20230710,0,0,0,0
+WI,aquifer,20230803,0,0,0,0
+WI,aquifer,20230831,0,0,0,0
+WI,aquifer,20230906,0,0,0,0
+WI,aquifer,20230912,0,0,0,0
+WI,aquifer,20231005,0,0,0,0
+WI,aquifer,20231020,0,0,0,0
+WI,aquifer,20231129,0,0,0,0
+WI,aquifer,20231121,0,0,0,0
+WI,aquifer,20231228,0,0,0,0
+WI,aquifer,20231218,0,0,0,0
+WI,depleted field,20230103,0,0,0,0
+WI,depleted field,20230130,0,0,0,0
+WI,depleted field,20230213,0,0,0,0
+WI,depleted field,20230216,0,0,0,0
+WI,depleted field,20230306,0,0,0,0
+WI,depleted field,20230315,0,0,0,0
+WI,depleted field,20230403,0,0,0,0
+WI,depleted field,20230410,0,0,0,0
+WI,depleted field,20230530,0,0,0,0
+WI,depleted field,20230517,0,0,0,0
+WI,depleted field,20230630,0,0,0,0
+WI,depleted field,20230615,0,0,0,0
+WI,depleted field,20230727,0,0,0,0
+WI,depleted field,20230710,0,0,0,0
+WI,depleted field,20230803,0,0,0,0
+WI,depleted field,20230831,0,0,0,0
+WI,depleted field,20230906,0,0,0,0
+WI,depleted field,20230912,0,0,0,0
+WI,depleted field,20231005,0,0,0,0
+WI,depleted field,20231020,0,0,0,0
+WI,depleted field,20231129,0,0,0,0
+WI,depleted field,20231121,0,0,0,0
+WI,depleted field,20231228,0,0,0,0
+WI,depleted field,20231218,0,0,0,0
+WI,salt cavern,20230103,0,0,0,0
+WI,salt cavern,20230130,0,0,0,0
+WI,salt cavern,20230213,0,0,0,0
+WI,salt cavern,20230216,0,0,0,0
+WI,salt cavern,20230306,0,0,0,0
+WI,salt cavern,20230315,0,0,0,0
+WI,salt cavern,20230403,0,0,0,0
+WI,salt cavern,20230410,0,0,0,0
+WI,salt cavern,20230530,0,0,0,0
+WI,salt cavern,20230517,0,0,0,0
+WI,salt cavern,20230630,0,0,0,0
+WI,salt cavern,20230615,0,0,0,0
+WI,salt cavern,20230727,0,0,0,0
+WI,salt cavern,20230710,0,0,0,0
+WI,salt cavern,20230803,0,0,0,0
+WI,salt cavern,20230831,0,0,0,0
+WI,salt cavern,20230906,0,0,0,0
+WI,salt cavern,20230912,0,0,0,0
+WI,salt cavern,20231005,0,0,0,0
+WI,salt cavern,20231020,0,0,0,0
+WI,salt cavern,20231129,0,0,0,0
+WI,salt cavern,20231121,0,0,0,0
+WI,salt cavern,20231228,0,0,0,0
+WI,salt cavern,20231218,0,0,0,0
+WV,aquifer,20230103,0,0,0,68442
+WV,aquifer,20230130,0,0,0,68442
+WV,aquifer,20230213,0,0,0,68442
+WV,aquifer,20230216,0,0,0,68442
+WV,aquifer,20230306,0,0,0,68442
+WV,aquifer,20230315,0,0,0,68442
+WV,aquifer,20230403,0,0,0,68442
+WV,aquifer,20230410,0,0,0,68442
+WV,aquifer,20230530,0,0,0,68442
+WV,aquifer,20230517,0,0,0,68442
+WV,aquifer,20230630,0,0,0,68442
+WV,aquifer,20230615,0,0,0,68442
+WV,aquifer,20230727,0,0,0,68442
+WV,aquifer,20230710,0,0,0,68442
+WV,aquifer,20230803,0,0,0,68442
+WV,aquifer,20230831,0,0,0,68442
+WV,aquifer,20230906,0,0,0,68442
+WV,aquifer,20230912,0,0,0,68442
+WV,aquifer,20231005,0,0,0,68442
+WV,aquifer,20231020,0,0,0,68442
+WV,aquifer,20231129,0,0,0,68442
+WV,aquifer,20231121,0,0,0,68442
+WV,aquifer,20231228,0,0,0,68442
+WV,aquifer,20231218,0,0,0,68442
+WV,depleted field,20230103,0,0,0,2.7951e+08
+WV,depleted field,20230130,0,0,0,2.7951e+08
+WV,depleted field,20230213,0,0,0,2.7951e+08
+WV,depleted field,20230216,0,0,0,2.7951e+08
+WV,depleted field,20230306,0,0,0,2.7951e+08
+WV,depleted field,20230315,0,0,0,2.7951e+08
+WV,depleted field,20230403,0,0,0,2.7951e+08
+WV,depleted field,20230410,0,0,0,2.7951e+08
+WV,depleted field,20230530,0,0,0,2.7951e+08
+WV,depleted field,20230517,0,0,0,2.7951e+08
+WV,depleted field,20230630,0,0,0,2.7951e+08
+WV,depleted field,20230615,0,0,0,2.7951e+08
+WV,depleted field,20230727,0,0,0,2.7951e+08
+WV,depleted field,20230710,0,0,0,2.7951e+08
+WV,depleted field,20230803,0,0,0,2.7951e+08
+WV,depleted field,20230831,0,0,0,2.7951e+08
+WV,depleted field,20230906,0,0,0,2.7951e+08
+WV,depleted field,20230912,0,0,0,2.7951e+08
+WV,depleted field,20231005,0,0,0,2.7951e+08
+WV,depleted field,20231020,0,0,0,2.7951e+08
+WV,depleted field,20231129,0,0,0,2.7951e+08
+WV,depleted field,20231121,0,0,0,2.7951e+08
+WV,depleted field,20231228,0,0,0,2.7951e+08
+WV,depleted field,20231218,0,0,0,2.7951e+08
+WV,salt cavern,20230103,0,0,0,0
+WV,salt cavern,20230130,0,0,0,0
+WV,salt cavern,20230213,0,0,0,0
+WV,salt cavern,20230216,0,0,0,0
+WV,salt cavern,20230306,0,0,0,0
+WV,salt cavern,20230315,0,0,0,0
+WV,salt cavern,20230403,0,0,0,0
+WV,salt cavern,20230410,0,0,0,0
+WV,salt cavern,20230530,0,0,0,0
+WV,salt cavern,20230517,0,0,0,0
+WV,salt cavern,20230630,0,0,0,0
+WV,salt cavern,20230615,0,0,0,0
+WV,salt cavern,20230727,0,0,0,0
+WV,salt cavern,20230710,0,0,0,0
+WV,salt cavern,20230803,0,0,0,0
+WV,salt cavern,20230831,0,0,0,0
+WV,salt cavern,20230906,0,0,0,0
+WV,salt cavern,20230912,0,0,0,0
+WV,salt cavern,20231005,0,0,0,0
+WV,salt cavern,20231020,0,0,0,0
+WV,salt cavern,20231129,0,0,0,0
+WV,salt cavern,20231121,0,0,0,0
+WV,salt cavern,20231228,0,0,0,0
+WV,salt cavern,20231218,0,0,0,0
+WY,aquifer,20230103,0,0,0,866932
+WY,aquifer,20230130,0,29470.7,29470.7,0
+WY,aquifer,20230213,0,0,0,0
+WY,aquifer,20230216,0,0,0,0
+WY,aquifer,20230306,0,0,0,0
+WY,aquifer,20230315,0,0,0,0
+WY,aquifer,20230403,0,0,0,0
+WY,aquifer,20230410,0,0,0,0
+WY,aquifer,20230530,0,0,0,0
+WY,aquifer,20230517,0,0,0,0
+WY,aquifer,20230630,100159,0,-100159,100159
+WY,aquifer,20230615,26065.9,0,-26065.9,866932
+WY,aquifer,20230727,0,0,0,866932
+WY,aquifer,20230710,0,0,0,866932
+WY,aquifer,20230803,0,0,0,866932
+WY,aquifer,20230831,0,0,0,866932
+WY,aquifer,20230906,0,0,0,866932
+WY,aquifer,20230912,0,0,0,866932
+WY,aquifer,20231005,0,0,0,866932
+WY,aquifer,20231020,0,0,0,866932
+WY,aquifer,20231129,0,0,0,866932
+WY,aquifer,20231121,0,0,0,866932
+WY,aquifer,20231228,0,0,0,866932
+WY,aquifer,20231218,0,0,0,866932
+WY,depleted field,20230103,0,0,0,7.61791e+07
+WY,depleted field,20230130,0,655254,655254,5.69037e+07
+WY,depleted field,20230213,0,0,0,5.69037e+07
+WY,depleted field,20230216,0,0,0,5.69037e+07
+WY,depleted field,20230306,0,0,0,5.69037e+07
+WY,depleted field,20230315,0,0,0,5.69037e+07
+WY,depleted field,20230403,0,0,0,5.69037e+07
+WY,depleted field,20230410,0,0,0,5.69037e+07
+WY,depleted field,20230530,0,0,0,5.69037e+07
+WY,depleted field,20230517,0,0,0,5.69037e+07
+WY,depleted field,20230630,0,0,0,5.69037e+07
+WY,depleted field,20230615,655254,0,-655254,7.61791e+07
+WY,depleted field,20230727,0,0,0,7.61791e+07
+WY,depleted field,20230710,0,0,0,7.61791e+07
+WY,depleted field,20230803,0,0,0,7.61791e+07
+WY,depleted field,20230831,0,0,0,7.61791e+07
+WY,depleted field,20230906,0,0,0,7.61791e+07
+WY,depleted field,20230912,0,0,0,7.61791e+07
+WY,depleted field,20231005,0,0,0,7.61791e+07
+WY,depleted field,20231020,0,0,0,7.61791e+07
+WY,depleted field,20231129,0,0,0,7.61791e+07
+WY,depleted field,20231121,0,0,0,7.61791e+07
+WY,depleted field,20231228,0,0,0,7.61791e+07
+WY,depleted field,20231218,0,0,0,7.61791e+07
+WY,salt cavern,20230103,0,0,0,0
+WY,salt cavern,20230130,0,0,0,0
+WY,salt cavern,20230213,0,0,0,0
+WY,salt cavern,20230216,0,0,0,0
+WY,salt cavern,20230306,0,0,0,0
+WY,salt cavern,20230315,0,0,0,0
+WY,salt cavern,20230403,0,0,0,0
+WY,salt cavern,20230410,0,0,0,0
+WY,salt cavern,20230530,0,0,0,0
+WY,salt cavern,20230517,0,0,0,0
+WY,salt cavern,20230630,0,0,0,0
+WY,salt cavern,20230615,0,0,0,0
+WY,salt cavern,20230727,0,0,0,0
+WY,salt cavern,20230710,0,0,0,0
+WY,salt cavern,20230803,0,0,0,0
+WY,salt cavern,20230831,0,0,0,0
+WY,salt cavern,20230906,0,0,0,0
+WY,salt cavern,20230912,0,0,0,0
+WY,salt cavern,20231005,0,0,0,0
+WY,salt cavern,20231020,0,0,0,0
+WY,salt cavern,20231129,0,0,0,0
+WY,salt cavern,20231121,0,0,0,0
+WY,salt cavern,20231228,0,0,0,0
+WY,salt cavern,20231218,0,0,0,0
