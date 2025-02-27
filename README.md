@@ -82,12 +82,14 @@ conda activate gas-electricity
 ```
 
 ## clone this repository and the dependency submodules. 
+```
 cd <wherever you want the SWITCH-electricity-gas code>
 git clone https://github.com/Rangrang-Zheng/SWITCH-electricity-gas.git
 cd SWITCH-electricity-gas
 ```
 
-You may skip the tw if you have switch installed already. If not, install switch from submodule here.
+# Set up switch and 
+You may skip step 1 below if you have switch installed already. If not, install switch from submodule here.
 ## Step 1: install switch from this repository
 ```
 # Create and activate the environment
@@ -98,12 +100,13 @@ conda activate gas-electricity
 
 ## Step 2: Run the commands below in the terminal pane.
 
-```
 # Direct to the work folder
-cd extra_modules
 
-# get switch inputs from the author and store under extra_modules/pj/test/2025/all_in and  create related output folder. If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
+Get switch inputs from the author and store under "../all_in_2days_2sectors" and  create related output folder, for example: "../all_out_2days_0price_S1A". If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
 # Run switch
+
+```
+cd extra_modules
 switch solve --inputs-dir  ../all_in_2days_2sectors --outputs-dir  ../all_out_2days_0price_S1A --module-list modules_nondr.txt --input-alias fuel_cost.csv=fuel_cost_delta.csv gen_info.csv=info_filtered.csv gen_build_costs.csv=costs_filtered.csv variable_capacity_factors.csv=vcf_filtered.csv
 
 
