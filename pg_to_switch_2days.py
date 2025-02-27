@@ -1,25 +1,28 @@
 import os
 import sys
-import pandas as pd
-import numpy as np
 import math
 from datetime import datetime as dt
 import ast
 import itertools
 from statistics import mode
-from typing import List, Optional
 import collections
-
-from PowerGenome.powergenome.resource_clusters import ResourceGroup
+import shlex
 from pathlib import Path
-import sqlalchemy as sa
-import typer
+from typing import List, Optional
 from typing_extensions import Annotated
 
 import pandas as pd
-from PowerGenome.powergenome.fuels import fuel_cost_table
-from PowerGenome.powergenome.generators import GeneratorClusters, create_plant_gen_id
-from PowerGenome.powergenome.util import (
+import numpy as np
+import scipy
+import sqlalchemy as sa
+import typer
+
+from powergenome.resource_clusters import ResourceGroup
+
+import pandas as pd
+from powergenome.fuels import fuel_cost_table
+from powergenome.generators import GeneratorClusters, create_plant_gen_id
+from powergenome.util import (
     build_scenario_settings,
     init_pudl_connection,
     load_settings,
@@ -27,17 +30,17 @@ from PowerGenome.powergenome.util import (
     snake_case_col,
 )
 
-from PowerGenome.powergenome.time_reduction import kmeans_time_clustering
-from PowerGenome.powergenome.eia_opendata import fetch_fuel_prices
-from PowerGenome.powergenome.eia_opendata import add_user_fuel_prices
+from powergenome.time_reduction import kmeans_time_clustering
+from powergenome.eia_opendata import fetch_fuel_prices
+from powergenome.eia_opendata import add_user_fuel_prices
 import geopandas as gpd
-from PowerGenome.powergenome.generators import *
-from PowerGenome.powergenome.external_data import (
+from powergenome.generators import *
+from powergenome.external_data import (
     make_demand_response_profiles,
     make_generator_variability,
     load_demand_segments,
 )
-from PowerGenome.powergenome.GenX import (
+from powergenome.GenX import (
     add_misc_gen_values,
     hydro_energy_to_power,
     add_co2_costs_to_o_m,
@@ -45,13 +48,13 @@ from PowerGenome.powergenome.GenX import (
     set_must_run_generation,
     min_cap_req,
 )
-from PowerGenome.powergenome.co2_pipeline_cost import merge_co2_pipeline_costs
+from powergenome.co2_pipeline_cost import merge_co2_pipeline_costs
+from powergenome.financials import inflation_price_adjustment
 
 
 from conversion_functions import (
     switch_fuel_cost_table,
     switch_fuels,
-    add_generic_gen_build_info,
     gen_info_table,
     hydro_time_tables,
     load_zones_table,
@@ -255,6 +258,7 @@ def operational_files(
     for model_year, year_settings in scen_settings_dict.items():
 
         period_all_gen = gens_by_model_year.query("model_year == @model_year")
+        print("Gathering generator variability data.")
         period_all_gen_variability = make_generator_variability(period_all_gen)
         period_all_gen_variability.columns = period_all_gen["Resource"]
         if "gen_is_baseload" in period_all_gen.columns:
@@ -284,6 +288,7 @@ def operational_files(
 
         cluster_time = year_settings.get("reduce_time_domain") is True
 
+        # do time clustering/sampling
         if cluster_time:
             assert "time_domain_periods" in year_settings
             assert "time_domain_days_per_period" in year_settings
@@ -291,6 +296,7 @@ def operational_files(
             # results is a dict with keys "resource_profiles" (gen_variability), "load_profiles",
             # "time_series_mapping" (maps clusters sequentially to potential periods in year),
             # "ClusterWeights", etc. See PG for full details.
+            print(f"Beginning clustering of timeseries ({model_year}).")
             results, representative_point, weights = kmeans_time_clustering(
                 resource_profiles=period_all_gen_variability,
                 load_profiles=period_lc,
@@ -302,8 +308,25 @@ def operational_files(
                     "variable_resources_only", True
                 ),
             )
-            period_lc = results["load_profiles"]
-            period_variability = results["resource_profiles"]
+            print("Finished clustering timeseries.")
+            period_lc_sampled = results["load_profiles"]
+            period_variability_sampled = results["resource_profiles"]
+
+        #######
+        # Omit existing generators that have no active capacity this period.
+        # In some cases, PowerGenome may include generators that are post-
+        # retirement (or maybe pre-construction?), to make sure the same sample
+        # weeks are selected for every period. Here we filter those out because
+        # Switch will not accept time-varying data for generators that cannot be
+        # used.
+        period_all_gen = period_all_gen.query("Existing_Cap_MW.notna() or new_build")
+        period_all_gen_variability = period_all_gen_variability.loc[
+            :, period_all_gen["Resource"]
+        ]
+        if cluster_time:
+            period_variability_sampled = period_variability_sampled.loc[
+                :, period_all_gen["Resource"]
+            ]
 
         # timeseries_df and timepoints_df
         if cluster_time:
@@ -327,12 +350,15 @@ def operational_files(
                     settings=year_settings,
                 )
             else:
-                timeseries_df, timepoints_df, timestamp_interval = timeseries(
-                    period_lc,
-                    year_settings["model_year"],
-                    year_settings["model_first_planning_year"],
-                    settings=year_settings,
+                timeseries_df, timepoints_df, timestamp_interval, selected_hours = (
+                    timeseries(
+                        period_lc,
+                        year_settings["model_year"],
+                        year_settings["model_first_planning_year"],
+                        settings=year_settings,
+                    )
                 )
+
             timepoints_df["timepoint_id"] = range(
                 timepoint_start, timepoint_start + len(timepoints_df)
             )
@@ -349,21 +375,6 @@ def operational_files(
                 zip(timepoints_timestamp, timepoints_tp_id)
             )  # {timestamp: timepoint_id}
 
-        ### add tp_date column to timepoints.csv to use timescales.py module
-        from datetime import datetime as dt
-        from datetime import timedelta as td
-
-        # Create the starting date as a `datetime` object.
-        start = dt(2023, 1, 1, 0, 0, 0)
-        # List initialiser.
-        result = [start]
-        # Build a list of datetime objects for each hour of the year.
-        for i in range(1, 8736):
-            start += td(seconds=3600)
-            result.append(start)
-        df_temp = pd.DataFrame({"dates": result})
-        timepoints_df["tp_date"] = df_temp["dates"].dt.date
-
         output["timeseries.csv"].append(timeseries_df)
         output["timepoints.csv"].append(timepoints_df)
 
@@ -372,18 +383,31 @@ def operational_files(
             hydro_timepoints_df = hydro_timepoints_pg_kmeans(timepoints_df)
             hydro_timeseries_table = hydro_timeseries_pg_kmeans(
                 period_all_gen,
-                period_variability.loc[
+                period_variability_sampled.loc[
                     :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
                 ],
                 hydro_timepoints_df,
             )
         else:
-            hydro_timepoints_df, hydro_timeseries_table = hydro_time_tables(
-                period_all_gen,
-                period_all_gen_variability,
-                timepoints_df,
-                year_settings["model_year"],
-            )
+            if year_settings.get("full_time_domain") is True:
+                hydro_timepoints_df, hydro_timeseries_table = hydro_time_tables(
+                    period_all_gen,
+                    period_all_gen_variability,
+                    timepoints_df,
+                    year_settings["model_year"],
+                )
+            else:
+                period_variability_sampled = period_all_gen_variability.loc[
+                    period_all_gen_variability.index.isin(selected_hours.index)
+                ]
+                hydro_timepoints_df = hydro_timepoints_pg_kmeans(timepoints_df)
+                hydro_timeseries_table = hydro_timeseries_pg_kmeans(
+                    period_all_gen,
+                    period_variability_sampled.loc[
+                        :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
+                    ],
+                    hydro_timepoints_df,
+                )
         output["hydro_timepoints.csv"].append(hydro_timepoints_df)
         output["hydro_timeseries.csv"].append(hydro_timeseries_table)
 
@@ -397,27 +421,46 @@ def operational_files(
                 water_node_tp_flows,
             ) = hydro_system_module_tables(
                 period_all_gen,
-                period_variability.loc[
+                period_variability_sampled.loc[
                     :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
                 ],
                 hydro_timepoints_df,
                 flow_per_mw=1.02,
             )
         else:
-            (
-                water_nodes,
-                water_connections,
-                reservoirs,
-                hydro_pj,
-                water_node_tp_flows,
-            ) = hydro_system_module_tables(
-                period_all_gen,
-                period_all_gen_variability.loc[
-                    :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
-                ],
-                timepoints_df,
-                flow_per_mw=1.02,
-            )
+            if year_settings.get("full_time_domain") is True:
+                (
+                    water_nodes,
+                    water_connections,
+                    reservoirs,
+                    hydro_pj,
+                    water_node_tp_flows,
+                ) = hydro_system_module_tables(
+                    period_all_gen,
+                    period_all_gen_variability.loc[
+                        :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
+                    ],
+                    timepoints_df,
+                    flow_per_mw=1.02,
+                )
+            else:
+                period_variability_sampled = period_all_gen_variability.loc[
+                    period_all_gen_variability.index.isin(selected_hours.index)
+                ]
+                (
+                    water_nodes,
+                    water_connections,
+                    reservoirs,
+                    hydro_pj,
+                    water_node_tp_flows,
+                ) = hydro_system_module_tables(
+                    period_all_gen,
+                    period_variability_sampled.loc[
+                        :, period_all_gen.loc[period_all_gen["HYDRO"] == 1, "Resource"]
+                    ],
+                    hydro_timepoints_df,
+                    flow_per_mw=1.02,
+                )
         output["water_nodes.csv"].append(water_nodes)
         output["water_connections.csv"].append(water_connections)
         output["reservoirs.csv"].append(reservoirs)
@@ -426,7 +469,7 @@ def operational_files(
 
         # loads
         if cluster_time:
-            loads = load_pg_kmeans(period_lc, timepoints_df)
+            loads = load_pg_kmeans(period_lc_sampled, timepoints_df)
             timepoints_tp_id = timepoints_df[
                 "timepoint_id"
             ].to_list()  # timepoint_id list
@@ -435,34 +478,48 @@ def operational_files(
             dummy_df.insert(2, "zone_demand_mw", 0)
             loads = loads.append(dummy_df)
         else:
-            loads, loads_with_year_hour = loads_table(
-                period_lc,
-                timepoints_timestamp,
-                timepoints_dict,
-                year_settings["model_year"],
-            )
+            if year_settings.get("full_time_domain") is True:
+                loads, loads_with_year_hour = loads_table(
+                    period_lc_sampled,
+                    timepoints_timestamp,
+                    timepoints_dict,
+                    year_settings["model_year"],
+                )
+                # year_hour is used by vcf below
+                year_hour = loads_with_year_hour["year_hour"].to_list()
+            else:
+                period_lc_sampled = period_lc.loc[
+                    period_lc.index.isin(selected_hours.index)
+                ]
+                loads = load_pg_kmeans(period_lc_sampled, timepoints_df)
             # for fuel_cost and regional_fuel_market issue
             dummy_df = pd.DataFrame({"TIMEPOINT": timepoints_tp_id})
             dummy_df.insert(0, "LOAD_ZONE", "loadzone")
             dummy_df.insert(2, "zone_demand_mw", 0)
             loads = loads.append(dummy_df)
-            # year_hour is used by vcf below
-            year_hour = loads_with_year_hour["year_hour"].to_list()
         output["loads.csv"].append(loads)
 
         # capacity factors for variable generators
         if cluster_time:
             vcf = variable_cf_pg_kmeans(
-                period_all_gen, period_variability, timepoints_df
+                period_all_gen, period_variability_sampled, timepoints_df
             )
         else:
-            vcf = variable_capacity_factors_table(
-                period_all_gen_variability,
-                year_hour,
-                timepoints_dict,
-                period_all_gen,
-                year_settings["model_year"],
-            )
+            if year_settings.get("full_time_domain") is True:
+                vcf = variable_capacity_factors_table(
+                    period_all_gen_variability,
+                    year_hour,
+                    timepoints_dict,
+                    period_all_gen,
+                    year_settings["model_year"],
+                )
+            else:
+                period_variability_sampled = period_all_gen_variability.loc[
+                    period_all_gen_variability.index.isin(selected_hours.index)
+                ]
+                vcf = variable_cf_pg_kmeans(
+                    period_all_gen, period_variability_sampled, timepoints_df
+                )
         output["variable_capacity_factors.csv"].append(vcf)
 
         # timestamp map for graphs
@@ -642,10 +699,10 @@ def gen_info_file(
         "Var_OM_Cost_per_MWh",
         "Fixed_OM_Cost_per_MWhyr",
     ]
-    gen_om_by_period = gens_by_model_year[["Resource", "model_year"] + om_cols]
-    gen_om_by_period[om_cols] -= gens_by_model_year[
-        [c + "_mean" for c in om_cols]
-    ].values
+    # drop existing generators that are retired by this time
+    gen_om_by_period = gens_by_model_year.query("Existing_Cap_MW.notna() or new_build")
+    # calculate difference from the mean
+    gen_om_by_period[om_cols] -= gen_om_by_period[[c + "_mean" for c in om_cols]].values
     # ignore tiny differences from the mean
     gen_om_by_period[om_cols] = gen_om_by_period[om_cols].mask(
         gen_om_by_period[om_cols].abs() <= 1e-9, 0
@@ -653,6 +710,9 @@ def gen_info_file(
     # drop zeros (not essential, but helpful for seeing only the ones with adjustments)
     gen_om_by_period[om_cols] = gen_om_by_period[om_cols].replace({0: float("nan")})
     gen_om_by_period = gen_om_by_period.dropna(subset=om_cols, how="all")
+
+    # filter columns
+    gen_om_by_period = gen_om_by_period[["Resource", "model_year"] + om_cols]
     gen_om_by_period.columns = [
         "GENERATION_PROJECT",
         "PERIOD",
@@ -814,36 +874,34 @@ def gen_tables(gc, pudl_engine, scen_settings_dict):
         # units online in this model_year for each gen cluster
         eia_unit_info = eia_build_info(gc)
         unit_df = gen_df.merge(eia_unit_info, on="Resource", how="left")
-        unit_df = add_generic_gen_build_info(unit_df, year_settings)
         unit_dfs.append(unit_df)
 
-    # Set same info as eia_build_info() for generic generators (Resources in
-    # the "existing" list that didn't get matching record(s) from the
-    # eia_unit_info, currently only distributed generation).
-    cb_df = pd.concat(unit_dfs)
-    # 'add_generic_gen_build_info' function above add the 'capacity_mw' for
-    # distributed solar as the total available capacity at each model year, while SWITCH
-    # prefers to have the 'capacity_mw' loaded as the amount of capacity installation/addition at
-    # each 'build_year'.
-    dg_cap = pd.DataFrame(cb_df.loc[cb_df["technology"].str.contains("distri")])
-    dg_grouped = dg_cap.sort_values(
-        ["region", "technology", "cluster", "build_year"]
-    ).groupby(["region", "technology", "cluster"])
-    dg = pd.DataFrame()
-    for group, data in dg_grouped:
-        diff = list(data.sort_values(by=["build_year"])["capacity_mw"].diff())
-        diff[0] = data.iloc[0]["capacity_mw"]
-        data["capacity_mw"] = diff
-        dg = dg.append(data)
-
-    dg = dg.set_index(["model_year"], append=True)
-    cb_df = cb_df.set_index(["model_year"], append=True)
-    cb_df.loc[dg.index, "capacity_mw"] = dg["capacity_mw"]
-    cb_df = cb_df.reset_index(level=["model_year"])
     gc.settings = orig_gc_settings
 
     gens_by_model_year = pd.concat(gen_dfs, ignore_index=True)
-    units_by_model_year = cb_df.copy()
+    units_by_model_year = pd.concat(unit_dfs, ignore_index=True)
+
+    # Set same info as eia_build_info() (build_year, capacity_mw and
+    # capacity_mwh) for generic generators (Resources in the "existing" list
+    # that didn't get matching record(s) from the eia_unit_info, currently only
+    # distributed generation). We do this after the loop so we can infer a
+    # sequence of capacity additions that results in the available capacity
+    # reported for each model year.
+    generic = units_by_model_year["existing"] & units_by_model_year["build_year"].isna()
+    generic_units = units_by_model_year[generic].drop(
+        columns=["plant_gen_id", "build_year", "capacity_mw", "capacity_mwh"]
+    )
+    generic_units = generic_units.merge(
+        generic_gen_build_info(generic_units, first_value(scen_settings_dict)),
+        on="Resource",
+        how="left",
+    )
+    units_by_model_year = (
+        pd.concat([units_by_model_year[~generic], generic_units])
+        .sort_values(["Resource", "model_year", "build_year"])
+        .reset_index()
+    )
+
     assert (
         units_by_model_year.query("existing")["build_year"].notna().all()
     ), "Some existing generating units have no build_year assigned."
@@ -988,6 +1046,15 @@ def eia_build_info(gc: GeneratorClusters):
     # don't have an online date so PG couldn't assign a retirement date)
     units = units.query("retirement_year.notna()")
 
+    # Use object attribute -- set in main() -- to determine if PG bug should be replicated
+    if gc.__dict__.get("pg_unit_bug", False):
+        units["true_retirement_year"] = units.loc[:, "retirement_year"]
+        units["retirement_year"] = (
+            units.groupby(["plant_id_eia", "unit_id_pg"])["retirement_year"]
+            .transform("min")
+            .values
+        )
+
     # infer the build date from retirement_year and retirement_age
     # (may not be the right year, but will cause it to retire at the right
     # time, which is generally most important)
@@ -1008,6 +1075,123 @@ def eia_build_info(gc: GeneratorClusters):
             "capacity_mwh",
         ]
     ]
+
+
+def as_col(series):
+    # convert pandas series to numpy column
+    return series.to_numpy()[:, np.newaxis]
+
+
+def infer_build_years(df):
+    """
+    Find capacity built in specific years that would make the specified amount
+    available in each model year, taking account of retirements. `df` must
+    contain `retirement_age`, `model_year` and `Existing_Cap_MW`. Return
+    dataframe showing `Resource`, `build_year` and `capacity_mw`.
+
+    If exact solution is not possible, we use a least-squares fit instead.
+
+    This sets up a linear algebra problem that sums the construction in each
+    build_year that would still be active in each model_year. Then it uses a
+    scipy solver to find the amount to add in each build_year to get the right
+    amount for each model_year. This solves A x = b for x, where x is the amount
+    added in each build_year (column vector), b is the amount online in each
+    model_year (column vector), and A is a matrix with 1 for every build_year
+    (column) that is available to use in each model_year (row). This uses a
+    least-squares solver with non-negative x values. If the system is
+    undertermined (generally true), it will find an exact solution. If an exact
+    solution is not possible (e.g., there are multiple dips in capacity within
+    the lifespan of the asset), it will find a least-squares fit and issue a
+    warning.
+    """
+    # df = pd.DataFrame({'Resource': ['a', 'a', 'a'], 'model_year': [2025, 2030, 2035], 'retirement_age': [30, 30, 30], 'Existing_Cap_MW': [10, 20, 10], 'Existing_Cap_MWh': [5, 10, 10]})
+    first_build_year = (df["model_year"] - df["retirement_age"] + 1).min()
+    last_build_year = df["model_year"].max()
+    # reverse order of years so the algorithm will prefer later ones
+    build_year = np.arange(last_build_year, first_build_year - 1, -1)
+    # identify build_years (columns) that would still be in service for each
+    # model_year (row)
+    in_service_flag = (
+        (build_year <= as_col(df["model_year"]))
+        & (build_year > as_col(df["model_year"] - df["retirement_age"]))
+    ).astype(int)
+    # now we want a vector showing capacity built in each year such that
+    # in_service_flag ~matrix multiply~ built = Existing_Cap_MW, i.e., the flag
+    # shows which build years are active for each model year, and we want the
+    # sum of the in_service_flags for this model_year times capacity built each
+    # build_year (built_mw) to match Existing_Cap_MW for this model_year. This
+    # can be seen as a non-negative least-squares problem:
+    built_mw, rnorm_mw = scipy.optimize.nnls(in_service_flag, df["Existing_Cap_MW"])
+    built_mwh, rnorm_mwh = scipy.optimize.nnls(in_service_flag, df["Existing_Cap_MWh"])
+    if rnorm_mw > 0:
+        print(
+            f"WARNING: MW construction schedule for {df['Resource'].iloc[0]} cannot match reported capacity"
+        )
+    if rnorm_mwh > 0:
+        print(
+            f"WARNING: MWh construction schedule for {df['Resource'].iloc[0]} cannot match reported capacity"
+        )
+
+    result = pd.DataFrame(
+        {
+            "build_year": build_year,
+            "capacity_mw": built_mw,
+            "capacity_mwh": built_mwh,
+        }
+    ).round(6)
+    # drop 0's and then drop any empty rows
+    result[["capacity_mw", "capacity_mwh"]] = result[
+        ["capacity_mw", "capacity_mwh"]
+    ].replace(0.0, np.nan)
+    result = result.dropna(subset=["capacity_mw", "capacity_mwh"], how="all")
+    return result
+
+
+def generic_gen_build_info(gens, settings):
+    """
+    Return dataframe with Resource, dummy generator id and inferred build_year,
+    capacity_mw and capacity_mwh columns for generic existing generators.
+
+    These are generators that PowerGenome reported as existing but didn't get
+    unit-level construction info from eia_build_info(), e.g., distributed
+    generation.
+
+    The gens dataframe must have Resource, retirement_age, model_year,
+    Existing_Cap_MW and Existing_Cap_MWh (capacity online as of that year). The
+    construction plan is achieves the specified capacity as of each model year
+    if possible.
+
+    This sets up a least-squares problem to find build_years and quantities that
+    are compatible with the reported total capacity online for each resource:
+    minimize (Ax - b)^2, subject to x >= 0, where A is the build_year:model_year
+    correspondence matrix (1 for any build years that are active in a particular
+    model year), x is the capacity built each year, and b is the capacity online
+    in each model year.
+
+    For monotonically increasing capacity or capacity with one dip, this should
+    always have an exact solution. For more complex patterns, especially with
+    long retirement ages, an exact solution may not be possible, in which case a
+    warning will be shown.
+    """
+    # gens = pd.DataFrame({'Resource': ['a', 'a', 'a'], 'model_year': [2025, 2030, 2035], 'retirement_age': [30, 30, 30], 'Existing_Cap_MW': [10, 20, 10], 'Existing_Cap_MWh': [5, 20, 10]})
+
+    # Set retirement age for use in installation date calculations (also
+    # calculated in other places but not kept; maybe these should be
+    # consolidated?)
+    gens = set_retirement_age(gens.copy(), settings)
+    gens["Existing_Cap_MW"] = gens["Existing_Cap_MW"].fillna(0.0)
+    gens["Existing_Cap_MWh"] = gens["Existing_Cap_MWh"].fillna(0.0)
+
+    result = (
+        gens.groupby("Resource")[
+            "retirement_age", "model_year", "Existing_Cap_MW", "Existing_Cap_MWh"
+        ]
+        .apply(infer_build_years)
+        .reset_index()
+        .drop(columns=["level_1"])
+    )
+    result["plant_gen_id"] = "generic"
+    return result
 
 
 def other_tables(
@@ -1073,8 +1257,7 @@ def other_tables(
 
         # create alternative versions of the carbon cap
         if not co2_cap_long.empty:
-            # TODO: use input data for this
-            for carbon_price in [50, 200, 1000]:
+            for carbon_price in scen_settings.get("alternative_carbon_slack") or []:
                 ccl = co2_cap_long.copy()
                 ccl["carbon_cost_dollar_per_tco2"] = carbon_price
                 ccl.to_csv(
@@ -1437,29 +1620,29 @@ def transmission_tables(scen_settings_dict, out_folder, pg_engine):
         out_folder / "trans_path_expansion_limit.csv", index=False
     )
 
-    # create alternative transmission limits
-    # TODO: use input data for this
-    trans_limits = [(0, 0), (15, 400), (50, 400), (100, 400), (200, 400)]
-    for frac, min_mw in trans_limits:
-        dfs = []
-        for year in scen_settings_dict:
-            dfs.append(
-                pd.DataFrame(
-                    {
-                        "TRANSMISSION_LINE": transmission_lines["TRANSMISSION_LINE"],
-                        "PERIOD": year,
-                        # next line reimplements powergenome.GenX.network_max_reinforcement
-                        "trans_path_expansion_limit_mw": (
-                            transmission_lines["existing_trans_cap"] * frac * 0.01
-                        )
-                        .clip(lower=min_mw)
-                        .round(0),
-                    }
-                )
-            )
-        pd.concat(dfs).to_csv(
-            out_folder / f"trans_path_expansion_limit.{frac}.csv", index=False
-        )
+    # # create alternative transmission limits
+    # # TODO: use input data for this, similar to carbon prices
+    # trans_limits = [(0, 0), (15, 400), (50, 400), (100, 400), (200, 400)]
+    # for frac, min_mw in trans_limits:
+    #     dfs = []
+    #     for year in scen_settings_dict:
+    #         dfs.append(
+    #             pd.DataFrame(
+    #                 {
+    #                     "TRANSMISSION_LINE": transmission_lines["TRANSMISSION_LINE"],
+    #                     "PERIOD": year,
+    #                     # next line reimplements powergenome.GenX.network_max_reinforcement
+    #                     "trans_path_expansion_limit_mw": (
+    #                         transmission_lines["existing_trans_cap"] * frac * 0.01
+    #                     )
+    #                     .clip(lower=min_mw)
+    #                     .round(0),
+    #                 }
+    #             )
+    #         )
+    #     pd.concat(dfs).to_csv(
+    #         out_folder / f"trans_path_expansion_limit.{frac}.csv", index=False
+    #     )
 
 
 import ast
@@ -1511,18 +1694,96 @@ def year_name(years):
     # return "_".join(str(y) for y in yrs)
 
 
-def scenario_files(in_folder, out_folder, settings):
+def model_folder_names(results_folder, scen_name, case, year, myopic):
+    # figure out folder names
+    switch_path = Path(__file__).parent
+    subst = {"in": "out", "input": "output", "inputs": "outputs"}
+    out_base = Path(*[subst.get(p, p) for p in results_folder.parts])
+    if out_base == results_folder:
+        out_base = results_folder / "out"
+    in_folder = (results_folder / year / case).relative_to(switch_path)
+    out_folder = (out_base / year / scen_name).relative_to(switch_path)
+    return in_folder, out_folder
+
+
+def scenario_files(results_folder, case_settings, myopic):
     """
     Create switch/scenarios*.txt, defining all the cases to run.
     """
-    # get dataframe of all possible scenario input data
-    scen_def_fn = in_folder / settings["scenario_definitions_fn"]
-    scenario_definitions = pd.read_csv(scen_def_fn)
+    # # get dataframe of all possible scenario input data
+    # scen_def_fn = in_folder / settings["scenario_definitions_fn"]
+    # scenario_definitions = pd.read_csv(scen_def_fn)
 
-    # need some way to list all the crosses that we do automatically;
-    # some of these are identified as PG scenarios, but we just do the cross
-    # on one element of the data (trans limits); some of them are just done outside PG to
-    # avoid creating too much data (carbon cost).
+    # TODO: generate this directly from the input files, not from the current
+    # working set; that way we can distinguish foresight from myopic?
+    # Or: if foresight, skip this; if myopic, generate the file?
+
+    scenarios = collections.defaultdict(list)
+
+    def add_scenario_row(scen_name, case, year, settings, extra=""):
+        y = str(year) if myopic else "foresight"  # duplicates year_name() logic
+        in_folder, out_folder = model_folder_names(
+            results_folder, scen_name, case, y, myopic
+        )
+        line = f"--scenario-name {scen_name}_{y} "
+        line += f"--inputs-dir {shlex.quote(str(in_folder))} --outputs-dir {shlex.quote(str(out_folder))} "
+        if settings.get("switch_module_list"):
+            line += f"--module-list {settings['switch_module_list']} "
+        line += extra
+        line = line.strip() + " "
+        if myopic:
+            if year != max(case_settings[case].keys()):
+                # chain investment choices forward to next stage
+                line += "--include-module mip_modules.prepare_next_stage "
+            if year != min(case_settings[case].keys()):
+                # use investment choices chained from previous stage
+                line += (
+                    "--input-aliases "
+                    f"gen_build_predetermined.csv=gen_build_predetermined.chained.{scen_name}.csv "
+                    f"gen_build_costs.csv=gen_build_costs.chained.{scen_name}.csv "
+                    f"transmission_lines.csv=transmission_lines.chained.{scen_name}.csv "
+                )
+        scenarios[scen_name].append(line.strip())
+
+    for case, year_settings in case_settings.items():
+        for year, settings in year_settings.items():
+            # add the standard scenario for this case
+            add_scenario_row(case, case, year, settings)
+            # add scenarios with alternative carbon prices, if any
+            for price in settings.get("alternative_carbon_slack") or []:
+                add_scenario_row(
+                    f"{case}_co2_{price}",
+                    case,
+                    year,
+                    settings,
+                    f"--input-alias carbon_policies_regional.csv=carbon_policies_regional.{price}.csv",
+                )
+            # could model different transmission levels the same way (see
+            # commented out code for alternative targets above), but for
+            # now we just generate completely different input dirs for each
+            # transmission case.
+
+    # write the scenarios_*.txt files
+    for scen_name, lines in scenarios.items():
+        scen_file = (
+            results_folder
+            / f"scenarios_{scen_name}{'' if myopic else '_foresight'}.txt"
+        )
+        with open(scen_file, "w") as f:
+            f.writelines(f"{line}\n" for line in lines)
+        print(f"created {short_fn(scen_file)}")
+
+
+def short_fn(filename):
+    """
+    Return filename relative to current directory if that is shorter than the
+    current filename. Useful for reporting filenames in logs.
+    """
+    fn = Path(filename)
+    short_fn = fn.relative_to(Path.cwd())
+    if len(str(short_fn)) > len(str(fn)):
+        short_fn = fn
+    return short_fn
 
 
 """
@@ -1531,8 +1792,9 @@ def scenario_files(in_folder, out_folder, settings):
 settings_file = "MIP_results_comparison/case_settings/26-zone/settings-atb2023"
 results_folder = "/tmp/pg_test"
 # case_id = ["base_short"]
-case_id = ["base"]
-year = [2030] # [2030, 2040, 2050]
+case_id = ["base_20_week", "base_52_week"]
+# year = [2030] # [2030, 2040, 2050]
+year = []
 myopic = False
 """
 
@@ -1542,9 +1804,11 @@ def main(
     results_folder: str,
     # case_id: Annotated[Optional[List[str]], typer.Option()] = None,
     # year: Annotated[Optional[List[float]], typer.Option()] = None,
-    case_id: List[str] = None,
-    year: List[int] = None,
+    case_id: List[str] = [],
+    year: List[int] = [],
     myopic: bool = False,
+    pg_unit_bug: bool = False,
+    case_index: int = -1,
 ):
     """Create inputs for the Switch model using PowerGenome data
 
@@ -1568,6 +1832,15 @@ def main(
         A flag indicating whether to create model inputs in myopic mode (separate
         models for each study year) or as a single multi-year model (default).
         If only one year is chosen with the --year flag, this will have no effect.
+    pg_unit_bug : bool, optional
+        A flag indicating if the PowerGenome bug -- assuming all generators within a unit
+        -- should be replicated. This will primarily affect combined cycle units, and
+        cause some capacity to retire earlier than it would otherwise.
+    case_index : int, optional
+        An index selecting which case to prepare from among the indicated cases;
+        useful mainly for parallel jobs, where the first task prepares the first
+        case, second prepares the second, etc. Index starts from 1 for the first
+        case.
     """
     cwd = Path.cwd()
     results_folder = cwd / results_folder
@@ -1599,7 +1872,18 @@ def main(
     if case_id:
         filter_cases = case_id
     else:
-        filter_cases = scenario_definitions.case_id.unique()
+        filter_cases = scenario_definitions.case_id.unique().tolist()
+
+    # run only the specified case_index, if given
+    if case_index == -1:
+        pass
+    elif case_index < 1 or case_index > len(filter_cases):
+        raise IndexError(
+            f"`--case-index {case_index}` setting is beyond the range of "
+            "available cases (1-{len(filter_cases)})."
+        )
+    else:
+        filter_cases = filter_cases[case_index - 1 : case_index]
 
     if year:
         filter_years = year
@@ -1619,17 +1903,17 @@ def main(
             extra = " matching the requested case_id(s) or year(s)"
         else:
             extra = ""
-        print(f"WARNING: No scenarios{extra} were found in {scen_def_fn}.\n")
+        raise KeyError(f"No scenarios{extra} were found in {short_fn(scen_def_fn)}.")
     else:
-        missing = set(case_id).difference(set(scenario_definitions["case_id"]))
+        missing = set(filter_cases).difference(set(scenario_definitions["case_id"]))
         if missing:
-            print(
-                f"WARNING: requested case(s) {missing} were not found in {scen_def_fn}.\n"
+            raise KeyError(
+                f"Requested case(s) {missing} were not found in {short_fn(scen_def_fn)}."
             )
-        missing = set(year).difference(set(scenario_definitions["year"]))
+        missing = set(filter_years).difference(set(scenario_definitions["year"]))
         if missing:
-            print(
-                f"WARNING: requested year(s) {missing} were not found in {scen_def_fn}.\n"
+            raise KeyError(
+                f"Requested year(s) {missing} were not found in {short_fn(scen_def_fn)}."
             )
         # if case_id and year and len(found) < len(filter_cases) * len(filter_years):
         #     print(f"Note that not every combination of case_id and year specified on the command line was defined in {scen_def_fn}.")
@@ -1646,6 +1930,13 @@ def main(
     for y, cases in scenario_settings.items():
         for c, case_year_settings in cases.items():
             case_settings.setdefault(c, {})[y] = case_year_settings
+    # sort into order given by user (if any)
+    # case_order = {c: i for (i, c) in enumerate(filter_cases)}
+    # case_settings = dict(sorted(case_settings.items(), key=lambda item: case_order[item[0]]))
+    case_settings = {
+        c: case_settings[c]
+        for c in sorted(case_settings.keys(), key=filter_cases.index)
+    }
 
     if myopic:
         # run each case/year separately; split the settings for each year into
@@ -1659,7 +1950,7 @@ def main(
         # run all years together within each case
         to_run = list(case_settings.items())
 
-    print("\nPreparing models for the following cases:")
+    print("\nPreparing models for the following case(s) and year(s):")
     for c, scen_settings_dict in to_run:
         all_years = scen_settings_dict.keys()
         print(f"{c}: {', '.join(str(y) for y in all_years)}")
@@ -1687,19 +1978,25 @@ def main(
         first_year_settings = first_value(scen_settings_dict)
         final_year_settings = final_value(scen_settings_dict)
 
-        # retrieve gc for this case, using settings for first year so we get all
+        # Retrieve gc for this case, using settings for first year so we get all
         # plants that survive up to that point (using last year would exclude
-        # plants that retire during the study)
-        if myopic:
-            gc = GeneratorClusters(
-                pudl_engine, pudl_out, pg_engine, first_year_settings
-            )
-        # Additional setup of 'multi_period=True' for foresight model to be consistent with GenX.
-        # It aims to make sure all inputs have the same set of resources for multi-period/foresight models.
-        else:
-            gc = GeneratorClusters(
-                pudl_engine, pudl_out, pg_engine, first_year_settings, multi_period=True
-            )
+        # plants that retire during the study).
+        # Starting Aug. 2024, we always set the multi_period flag, to ensure
+        # that PowerGenome uses the same generators for all periods (i.e., all
+        # generators in the database), which ensures that the time clustering
+        # ends up the same for all periods. This is consistent with how GenX
+        # used PowerGenome for MIP.
+        gc = GeneratorClusters(
+            pudl_engine,
+            pudl_out,
+            pg_engine,
+            first_year_settings,
+            multi_period=True,
+        )
+
+        # Set object attribute indicating if the PG unit retirement data bug should be
+        # replicated.
+        gc.pg_unit_bug = pg_unit_bug
 
         # gc.fuel_prices already spans all years. We assume any added fuels show
         # up in the last year of the study. Then add_user_fuel_prices() adds them
@@ -1734,8 +2031,9 @@ def main(
             pg_engine,
         )
 
-    scenario_files(input_folder, results_folder, settings)
+    scenario_files(results_folder, case_settings, myopic)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "ipykernel" not in sys.argv[0]:
+    # running as a script, not from a jupyter environment
     typer.run(main)

@@ -26,6 +26,7 @@ cd extra_modules
 
 # get switch inputs from the author and store under extra_modules/pj/test/2025/all_in and  create related output folder. If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
 # Run switch
-switch solve --inputs-dir pj/test/2025/all_in --outputs-dir pj/test/2025/all_out
+switch solve --inputs-dir  ../all_in_2days_2sectors --outputs-dir  ../all_out_2days_0price_S1A --module-list modules_nondr.txt --input-alias fuel_cost.csv=fuel_cost_delta.csv gen_info.csv=info_filtered.csv gen_build_costs.csv=costs_filtered.csv variable_capacity_factors.csv=vcf_filtered.csv
+
 
 ```

@@ -3,7 +3,48 @@ from datetime import date
 import pandas as pd
 import numpy as np
 
-from transmission_scripts.TX_util import tp_to_date
+
+# from util import tp_to_date
+def tp_to_date(df: pd.DataFrame, tp_label: str):
+    sources_nation = df.copy()
+    if "period" in sources_nation.columns:
+        print("period is a column of the dataframe")
+    else:
+        sources_nation["period"] = [
+            pd.to_numeric(x[0]) for x in sources_nation[tp_label].astype(str).str.split("_")
+        ]
+    sources_nation["week"] = [
+        pd.to_numeric(x[1][1:]) for x in sources_nation[tp_label].astype(str).str.split("_")
+    ]
+    sources_nation["hour"] = [
+        pd.to_numeric(x[2]) for x in sources_nation[tp_label].astype(str).str.split("_")
+    ]
+
+    #  hours ro days
+    def cat(row):
+        if row["hour"] <= 23:
+            return 1
+        elif row["hour"] > 23 and row["hour"] <= 47:
+            return 2
+        elif row["hour"] > 47 and row["hour"] <= 71:
+            return 3
+        elif row["hour"] > 71 and row["hour"] <= 95:
+            return 4
+        elif row["hour"] > 95 and row["hour"] <= 119:
+            return 5
+        elif row["hour"] > 119 and row["hour"] <= 143:
+            return 6
+        return 7
+
+    sources_nation["days"] = sources_nation.apply(lambda row: cat(row), axis=1)
+    # sources_nation["days"] = pd.to_numeric(sources_nation["days"])
+    sources_nation = sources_nation.sort_values(by=["week", "hour"])
+
+    # sources_nation = sources_nation.astype(
+    #     {"days": "int64", "period": "int64", "week": "int64"}
+    # )
+    return sources_nation
+
 
 # note: this will work relative to the directory where the script is run, which
 # should usually be Switch-USA-PG. But for special cases, you can copy the
@@ -11,12 +52,31 @@ from transmission_scripts.TX_util import tp_to_date
 # long as they are in the expected structure (26-zone/in/year/case and 26-zone/out/year/case)
 
 ################################### FOR 26 ZONE ###################################
-root_folder = "/Users/rangrang/Desktop/Switch-USA-PG/RR_study"
+# root_folder = "/Users/rangrang/Desktop/SWITCH-electricity-gas"
+root_folder = "/home/zhengr/gtg_koastore/GAS_Electricity_Rangrang/current_modules_iterative_updated"
 scenarios = [
     # "nodecarb_hydrogen_co2p",
     # "nodecarb_hydrogen",
-    "decarb_hydrogen",
+    # "E",
+    # "gas-E"
     # "boosted_decarb_no",
+    "2days-S1A",
+    "2days-S1B",
+    "2days-S2A",
+    "2days-S2B",
+    "2days-S3A",
+    "2days-S3B",
+    #"365-S1A",
+    #"365-S1B",
+    #"365-S2A",
+    #"365-S2B",
+    #"365-S3A",
+    #"365-S3B",
+    
+    
+    
+    #"all-2days-S1A",
+    #"E-2days-S1A",
 ]
 lv_agg = pd.DataFrame()
 for scenario in scenarios:
@@ -28,10 +88,10 @@ for scenario in scenarios:
     # )
     results_folder = os.path.abspath(
         # os.path.join(root_folder, "cluster_study/results_data/co2_200")
-        os.path.join(root_folder, "trans_study_21TW/results_data", scenario)
+        os.path.join(root_folder, "results_data")
     )
 
-    year_list = [2050]
+    year_list = [2025]
     case_list = {
         # "2050_10_c146": "c146",
         # "2050_10_c246": "c246",
@@ -45,8 +105,20 @@ for scenario in scenarios:
         # "no": "no",
         # "withintra": "withintra",
         # "withall": "withall",
-        "withall_25": "withall_25",
+        #"all_out_365_0price_S1A": "365-S1A",
+        #"all_out_365_0price_S1B": "365-S1B",
+        #"all_out_365_0price_S2A": "365-S2A",
+        #"all_out_365_0price_S2B": "365-S2B",
+        #"all_out_365_0price_S3A": "365-S3A",
+        #"all_out_365_0price_S3B": "365-S3B",
         # "withall_50": "withall_50",
+        "all_out_2days_0price_S1A": "2days-S1A",
+        "all_out_2days_0price_S1B": "2days-S1B",
+        "all_out_2days_0price_S2A": "2days-S2A",
+        "all_out_2days_0price_S2B": "2days-S2B",
+        "all_out_2days_0price_S3A": "2days-S3A",
+        "all_out_2days_0price_S3B": "2days-S3B",
+        #"E_out_2days_0price_S1A": "E-2days-S1A",
     }
 
     # def skip_case(case):
@@ -78,7 +150,7 @@ for scenario in scenarios:
     #     print(f"Processing case '{i}'")
     #     return False
 
-    def output_file(scenario, case, file):
+    def output_file(case, file):
         """
         Give path to output file generated for the specified case.
         """
@@ -86,8 +158,7 @@ for scenario in scenarios:
         return os.path.join(
             # root_folder, "RR_study/cluster_study/out/co2_200_10_week", case, file
             root_folder,
-            "trans_study_21TW/out",
-            scenario,
+            # "pj/test/2025",
             case,
             file,
         )
@@ -101,7 +172,7 @@ for scenario in scenarios:
         # settings for each case) and the inputs file could be an alternative
         # version for this scenario and/or chained from the previous period
         # (for myopic models)
-        with open(output_file(scenario, case, "model_config.json"), "r") as f:
+        with open(output_file(case, "model_config.json"), "r") as f:
             case_settings = json.load(f)
 
         # lookup correct inputs_dir
@@ -186,16 +257,14 @@ for scenario in scenarios:
 
             # get the construction plan (all years up through this model, but some
             # capacity may have retired before the model started)
-            build_mw = pd.read_csv(output_file(scenario, i, "BuildGen.csv")).rename(
+            build_mw = pd.read_csv(output_file(i, "BuildGen.csv")).rename(
                 columns={
                     "GEN_BLD_YRS_1": "resource_name",
                     "GEN_BLD_YRS_2": "build_year",
                     "BuildGen": "build_mw",
                 }
             )
-            build_mwh = pd.read_csv(
-                output_file(scenario, i, "BuildStorageEnergy.csv")
-            ).rename(
+            build_mwh = pd.read_csv(output_file(i, "BuildStorageEnergy.csv")).rename(
                 columns={
                     "STORAGE_GEN_BLD_YRS_1": "resource_name",
                     "STORAGE_GEN_BLD_YRS_2": "build_year",
@@ -216,7 +285,7 @@ for scenario in scenarios:
             # GenCapacity when solving, then read GenCapacity.csv, or alternatively,
             # pull info from gen_cap.csv instead of working from GenBuild.csv (which
             # includes the obsolete generators).
-            susp_file = output_file(scenario, i, "SuspendGen.csv")
+            susp_file = output_file(i, "SuspendGen.csv")
             if os.path.exists(susp_file):
                 # get endogenous retirements (suspensions)
                 suspend_mw = pd.read_csv(susp_file).rename(
@@ -297,31 +366,7 @@ for scenario in scenarios:
 
             build_dfs.append(build_sum)
             ##############################
-            hydrogen = pd.DataFrame()
-            # Add endogeneous hydrogen
-            # find out how much hydrogen are built
-            hydrogen_original = pd.read_csv(
-                output_file(scenario, i, "BuildFuelCellMW.csv")
-            )
-            hydrogen = hydrogen_original.rename(
-                {
-                    "BuildFuelCellMW_index_1": "resource_name",
-                    "BuildFuelCellMW_index_2": "planning_year",
-                    "BuildFuelCellMW": "end_value",
-                },
-                axis=1,
-            )
-            hydrogen["zone"] = hydrogen["resource_name"]
-            hydrogen["tech_type"] = "Hydrogen"
-            hydrogen["model"] = "SWITCH"
-            hydrogen["case"] = i
-            hydrogen["planning_year"] = y
-            hydrogen["unit"] = "MW"
-            hydrogen["start_value"] = 0
-        # combine and round results (there are some 1e-14's in there)
         resource_capacity_agg = pd.concat(build_dfs).round(6)
-        #  combine df df with hydrigen
-        resource_capacity_agg = pd.concat([resource_capacity_agg, hydrogen]).round(6)
         #################################
         # TODO: use previous period's end_value as start_value for next period,
         # if available; this is a better estimate than the ones above, because it
@@ -354,9 +399,7 @@ for scenario in scenarios:
         #     continue
         tx_agg = pd.DataFrame()
         for y in year_list:
-            transmission2030_new = pd.read_csv(
-                output_file(scenario, i, "transmission.csv")
-            )
+            transmission2030_new = pd.read_csv(output_file(i, "transmission.csv"))
 
             # find the existing transmission capacity
             transmission2030_ex = pd.read_csv(input_file(i, "transmission_lines.csv"))
@@ -434,7 +477,7 @@ for scenario in scenarios:
         for y in year_list:
             ts = pd.read_csv(input_file(i, "timeseries.csv"))
             tp = pd.read_csv(input_file(i, "timepoints.csv"))
-            df = pd.read_csv(output_file(scenario, i, "dispatch.csv"))
+            df = pd.read_csv(output_file(i, "dispatch.csv"))
             df["model"] = "SWITCH"
             df["zone"] = df["gen_load_zone"]
             df["resource_name"] = df["generation_project"]
@@ -448,55 +491,18 @@ for scenario in scenarios:
             dp["value"] = dp["DispatchGen_MW"]
             # do the time conversions once and map back (for speed)
             dp_stamps = dp[["timestamp"]].drop_duplicates()
-            dp_stamps = tp_to_date(dp_stamps, "timestamp")
-            dp_stamps["days"] = pd.to_numeric(dp_stamps["days"])
-            dp_stamps["date"] = dp_stamps.apply(
-                lambda dfrow: date.fromisocalendar(
-                    dfrow["period"], dfrow["week"], dfrow["days"]
-                ),
-                axis=1,
-            )
+            #dp_stamps = tp_to_date(dp_stamps, "timestamp")
+            #dp_stamps["days"] = pd.to_numeric(dp_stamps["days"])
+            # dp_stamps["date"] = dp_stamps.apply(
+            #     lambda dfrow: date.fromisocalendar(
+            #         dfrow["period"], dfrow["week"], dfrow["days"]
+            #     ),
+            #     axis=1,
+            # )
             dp_stamps = dp_stamps.rename(columns={"period": "planning_year"})
             dp = dp.merge(dp_stamps, on="timestamp")
             ### dispatched hydrogen
-            hydrogen = (
-                pd.read_csv(
-                    output_file(
-                        scenario,
-                        i,
-                        "DispatchFuelCellMW.csv",
-                    )
-                )
-                .rename(
-                    {
-                        "DispatchFuelCellMW_index_1": "resource_name",
-                        "DispatchFuelCellMW_index_2": "timepoint_id",
-                        "DispatchFuelCellMW": "value",
-                    },
-                    axis=1,
-                )
-                .merge(tp, on="timepoint_id", how="left")
-            )
-            hydrogen["model"] = "SWITCH"
-            hydrogen["zone"] = hydrogen["resource_name"]
-            hydrogen["tech_type"] = "Hydrogen"
-            hydrogen["unit"] = "MWh"
-            hydrogen["case"] = i
-            hydrogen = hydrogen.merge(dp_stamps, on="timestamp")
-            hydrogen["planning_year"] = y
-            hydrogen_sum = hydrogen.groupby(
-                ["resource_name", "planning_year"], as_index=False
-            ).agg(
-                {
-                    "value": "sum",
-                    "model": "first",
-                    "zone": "first",
-                    "resource_name": "first",
-                    "tech_type": "first",
-                    "case": "first",
-                    "unit": "first",
-                }
-            )
+
             df["value"] = df["DispatchGen_MW"] * df["tp_weight_in_year_hrs"]
             generation = df.groupby(
                 ["resource_name", "planning_year"], as_index=False
@@ -512,7 +518,7 @@ for scenario in scenarios:
                 }
             )
             # dispatch_agg = pd.concat([dispatch_agg, dp])
-            generation_agg = pd.concat([generation_agg, generation, hydrogen_sum])
+            generation_agg = pd.concat([generation_agg, generation])
 
         # dispatch_agg.to_csv(comparison_file(i, "dispatch.csv"), index=False)
         generation_agg.to_csv(comparison_file(i, "generation.csv"), index=False)
@@ -525,7 +531,7 @@ for scenario in scenarios:
         #     continue
         emission_agg = pd.DataFrame()
         for y in year_list:
-            emission2030 = pd.read_csv(output_file(scenario, i, "dispatch.csv"))
+            emission2030 = pd.read_csv(output_file(i, "dispatch.csv"))
             df = emission2030.copy()
 
             df = df.groupby(["gen_load_zone", "period"], as_index=False).agg(
@@ -549,70 +555,92 @@ for scenario in scenarios:
             emission_agg = pd.concat([emission_agg, df])
 
         emission_agg.to_csv(comparison_file(i, "emissions.csv"), index=False)
-
+#################################################################################
+    #Copy files from putputs folder to results_data folder
+    print("\ncopying few cost files")
+    for i in case_list:
+        for y in year_list:
+            # outputs
+            outfiles = ['gas_costs.csv', 'cost_components.csv', 'total_cost.txt', 'gas_supply_consumption.csv','BuildGl.csv','BuildStorageCap.csv','LNG_storage_build.csv']
+            for out_name in outfiles:
+                # Build the full file name (optionally, include year if needed)
+                outname = output_file(i, f"{out_name}")
+                df = pd.read_csv(outname)
+                df.to_csv(comparison_file(i, f"{out_name}"), index=False)
+            infiles = ['gas_demand.csv']
+            for in_name in infiles:
+                # Build the full file name (optionally, include year if needed)
+                inname = input_file(i, f"{in_name}")
+                df = pd.read_csv(inname)
+                df.to_csv(comparison_file(i, f"{in_name}"), index=False)
+            truncated_case = case_list[i].split('-', 1)[1]
+            if truncated_case in ["S1A", "S1B"]:
+                pass
+            else:
+                gs =pd.read_csv(output_file(i, f"gas_sources_{truncated_case}.csv"))
+                gs.to_csv(comparison_file(i, f"gas_sources_{truncated_case}.csv"), index=False)
+           
+           
     ####################################### Make MC tables ###############################
     print("\ncreating unweighted_yealy_MC.csv")
 
-    for i in case_list:
-        # if skip_case(i):
-        #     continue
-        es_agg = pd.DataFrame()
-        for y in year_list:
-            result = [
-                filename
-                for filename in os.listdir(
-                    os.path.join(root_folder, "trans_study_21TW/out", scenario, i)
-                )
-                if filename.startswith("energy_sources")
-            ]
-            if result == []:
-                break
+   #  for i in case_list:
+#         # if skip_case(i):
+#         #     continue
+#         es_agg = pd.DataFrame()
+#         for y in year_list:
+#             result = [
+#                 filename
+#                 for filename in os.listdir(os.path.join(root_folder,i))
+#                 if filename.startswith("energy_sources")
+#             ]
+#             if result == []:
+#                 break
 
-            es = pd.read_csv(output_file(scenario, i, result[0]))
-            es = es.loc[es["load_zone"] != "loadzone"]
-            es["timeseries"] = [
-                x[0] + "_" + x[1] for x in es["timepoint_label"].str.split("_")
-            ]
-            ts = pd.read_csv(
-                os.path.join(root_folder, "trans_study_21TW/in", "timeseries.csv")
-            )
-            es_ts = pd.merge(es, ts, how="left", on="timeseries")
-            es_ts = es_ts[
-                [
-                    "load_zone",
-                    "timepoint_label",
-                    "period",
-                    "zone_demand_mw",
-                    "marginal_cost",
-                    "ts_scale_to_period",
-                    "peak_day",
-                    "timeseries",
-                ]
-            ]
-            es_ts["model"] = i
-            es_weighted = es_ts.copy()
-            es_weighted["demand_sum"] = (
-                es_weighted["zone_demand_mw"]
-                .groupby(es_weighted["timepoint_label"])
-                .transform("sum")
-            )
-            es_agg = pd.concat([es_agg, es_weighted])
+#             es = pd.read_csv(output_file(i, result[0]))
+#             es = es.loc[es["load_zone"] != "loadzone"]
+#             es["timeseries"] = [
+#                 x[0] + "_" + x[1] for x in es["timepoint_label"].astype(str).str.split("_")
+#             ]
+#             ts = pd.read_csv(input_file(i, "timeseries.csv"))
+#             es_ts = pd.merge(es, ts, how="left", on="timeseries")
+#             es_ts = es_ts[
+#                 [
+#                     "load_zone",
+#                     "timepoint_label",
+#                     "period",
+#                     "zone_demand_mw",
+#                     "marginal_cost",
+#                     "ts_scale_to_period",
+#                     "peak_day",
+#                     "timeseries",
+#                 ]
+#             ]
+#             es_ts["model"] = i
+#             es_weighted = es_ts.copy()
+#             es_weighted["demand_sum"] = (
+#                 es_weighted["zone_demand_mw"]
+#                 .groupby(es_weighted["timepoint_label"])
+#                 .transform("sum")
+#             )
+#             es_agg = pd.concat([es_agg, es_weighted])
 
-        es_agg.to_csv(comparison_file(i, "unweighted_yealy_MC.csv"), index=False)
+#         es_agg.to_csv(comparison_file(i, "unweighted_yealy_MC.csv"), index=False)
     ###################################### Make Levelized cost table ###############################
     print("\ncreating levelized_cost.csv")
     for i in case_list:
         # if skip_case(i):
         #     continue
         for y in year_list:
-            if os.path.exists(output_file(scenario, i, "electricity_cost.csv")):
-                lv = pd.read_csv(output_file(scenario, i, "electricity_cost.csv"))
+            if os.path.exists(output_file(i, "electricity_cost.csv")):
+                lv = pd.read_csv(output_file(i, "electricity_cost.csv"))
                 lv["scenario"] = scenario + "/" + i
                 lv_agg = pd.concat([lv_agg, lv])
             else:
                 continue
 lv_agg.to_csv(
-    "/Users/rangrang/Desktop/Switch-USA-PG/RR_study/trans_study_21TW/results_data/levelized_cost.csv",
+    # "pj/results_data/gas-E/results_data/levelized_cost.csv",
+    os.path.join(root_folder, "levelized_cost.csv"),
     index=False,
 )
 

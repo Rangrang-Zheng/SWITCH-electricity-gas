@@ -715,7 +715,8 @@ def timeseries(
             date_hr = sample_dates[d]
             timestamp.append(date_hr)
 
-    timeseries = [x[:4] + "_" + x[:4] + "-" + x[4:6] + "-" + x[6:8] for x in timestamp]
+    # timeseries = [x[:4] + "_" + x[:4] + "-" + x[4:6] + "-" + x[6:8] for x in timestamp]
+    timeseries = [x[:4] + x[4:6] + x[6:8] for x in timestamp]
     ts_period = [x[:4] for x in timestamp]
     timepoint_id = list(range(len(timestamp)))
 
@@ -821,7 +822,7 @@ def timeseries(
 
     timeseries_dates = timeseries_df["timeseries"].to_list()
     timestamp_interval = list()
-    for i in range(ts_num_tps):
+    for i in range(int(ts_num_tps)):
         s_interval = ts_duration_of_tp * i
         stamp_interval = str(f"{s_interval:02d}")
         timestamp_interval.append(stamp_interval)
@@ -840,8 +841,11 @@ def timeseries(
     timepoints_df["timepoint_id"] = range(
         1, len(timepoints_df["timeseries"].to_list()) + 1
     )
+    selected_hours = initial_df.loc[
+        initial_df.timeseries.isin(timepoints_df.timeseries)
+    ]
 
-    return timeseries_df, timepoints_df, timestamp_interval
+    return timeseries_df, timepoints_df, timestamp_interval, selected_hours
 
 
 def timeseries_full(
