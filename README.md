@@ -1,5 +1,11 @@
 # SWITCH-electricity-gas
-This Repo will serve as the work table for electricity and gas intergration project. The integrated gas-electricity modules are located under extra_modules folder. 
+This repository serves as a dynamic workspace for the Electricity & Gas Integration Project, an initiative dedicated to unifying the electricity and gas sectors into a comprehensive, interconnected system. The project aims to evaluate the potential advantages and trade-offs of an integrated electricity-gas system compared to the existing standalone models.
+
+* The standalone electricity sector model is included as a submodule under "switch".
+* The standalone gas sector model is incorporated as a submodule under "Switch-USA-gasnetwork3.0".
+* The adaptive electricity-gas integration modules, along with relevant supporting files, are housed in the "extra_modules" directory.
+
+This repository provides the foundation for exploring synergies between the two energy sectors, optimizing their interactions, and assessing the broader implications of a unified energy framework. 
 # Introduction and Installations
 
 ## Install miniconda
