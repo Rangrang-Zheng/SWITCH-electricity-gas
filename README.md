@@ -88,7 +88,7 @@ git clone https://github.com/Rangrang-Zheng/SWITCH-electricity-gas.git
 cd SWITCH-electricity-gas
 ```
 
-# Set up switch and 
+# SWITCH setup and initiate a sampling model run
 You may skip step 1 below if you have switch installed already. If not, install switch from submodule here.
 ## Step 1: install switch from this repository
 ```
@@ -100,13 +100,17 @@ conda activate gas-electricity
 
 ## Step 2: Run the commands below in the terminal pane.
 
-# Direct to the work folder
+### Direct to the work folder
 
 Get switch inputs from the author and store under "../all_in_2days_2sectors" and  create related output folder, for example: "../all_out_2days_0price_S1A". If you would like to store them otherwise, make sure to change and specify them in switch solve command below.
-# Run switch
+### Run switch
 
 ```
 cd extra_modules
+
+# If you have switch installed in a different environment, make sure to activate the environment where switch is installed instead of 'gas-electricity'.
+conda activate gas-electricity
+
 switch solve --inputs-dir  ../all_in_2days_2sectors --outputs-dir  ../all_out_2days_0price_S1A --module-list modules_nondr.txt --input-alias fuel_cost.csv=fuel_cost_delta.csv gen_info.csv=info_filtered.csv gen_build_costs.csv=costs_filtered.csv variable_capacity_factors.csv=vcf_filtered.csv
 
 
