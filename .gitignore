@@ -2,6 +2,7 @@
 # (must be at the top to avoid unignoring previously ignored files in these
 # directories)
 */
+!extra_modules
 # !switch/
 # !switch/*
 # !PowerGenome/
@@ -30,8 +31,8 @@ Icon?
 .DS_Store
 
 # ignore specific files/folders
-case_settings/*
-RR_debug.py
-pj/*
-test.txt
+# case_settings/*
+# RR_debug.py
+# pj/*
+# test.txt
 

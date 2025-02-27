@@ -1,0 +1,6 @@
+#To solve multiple scenarios, run: switch solve-scenarios --scenario-list scenarios_report.txt
+#0. Ref2023: fixed infrastructure, exogenous demand 
+--scenario-name S1A --inputs-dir  all_in_2days_2sectors --outputs-dir  all_out_2days_0price_S1A --module-list modules_nondr.txt --input-alias fuel_cost.csv=fuel_cost_delta.csv gen_info.csv=info_filtered.csv gen_build_costs.csv=costs_filtered.csv variable_capacity_factors.csv=vcf_filtered.csv
+
+#0b. Ref2023
+--scenario-name S1B --inputs-dir  all_in_2days_2sectors_case --outputs-dir  all_out_2days_0price_S1B --module-list modules_nondr.txt --input-alias fuel_cost.csv=fuel_cost_delta.csv gas_lines_capital_cost.csv=gas_lines_capital_cost_WVVAallowed.csv gen_info.csv=info_filtered.csv gen_build_costs.csv=costs_filtered.csv variable_capacity_factors.csv=vcf_filtered.csv
